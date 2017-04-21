@@ -1,0 +1,34 @@
+CREATE procedure insertar5(IN p_calle varchar(40), IN p_numero int(4), 
+IN p_tipo_vivienda varchar(1), IN p_codigo_postal int(5),  IN p_metros int(5),
+IN p_od_vivienda varchar(45), IN p_nombre_zona varchar(20), IN p_dni int(11))
+
+
+INSERT INTO vivienda VALUES (p_calle, p_numero, p_tipo_vivienda, p_codigo_postal, p_metros, p_od_vivienda,
+                             p_nombre_zona)
+
+IF (p_tipo_vivienda ='B') THEN
+	INSERT INTO bloqueCasas VALUES (p_metros, p_od_vivienda, UPPER(p_calle), p_numero)
+IF (p_tipo_vivienda ='C') THEN
+	INSERT INTO casaparticular VALUES (p_metros, p_od_vivienda, p_dni, UPPER(p_calle),p_numero)
+
+
+
+CREATE procedure insertar5(IN p_calle varchar(40), IN p_numero int(4), 
+IN p_tipo_vivienda varchar(1), IN p_codigo_postal int(5),  IN p_metros int(5),
+IN p_od_vivienda varchar(45), IN p_nombre_zona varchar(20), IN p_dni int(11))
+
+BEGIN
+
+INSERT INTO vivienda (calle, codigo_postal, metros, numero, od_vivienda, tipo_vivienda, ZonaUrbana_NombreZona) 
+VALUES (p_calle, p_numero, p_tipo_vivienda, p_codigo_postal, p_metros, p_od_vivienda, p_nombre_zona)
+
+IF p_tipo_vivienda ='B' THEN
+	INSERT INTO bloqueCasas (metros_b, od_bloque, Vivienda_calle, Vivienda_numero) 
+    VALUES (p_metros, p_od_vivienda, UPPER(p_calle), p_numero);
+END IF;
+
+IF p_tipo_vivienda ='C' THEN
+	INSERT INTO casaparticular (metros_c, od_casa, Persona_dni_cp, Vivienda_calle, Vivienda_numero) 
+    VALUES (p_metros, p_od_vivienda, p_dni, UPPER(p_calle),p_numero)
+END IF;
+END;
