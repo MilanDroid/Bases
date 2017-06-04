@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2EC7585-2A2F-395B-5290-C6B24F14C612" name="TBL_ESTADOS_CIVILES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:35:14 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO_CIVIL" id="AAD04486-BBAB-8164-4921-862139CFE802">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:36:07 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESTADO_CIVIL" id="2C77AB99-4316-2125-AC0D-5B409531CD7D">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:36:07 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B961F9A-6C6A-0E1F-1104-CA58FA7A58B0" name="TBL_ESTADOS_CIVILES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:36:07 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAD04486-BBAB-8164-4921-862139CFE802"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

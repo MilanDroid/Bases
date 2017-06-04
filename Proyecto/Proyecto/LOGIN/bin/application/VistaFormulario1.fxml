@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="421.0" prefWidth="860.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControladorFormulario1">
+   <children>
+      <Label layoutX="7.0" text="Inventario">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtProducto" layoutX="93.0" layoutY="88.0" />
+      <Button fx:id="btnNuevo" layoutX="10.0" layoutY="367.0" mnemonicParsing="false" onAction="#limpiarComponentes" prefHeight="25.0" prefWidth="61.0" text="Nuevo" />
+      <Label layoutX="24.0" layoutY="59.0" text="Tipo:" />
+      <ComboBox fx:id="cboTipoMedicamentos" layoutX="93.0" layoutY="55.0" prefWidth="150.0" />
+      <Label layoutX="24.0" layoutY="82.0" prefHeight="38.0" prefWidth="61.0" text="Producto:" />
+      <Label layoutX="25.0" layoutY="131.0" text="Fabricante:" />
+      <Label layoutX="9.0" layoutY="182.0" prefHeight="17.0" prefWidth="125.0" text="Fecha de Vencimiento:" />
+      <DatePicker fx:id="dpckFechaVencimiento" editable="false" layoutX="136.0" layoutY="178.0" />
+      <Label layoutX="21.0" layoutY="277.0" prefHeight="17.0" prefWidth="40.0" text="Precio:" />
+      <TextField fx:id="txtPrecio" layoutX="74.0" layoutY="273.0" promptText="Lps." />
+      <Button fx:id="btnEliminar" layoutX="259.0" layoutY="367.0" mnemonicParsing="false" onAction="#eliminarRegistro" prefHeight="25.0" prefWidth="61.0" text="Eliminar" />
+      <Button fx:id="btnActualizar" layoutX="161.0" layoutY="367.0" mnemonicParsing="false" onAction="#actualizarRegistro" prefHeight="25.0" prefWidth="79.0" text="Actualizar" />
+      <Button fx:id="btnGuardar" layoutX="87.0" layoutY="367.0" mnemonicParsing="false" onAction="#almacenarRegistro" prefHeight="25.0" prefWidth="61.0" text="Guardar" />
+      <TableView fx:id="tblViewMedicamento" layoutX="328.0" prefHeight="420.0" prefWidth="607.0">
+         <columns>
+            <TableColumn fx:id="tblClmnTipoMedicamento" prefWidth="129.0" text="Tipo" />
+            <TableColumn fx:id="tblClmnProducto" prefWidth="129.0" text="Producto" />
+            <TableColumn fx:id="tblClmnFechaVencimiento" prefWidth="108.0" text="Fecha de Vencimiento" />
+            <TableColumn fx:id="tblClmnPrecio" prefWidth="93.0" text="Precio" />
+            <TableColumn fx:id="tblClmnFabricante" prefWidth="75.0" text="Fabricante" />
+            <TableColumn fx:id="tblClmnFechaDistribuidora" prefWidth="83.0" text="Distribuidora" />
+         </columns>
+      </TableView>
+      <ComboBox fx:id="cboFabricantes" layoutX="92.0" layoutY="127.0" prefWidth="150.0" />
+      <Label layoutX="18.0" layoutY="232.0" text="Distribuidora:" />
+      <ComboBox fx:id="cboDistribuidoras" layoutX="93.0" layoutY="228.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

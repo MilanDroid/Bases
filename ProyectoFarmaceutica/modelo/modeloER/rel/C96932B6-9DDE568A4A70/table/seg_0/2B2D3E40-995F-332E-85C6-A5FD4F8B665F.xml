@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B2D3E40-995F-332E-85C6-A5FD4F8B665F" name="Tbl_Tipo_Producto">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:49:53 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<ordsAlias>tbl_tipoproducto</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cod_Tipo_Producto" id="186167D7-6E64-55B6-C8D1-3F2400193E3D">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:50:54 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Tipo_Producto" id="7AD18E04-B0F8-4309-D800-D0F201FD506E">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:50:54 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89E80E05-662C-87D4-6F90-F5418A6CF9E5" name="Tbl_TipoProducto_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:50:54 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="186167D7-6E64-55B6-C8D1-3F2400193E3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1801932D-33B0-881F-FAFE-0F3B145C0555" name="TBL_REVISTAS">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 04:13:47 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="34A4D4B9-91AF-CEB5-7B4B-D37C9BDAFB1B">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 04:15:55 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_REVISTA" id="75A24A1E-F934-573A-291F-57D741134C3B">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 04:15:55 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="E16ED812-7BE5-9B18-0F45-669DD18D891F">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 04:15:55 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACIÓN" id="9429CA31-E587-EA9D-B83B-8350F1BA15C7">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 04:15:55 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOTO_PORTADA" id="45E7A50E-1A10-3948-747B-37F1F02AA0BA">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 04:15:55 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="URL_REVISTA" id="3F1B7ACA-6515-170C-F324-E06AE19B3F6C">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 04:15:55 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIAS_ID" id="C7FD53FC-54F2-6EE3-EFF1-B6BAD2BC14C7">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 04:20:54 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49081189-2BD2-DCEF-C1C6-A1CF0C108C8C" referredColumn="C099C81C-B6FA-2CB6-9C69-4D4D9F358E43"/>
+</associations>
+</Column>
+<Column name="USUARIOS_ID_CREADOR" id="3DFE861E-4122-E32C-1867-625B28EBD809">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 04:21:10 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35CCD7E9-230A-E559-9D1E-7581C413029B" referredColumn="0293D043-BDB4-7D44-6E1E-F9F6C8AFB0A7"/>
+</associations>
+</Column>
+<Column name="CODIGO_CONFIGURACION" id="11651784-59B6-59DE-D1ED-3B07801449A6">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 10:54:07 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05646D6C-5E50-4B2A-3F71-6E6F8FF3E8D7" referredColumn="A6B4FF19-E856-3C70-CEBC-A42314F75F47"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="01C6A545-F9F9-9824-471B-D37ED110D57F" name="TBL_REVISTAS_PK">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 04:15:55 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34A4D4B9-91AF-CEB5-7B4B-D37C9BDAFB1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2517FB7-C75D-FA79-B251-4736FB1E21A6" name="TBL_REVISTAS_TBL_CATEGORIAS_FK">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 04:20:54 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7FD53FC-54F2-6EE3-EFF1-B6BAD2BC14C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A62B590-A203-3DA4-907C-8B3FB60F85B4" name="TBL_REVISTAS_TBL_USUARIOS_FK">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 04:21:10 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DFE861E-4122-E32C-1867-625B28EBD809"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7206802C-8E0A-873A-E73C-473B6BAAF034" name="TBL_REVISTAS_TBL_CONFIGURACION_REVISTA_FK">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 10:54:07 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11651784-59B6-59DE-D1ED-3B07801449A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

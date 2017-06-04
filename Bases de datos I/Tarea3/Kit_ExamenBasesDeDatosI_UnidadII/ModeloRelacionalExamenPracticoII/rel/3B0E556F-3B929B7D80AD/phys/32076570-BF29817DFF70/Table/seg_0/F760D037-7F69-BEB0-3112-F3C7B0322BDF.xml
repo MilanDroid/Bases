@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_ESTATUS_SOLICITUDES" directorySegmentName="seg_0" id="F760D037-7F69-BEB0-3112-F3C7B0322BDF">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<schemaObject>F6430611-2A1C-FAA0-B7FC-71FACE68518D</schemaObject>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODIGO_ESTATUS" id="048C0C7E-C989-FC96-655E-BD31282FC4C4">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE_ESTATUS" id="DF385F57-FFDE-5CC5-94AC-E74F5B287D36">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_ESTATUS_SOLICITUDES_PK" id="FCE51C06-83E9-3813-AF35-249B546FA76A">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

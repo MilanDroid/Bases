@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72B2068E-0B52-58B3-171B-E782D280CA23" name="LIKE_X_COMENTARIO">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:39:47 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LIKE" id="CD69CC00-A9A0-9209-1C41-73FFCEFF2808">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:40:02 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="786CDC2C-6B7B-2793-A791-99C52D562467" referredColumn="B9DCD567-4E20-9875-3CB8-281490A13752"/>
+</associations>
+</Column>
+<Column name="ID_COMENTARIO" id="DC5EFA0D-3ED1-8560-2951-C02AB133BBE7">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:40:09 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07DD17FB-4488-E843-ED32-4B429B13D413" referredColumn="7B0C1CA4-245B-F5C3-0556-F1E906F70CA8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35B8F289-9310-27BD-C774-0A12EF7933B7" name="LIKE_X_COMENT_LIKES_FK">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:40:02 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD69CC00-A9A0-9209-1C41-73FFCEFF2808"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="690721B9-6E34-5A1E-2D28-460CDE356B90" name="LIKE_X_COMENT_COMENT_FK">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:40:09 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC5EFA0D-3ED1-8560-2951-C02AB133BBE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

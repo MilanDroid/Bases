@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07F40290-1CD2-6C96-1D54-C1E7D7A138AD" name="TBL_TRABAJOS_X_USUARIO">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:03:29 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<abbreviation>TRABAJO_X_USUARIO</abbreviation>
+<schemaObject>F6430611-2A1C-FAA0-B7FC-71FACE68518D</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TRABAJO" id="43C75427-B003-3C1F-9452-D55B40569CE1">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:04:12 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6340E92-7231-C8A9-474A-3E1E0884735A" referredColumn="C71600A8-4BA9-B6E2-A125-E384A16409D0"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="66A28E9E-9FAB-5FBA-19EC-1517D2E8B489">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:04:16 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="954FFFC7-B06D-6EDF-2C20-E67D0FBF9328" referredColumn="18768C2E-30D7-F573-6EB2-A8D26CA44D8E"/>
+</associations>
+</Column>
+<Column name="FECHA_INICIO" id="D4F35AAF-8CFF-EFAD-BC62-C18318FF0070">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:04:40 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FINAL" id="76A19D1B-8EC9-15FB-37A6-DC720B68945A">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:04:55 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78E85E5D-62E9-588E-65CF-007AD321DCDD" name="TBL_TRABAJO_X_USUARIO_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:04:27 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43C75427-B003-3C1F-9452-D55B40569CE1"/>
+<colUsage columnID="66A28E9E-9FAB-5FBA-19EC-1517D2E8B489"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E262EB9B-72EE-B23F-27AB-64E7FF2E7689" name="TBL_TRABAJO_X_USR_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:04:12 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43C75427-B003-3C1F-9452-D55B40569CE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="443ABE94-3250-D51F-ABA1-F0643CFA92C5" name="TBL_TRABAJO_X_USR_TBL_USR_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:04:16 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66A28E9E-9FAB-5FBA-19EC-1517D2E8B489"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

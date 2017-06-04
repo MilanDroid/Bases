@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFE1E2FD-9BFF-7A98-3E9A-33E56EE8F379" name="TBL_HISTORIAL_ARTICULOS">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 23:38:05 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LECTURA" id="53222E3A-F1F2-FAC0-E38E-5C736307F8A5">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 23:38:46 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="A681495B-A15E-445D-47C7-0ED6953A25FD">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 23:38:54 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B5AD452-181B-37D1-B277-529D419173C6" referredColumn="51AF7CE9-E477-41C0-8ABB-3FB4C9C22AA6"/>
+</associations>
+</Column>
+<Column name="CODIGO_ARTICULO" id="3C2CD6EB-9A47-F8FC-9F0C-40EECC508C7C">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 23:39:02 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F4CECAF-9361-7856-F0A2-49A3F095BB14" referredColumn="F7B67AA7-C805-2F33-311A-C8D8C267E32B"/>
+</associations>
+</Column>
+<Column name="FECHA_LECTURA" id="66F125C0-4063-30E4-EDF2-37806AB5952E">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 23:38:46 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE40E35A-9658-5B3C-C3A7-B737A1D74562" name="TBL_HISTORIAL_ARTICULOS_PK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 23:38:46 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53222E3A-F1F2-FAC0-E38E-5C736307F8A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30C2BE14-E6A2-C525-E588-302BE819485E" name="TBL_USUARIO_FK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 23:38:54 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A681495B-A15E-445D-47C7-0ED6953A25FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AEFBAA9C-D185-7581-2451-57AEF1910C50" name="TBL_ARTICULOS_FK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 23:39:02 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C2CD6EB-9A47-F8FC-9F0C-40EECC508C7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

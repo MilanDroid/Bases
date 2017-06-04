@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6AA6967-C7C0-ADA5-6CE2-E6FA176C474F" name="Tbl_Quimico_Farmaceutico">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:20:22 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<ordsAlias>tbl_quimicofarmaceutico</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cod_Quimico_Farmaceutico" id="2AFC6F4D-000C-1921-D9BE-97FC0A9AB355">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:22:35 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="6EF5A6E7-0541-3BE2-46F3-E352BA155B77">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:22:35 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85B21AAF-42A8-6E76-F09E-5320859D9018" name="Quimico_Farmaceutico_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:22:35 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AFC6F4D-000C-1921-D9BE-97FC0A9AB355"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

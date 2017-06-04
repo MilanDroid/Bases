@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6DB84C2B-C210-638E-6693-1EED4538903B" name="TBL_TIPOS_RELACIONES">
+<createdBy>dalvik</createdBy>
+<createdTime>2015-08-06 01:18:52 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<schemaObject>F6430611-2A1C-FAA0-B7FC-71FACE68518D</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_RELACION" id="C07E4AD9-C726-DA9A-BC7C-AB896EF33F0A">
+<createdBy>dalvik</createdBy>
+<createdTime>2015-08-06 01:20:17 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_RELACION" id="145E67ED-EB9A-CCFA-EAE8-D960C96FD53A">
+<createdBy>dalvik</createdBy>
+<createdTime>2015-08-06 01:20:17 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9ABD1D81-8FA4-4B1C-9619-866C9AB3D713" name="TBL_TIPOS_RELACIONES_PK">
+<createdBy>dalvik</createdBy>
+<createdTime>2015-08-06 01:20:17 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C07E4AD9-C726-DA9A-BC7C-AB896EF33F0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,4 @@
+Con el archivo USER creas el esquema para la base de datos.
+Con el archivo DDL creas las tablas, solo ejecuta el script.
+Con el archivo DML llenas las tablas con datos que te doy, igual solo ejecuta el script.
+En Farmaceutica.sql estan las consultas SQL.

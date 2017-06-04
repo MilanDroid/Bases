@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C3C01658-0609-0100-D751-B7A327967734" containerWithKeyObject="8AE456C6-007E-11D1-ADFF-1D762B9062C5" localFKIndex="17F1E3B8-5917-6EF6-4AE0-0890DDE4A515" name="TBL_BONIFICACIONES_ACREDITADAS_TBL_TIPOS_BONIFICACION_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:53:46 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1D8DCC49-3E00-40B5-B2CA-A18F35DD6047</referredTableID>
+<keyObject>06210EA2-E356-7057-43EA-6F96EA3EB62A</keyObject>
+<referredKeyID>06210EA2-E356-7057-43EA-6F96EA3EB62A</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

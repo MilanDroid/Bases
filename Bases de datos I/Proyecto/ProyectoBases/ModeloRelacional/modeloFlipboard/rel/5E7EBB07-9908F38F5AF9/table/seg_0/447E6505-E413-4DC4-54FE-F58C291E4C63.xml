@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="447E6505-E413-4DC4-54FE-F58C291E4C63" name="TBL_TIPO_LISTA">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 23:57:29 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_LISTA" id="FCC77CFE-20FF-2AE7-F047-C0E11CF9106D">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 23:58:07 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_LISTA" id="742AED69-708B-6EBC-43CA-27CD4682B56A">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 23:58:07 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6BBAD1D5-F73E-5A5E-3740-2C67B7E1194E" name="TBL_TIPO_LISTA_PK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 23:58:07 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCC77CFE-20FF-2AE7-F047-C0E11CF9106D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

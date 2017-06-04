@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="RecursosHumanos" id="FBE826CB-073D-9CBD-559A-3F37679598DA" version="3.5">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:03:47 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FBE826CB-073D-9CBD-559A-3F37679598DA</designId>
+</OSDM_Design>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F134350-E480-14BC-DF40-E38F17D2C3DA" name="TBL_PUESTOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:26:22 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PUESTO" id="2BC00920-CF70-7FFD-64A1-47ABF5574E33">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:26:52 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PUESTO" id="8DBE836E-ADC0-5478-1B72-FE24BE26F372">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:26:52 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO_MINIMO" id="78CBF9C4-D0B5-ECF5-575D-9B96DB33C2AF">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:29:28 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO_MAXIMO" id="2BA912BB-6181-E57B-5DAD-F63E0C8CCB36">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:29:28 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PUESTO_PADRE" id="58BACFF8-0383-DBA4-83D3-706461919720">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:44:08 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0ACC21DB-FF9A-92EC-42FA-BD4216F7A52A" referredColumn="2BC00920-CF70-7FFD-64A1-47ABF5574E33"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="293ABB90-B826-2AE3-FB23-036CE6CB2049" name="TBL_PUESTOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:29:40 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BC00920-CF70-7FFD-64A1-47ABF5574E33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B27E59FE-FC03-5E0A-224F-82C7953F13BB" name="TBL_PUESTOS_TBL_PUESTOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:44:08 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58BACFF8-0383-DBA4-83D3-706461919720"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

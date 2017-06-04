@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03798E44-8CBF-ADA3-6769-D8B732EF495F" name="TBL_Productos_x_Almacen">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 17:10:39 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<ordsAlias>productos_x_almacen</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cod_Producto" id="5FB352B5-CE83-290C-C984-312033A12181">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 17:11:18 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8924B30E-E608-4EE4-9DAD-17466A25EA37" referredColumn="ADD465B5-1EE4-CF4D-25FC-F9635FC77F66"/>
+</associations>
+</Column>
+<Column name="Cod_Almacen" id="B18D92F3-92D9-7772-7FAA-19261B9D762D">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 17:11:22 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4ECEFD73-79D4-7708-D0C9-0F356F9BCABB" referredColumn="AFB5D33E-7B55-E6D3-532F-0ACB09E0CF8A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="596E8035-1382-944C-4410-6BA3966D1730" name="Productos_x_Almacenv2">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 17:11:18 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FB352B5-CE83-290C-C984-312033A12181"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7A168AB-5EE5-3B33-D2C3-0B754438F0D8" name="Productos_x_Almacen">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 17:11:22 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B18D92F3-92D9-7772-7FAA-19261B9D762D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="302A6A7A-C709-8EDC-22AB-09F4501E8AA8" name="TBL_CLASIFICACIONES_X_VIDEO">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-09 17:39:43 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_VIDEO" id="92B609B6-06CF-C648-07F9-D1C4E6AC44B6">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-09 17:39:58 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83B15AFE-EB74-07CF-24B5-69898598895A" referredColumn="AC03BEFF-B742-6B07-4018-F71ECF873A5A"/>
+</associations>
+</Column>
+<Column name="CODIGO_CLASIFICACION" id="DB304BF3-FC68-0F34-E52D-2BC04F1A8F9F">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-09 17:40:03 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16C78455-1F84-3963-B7FE-AFEC5B92CFDF" referredColumn="470906CA-FE55-06C9-98E6-043C1113FC4D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E747AB77-0FFD-5A66-AD17-F4F2A82B7A12" name="TBL_CLASIFICACIONES_X_VIDEO_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-09 17:40:20 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92B609B6-06CF-C648-07F9-D1C4E6AC44B6"/>
+<colUsage columnID="DB304BF3-FC68-0F34-E52D-2BC04F1A8F9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A58F354-B28C-CF2E-3AE8-215877C3A801" name="TBL_CLASIFICACIONES_X_VIDEO_TBL_VIDEOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-09 17:39:58 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92B609B6-06CF-C648-07F9-D1C4E6AC44B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51DBCC77-4162-E258-C079-7EF1362B0F1C" name="CLAS_X_VID_CLAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-09 17:40:03 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB304BF3-FC68-0F34-E52D-2BC04F1A8F9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

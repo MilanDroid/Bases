@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD50ABE1-6152-AC35-0897-A2840C670A17" name="TBL_REFERENCIAS_X_EMPLEADO">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:48:08 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_EMPLEADO" id="7B3D7501-C11E-C288-C919-B458593C9C69">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:48:22 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E097706D-7C55-CCA9-7F68-BB8665664F2D" referredColumn="DFABB7FF-6215-F25A-B4B7-A01F349FF1F5"/>
+</associations>
+</Column>
+<Column name="CODIGO_REFERENCIA" id="D268C498-957A-DB90-F604-1D782AC561B3">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:48:26 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CFDEB70D-01CE-CD53-23EC-81AD73C4404A" referredColumn="92519D80-116B-A540-C616-1A0FA7D03BA7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D717EAA-1BAE-E76A-2690-22D508C399DB" name="TBL_REFERENCIAS_X_EMPLEADO_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:48:40 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D268C498-957A-DB90-F604-1D782AC561B3"/>
+<colUsage columnID="7B3D7501-C11E-C288-C919-B458593C9C69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5423D42E-16FA-7D7B-5FA5-7F2E19B25E6C" name="TBL_REFERENCIAS_X_EMPLEADO_TBL_EMPLEADOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:48:22 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B3D7501-C11E-C288-C919-B458593C9C69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CDEA1B1-D2D8-16C9-8ABF-84BFDE6A8CA0" name="TBL_REFERENCIAS_X_EMPLEADO_TBL_REFERENCIAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:48:26 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D268C498-957A-DB90-F604-1D782AC561B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

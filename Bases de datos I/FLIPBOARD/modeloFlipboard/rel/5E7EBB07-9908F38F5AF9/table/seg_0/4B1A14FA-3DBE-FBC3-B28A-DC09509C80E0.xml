@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B1A14FA-3DBE-FBC3-B28A-DC09509C80E0" name="TBL_COMENTARIOS">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:35:15 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_COMENTARIO" id="C45026FB-7993-589F-8E36-34D6ECC07C4E">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:36:19 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ESTADO_COMENTARIO" id="4D4E60EB-87CA-9AC7-EFBB-28BE6A062743">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:37:42 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C2FE7EF-7927-87D2-B0F2-729886186B5B" referredColumn="8187C3E6-D1D2-6FF8-9F69-E43B64997F69"/>
+</associations>
+</Column>
+<Column name="CODIGO_ARTICULO" id="55C80E9C-5369-394E-4E63-89A3F2E071BD">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:37:53 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B699BCD-4EAA-9129-9A2A-9DD0B12D6539" referredColumn="F7B67AA7-C805-2F33-311A-C8D8C267E32B"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="62F6DA16-8521-16B9-C22C-41640EEB4A34">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:38:13 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89314305-DAA3-E4AF-C4EE-668CAAB71F98" referredColumn="51AF7CE9-E477-41C0-8ABB-3FB4C9C22AA6"/>
+</associations>
+</Column>
+<Column name="FECHA_COMENTARIO" id="9C69330B-A2B4-4FEC-92CF-FC736844E1F2">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:36:19 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMENTARIO" id="70CDBF69-6AB3-7A50-9AFF-6A778A153355">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:36:19 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_COMENTARIO_PADRE" id="03ABA74A-9A9D-33A4-6B75-CFBEF70A2119">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:39:34 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62737496-F27D-75C9-D42B-158B317E762E" referredColumn="C45026FB-7993-589F-8E36-34D6ECC07C4E"/>
+</associations>
+</Column>
+<Column name="FECHA_EDICION" id="6E94B87E-38B2-13B9-E2DA-93BDFF1E7DFC">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:36:19 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1FE530F-2687-93DB-BFF5-DFE64CB52AB4" name="TBL_COMENTARIOS_PK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:36:19 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C45026FB-7993-589F-8E36-34D6ECC07C4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56D378E1-3751-77E9-06B3-B91C055E1A96" name="TBL_ESTADO_COMENTARIO_FK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:37:42 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D4E60EB-87CA-9AC7-EFBB-28BE6A062743"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6104E3F5-0CC6-C040-4233-D537A508592D" name="TBL_ARTICULOS_FK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:37:53 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55C80E9C-5369-394E-4E63-89A3F2E071BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3F51CA8-F93B-2216-F3F4-7CD0B788DD27" name="TBL_COMENTARIOS_TBL_USUARIO_FK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:38:13 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62F6DA16-8521-16B9-C22C-41640EEB4A34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="996AFCB0-D676-BCE7-BCD9-306969796F7B" name="TBL_COMENTARIOS_FK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:39:34 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03ABA74A-9A9D-33A4-6B75-CFBEF70A2119"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

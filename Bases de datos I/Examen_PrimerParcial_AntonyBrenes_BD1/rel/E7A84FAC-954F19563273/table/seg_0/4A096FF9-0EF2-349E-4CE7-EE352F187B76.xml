@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A096FF9-0EF2-349E-4CE7-EE352F187B76" name="CURSOS_DISPONIBLES">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:44:37 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CURSO" id="2657E5F9-22F4-1576-5A2C-066747DF9FAF">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:52:24 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CURSOS" id="D0ECE364-4431-FA57-B180-ECA56BB5A92E">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:44:53 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="330F6435-650E-A883-8615-C310046E1497" referredColumn="9C88DF46-798E-48F1-743D-33F187D71D6F"/>
+</associations>
+</Column>
+<Column name="ID_TUTORES" id="1985C257-E493-6094-5F72-50BD0F05BCA0">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:45:02 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CCBA5AD-BCD1-921C-C0C9-D36BB939F7E2" referredColumn="1909564B-4DD1-A64B-ADDE-22266D886DBC"/>
+</associations>
+</Column>
+<Column name="CANITDAD_ALUMNOS" id="A36C29C6-39E4-931D-0D1B-096A3B8BDC15">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:46:58 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_MAXIMA_ALUM" id="1035E0B6-4FCF-D449-83B3-BB884326F8FA">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:46:58 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION_CURSO" id="4873E4DC-C8EE-2E2D-D15C-956B18572611">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:46:58 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FINALIZACION_CURSO" id="08282B61-DDF5-9F36-45B1-F5C4F3749531">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:46:58 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA08FEE9-45ED-517C-B826-C7F829B2FD23" name="CURSOS_DISPONIBLES_PK">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:52:41 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2657E5F9-22F4-1576-5A2C-066747DF9FAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D46A02B-2007-1085-D18A-0B64518575C9" name="CURSOS_DISP_CURSOS_FK">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:44:53 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0ECE364-4431-FA57-B180-ECA56BB5A92E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F8F0152-D517-4331-53CC-0BB4E324A582" name="CURSOS_DISP_TUTORES_FK">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:45:02 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1985C257-E493-6094-5F72-50BD0F05BCA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF8CC5D8-A725-7D0E-1FE0-9AA8AF862667" name="TBL_TIPOS_LUGARES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:16:41 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_LUGAR" id="4079B6C5-9079-BFD3-6E75-17FA61C80F5B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:17:50 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TIPO_LUGAR" id="9DB288A3-8476-6D04-0ADA-66DFDD6B3DF5">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:17:50 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05CBB377-7036-4BF3-4D70-F4293A15931D" name="TBL_TIPOS_LUGARES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:17:50 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4079B6C5-9079-BFD3-6E75-17FA61C80F5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

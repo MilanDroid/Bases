@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7083A358-EB59-BCCA-8FC9-784D47F8A751" containerWithKeyObject="71CC436F-6525-1C32-1652-D6B1612BA1E3" localFKIndex="ADE112D6-A4D4-28DB-16AE-7580AFBDD4A3" name="PUBLICACIONES_USUARIOS_FK">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:32:37 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0DA8796E-5281-47D4-A9AF-46748650B804</referredTableID>
+<keyObject>3AB66CA7-DFDD-61A0-6F44-EA3960EF19B9</keyObject>
+<referredKeyID>3AB66CA7-DFDD-61A0-6F44-EA3960EF19B9</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

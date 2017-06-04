@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F785FA9D-7F65-BFA7-9CCB-2EFFA55339FD" name="TBL_ARTICULOS">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 04:26:32 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="B1F023EB-C0A8-B608-6172-436181ADDD97">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 04:27:47 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITULO_ARTICULO" id="0062C750-E76A-7A04-9ECB-DF43FDFE5EAC">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 04:27:47 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUERPO_ARTICULO" id="E64D998B-D082-A17B-8778-D2CF5A10CBE0">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 04:27:47 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_LIKES" id="F8F46971-93C2-8A42-1668-7A368F657D4A">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:21:16 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="61751A7E-4A8F-2F74-145E-7B68758E4224">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 04:29:28 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_ACTUALIZACION" id="B2CAE3DB-D307-3269-74D5-E5EB6995DA06">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 04:30:36 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="URL_NORMAL" id="85F47461-4B9A-B758-EEF8-1E60DE25EB33">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 04:29:28 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="URL_COMPARTIR" id="3645C254-35C0-2453-DA99-C23D109448F9">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 04:29:28 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB90A1DB-449E-ABA3-9426-EC3DB8BBCDDC" name="TBL_ARTICULOS_PK">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 04:27:47 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1F023EB-C0A8-B608-6172-436181ADDD97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

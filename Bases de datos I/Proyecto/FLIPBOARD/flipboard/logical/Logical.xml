@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="EFFBAAB3-90DF-2B9F-2675-4D9CCD51AAE5" mainViewID="CA41A9FB-08B7-C58F-D69E-CA5548FEEF4F">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 03:07:58 UTC</createdTime>
+<ownerDesignName>modeloFlipBoard</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

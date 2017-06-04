@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4907A3A-2923-56BC-31D1-0B57AF4621F4" name="TBL_EXPERIENCIA_LABORAL">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:25:22 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_EXPERIENCIA" id="CD8291A1-9C7E-4CA5-9793-B031880E0587">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:29:38 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_EMPLEADO" id="CCA39506-13D2-9600-4051-5FDF2BA9E534">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:34:30 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7B66655-BAA5-CE62-0B28-6600A39CDD26" referredColumn="DFABB7FF-6215-F25A-B4B7-A01F349FF1F5"/>
+</associations>
+</Column>
+<Column name="TITULO" id="A08E81AA-02EF-3820-6DB3-C6AEF1A040B3">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:29:38 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="7452BCA7-C203-8177-3268-86BA16CCEEA2">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:29:38 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO" id="9A9B5B95-F628-F70C-5B14-DCCF34BDD375">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:29:38 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="52ABC3C4-8DAA-D3D8-C69C-17F381B803B4">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:29:38 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C5EE45A-7571-D096-32BE-A71C4C33B919" name="TBL_EXPERIENCIA_LABORAL_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:29:38 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD8291A1-9C7E-4CA5-9793-B031880E0587"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4D4367C-0340-AE85-98DD-A516BFE654AF" name="TBL_EXPERIENCIA_LABORAL_TBL_EMPLEADOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:34:30 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCA39506-13D2-9600-4051-5FDF2BA9E534"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

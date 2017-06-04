@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10A86DC3-9937-1F8B-35C1-3F942A09DB35" name="TBL_ANIMALES">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 11:21:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<importedID>61B82E82-E318-74D3-751D-535B357509EB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ANIMAL" id="3F7E777A-93D4-D9DD-47C6-77EF60F77109">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 11:21:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<importedID>42FBAA7D-402E-86EE-2AF6-347F49F3066C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OD_ANIMAL" id="86C1B7E0-8EB9-E432-8DA8-AFED4E9C335B">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 11:21:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<importedID>7A2E9394-2B3E-5D20-075D-F59AB672E4F5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_DIETA" id="608211AF-38E4-31B6-1BB9-C853C2C40FCB">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 11:21:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<importedID>C2F0F377-97B8-3D13-C539-2CF8616C642E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65E1E4D9-6F28-8BB8-B259-229E2129D7CE" referredColumn="1EA4955F-B0FE-D05E-EE99-4B9160D80E4C"/>
+</associations>
+</Column>
+<Column name="TIPO_ANIMAL" id="C7C9AC09-3E40-11A8-0C8E-35155E9CE9F3">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 11:21:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<importedID>E9C9EFBA-50F6-1484-0C40-E54CE392F780</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE88FB1B-5BF6-9C66-7EDB-63903561C573" referredColumn="5B40F70C-06E0-B7BE-506B-5A136E58C370"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08758325-39F2-AE05-CE73-75636BD48E07" name="TBL_ANIMALES_PK">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 11:21:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<importedID>4F0EE6C9-59FB-7659-250E-FE4283A324A2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F7E777A-93D4-D9DD-47C6-77EF60F77109"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF684C87-B76A-41A3-C93F-34E02F619589" name="ID_DIETA">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 11:21:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="608211AF-38E4-31B6-1BB9-C853C2C40FCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB3AB62B-EEE1-C876-7CDA-D24E5B5A3E50" name="TIPO_ANIMAL">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 11:21:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7C9AC09-3E40-11A8-0C8E-35155E9CE9F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

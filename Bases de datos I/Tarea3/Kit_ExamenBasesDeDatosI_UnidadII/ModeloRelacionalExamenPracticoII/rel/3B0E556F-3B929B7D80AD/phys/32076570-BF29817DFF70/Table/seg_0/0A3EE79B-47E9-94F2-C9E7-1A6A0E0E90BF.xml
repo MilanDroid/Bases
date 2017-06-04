@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_COMENTARIOS" directorySegmentName="seg_0" id="0A3EE79B-47E9-94F2-C9E7-1A6A0E0E90BF">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<schemaObject>F6430611-2A1C-FAA0-B7FC-71FACE68518D</schemaObject>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODIGO_PUBLICACION" id="47A3CD76-A516-DB43-6197-C70C25EC00EC">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_COMENTARIO" id="4B0AB491-1DBC-9F60-8ADA-15F82BD0D36E">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_USUARIO" id="6EA9E145-720A-6937-A76A-FF64D3F5C086">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_COMENTARIO_SUPERIOR" id="BF40910E-01F7-83D2-4E34-A9FA969D9442">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONTENIDO_COMENTARIO" id="D9E8BC6E-C940-5485-6A41-D94D7DFB807C">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TBL_COMT_TBL_USUARIO_FK" id="0F814F58-BB05-2E86-4537-581F5E599AEB">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TBL_COMENTARIO_TBL_COMT_FK" id="6B79E1E6-0568-EF81-7C90-842143D7774A">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TBL_COMT_TBL_PUBLICACION_FK" id="B5C8389B-6241-2F92-C5E6-F59D18962056">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_COMENTARIO_PK" id="2A3007B1-006F-A8A9-0B24-06D700F4465A">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

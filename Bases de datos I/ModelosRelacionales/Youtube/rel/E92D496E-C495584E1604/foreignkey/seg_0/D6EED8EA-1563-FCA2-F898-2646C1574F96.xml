@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D6EED8EA-1563-FCA2-F898-2646C1574F96" containerWithKeyObject="FE16E819-8341-2898-BDE9-ACEC566AD882" localFKIndex="9BEAEEAC-C1D2-1E02-F2E7-22715E0B862E" name="TBL_USUARIOS_TBL_MUNICIPIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-03 17:47:12 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4E3AC95C-0502-018E-C682-EBE4329DFC35</referredTableID>
+<keyObject>5CF8701B-ABCE-7836-6CE3-056D34D36B54</keyObject>
+<referredKeyID>5CF8701B-ABCE-7836-6CE3-056D34D36B54</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

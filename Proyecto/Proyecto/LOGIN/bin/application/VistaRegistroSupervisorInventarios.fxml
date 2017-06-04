@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="439.0" prefWidth="1532.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControladorRegistroSupervisorInventarios">
+   <children>
+      <SplitPane dividerPositions="0.2712765957446808" layoutX="110.0" layoutY="37.0" prefHeight="323.0" prefWidth="1068.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="317.0" prefWidth="323.0">
+               <children>
+                  <GridPane layoutX="16.0" layoutY="12.0" prefHeight="328.0" prefWidth="338.0">
+                     <children>
+                        <Label text="Nombres" />
+                        <Label text="Identidad" GridPane.rowIndex="2" />
+                        <Label text="Fecha de Nacimiento" GridPane.rowIndex="3" />
+                        <Label text="Sexo" GridPane.rowIndex="5" />
+                        <Label text="Telefono" GridPane.rowIndex="6" />
+                        <Label text="Direccion" GridPane.rowIndex="7" />
+                        <Label text="Correo Electronico" GridPane.rowIndex="8" />
+                        <TextField fx:id="txtCorreoElectronico" prefHeight="25.0" prefWidth="193.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                        <TextField fx:id="txtdireccion" prefHeight="25.0" prefWidth="190.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                        <TextField fx:id="txtTelefono" prefHeight="25.0" prefWidth="107.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                        <TextField fx:id="txtNombre" prefHeight="25.0" prefWidth="149.0" GridPane.columnIndex="1" />
+                        <TextField fx:id="txtIdentidad" prefHeight="25.0" prefWidth="123.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <DatePicker fx:id="dtpkrFechaNacimiento" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <HBox prefHeight="17.0" prefWidth="226.0" spacing="10.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                           <children>
+                              <RadioButton fx:id="rbtnMasculino" mnemonicParsing="false" text="Masculino">
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="GrupoSexo" />
+                                 </toggleGroup>
+                              </RadioButton>
+                              <RadioButton fx:id="rbtnFemenino" mnemonicParsing="false" text="Femenino" toggleGroup="$GrupoSexo" />
+                           </children>
+                           <padding>
+                              <Insets left="10.0" top="5.0" />
+                           </padding>
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                        </HBox>
+                        <Label text="Apellidos" GridPane.rowIndex="1" />
+                        <TextField fx:id="txtApellido" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <ComboBox fx:id="cboEstadoCivil" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                        <Label text="Estado Civil" GridPane.rowIndex="9" />
+                        <Label text="Fecha de Ingreso" GridPane.rowIndex="4" />
+                        <DatePicker fx:id="dtpkrFechaIngreso" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <ComboBox fx:id="cboBodega" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                        <Label text="Bodega" GridPane.rowIndex="10" />
+                     </children>
+                     <columnConstraints>
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="162.0" minWidth="10.0" prefWidth="121.0" />
+                        <ColumnConstraints fillWidth="false" hgrow="SOMETIMES" maxWidth="230.0" minWidth="10.0" prefWidth="213.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints fillHeight="false" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints fillHeight="false" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                  </GridPane>
+                  <HBox layoutX="48.0" layoutY="349.0" prefHeight="31.0" prefWidth="304.0" spacing="10.0">
+                     <children>
+                        <Button fx:id="btnNuevo" mnemonicParsing="false" onAction="#limpiarSupervisorInventario" text="Nuevo" />
+                        <Button fx:id="btnGuardar" mnemonicParsing="false" onAction="#guardarSupervisorInventario" text="Guardar" />
+                        <Button fx:id="btnActualizar" mnemonicParsing="false" onAction="#actualizarBodeguero" text="Actualizar" />
+                        <Button fx:id="btnEliminar" mnemonicParsing="false" onAction="#EliminarSupervisorInventario" text="Eliminar" />
+                     </children>
+                  </HBox>
+                  <Button fx:id="btnatras" layoutX="14.0" layoutY="387.0" mnemonicParsing="false" onAction="#volver" text="atras" />
+               </children>
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="414.0" prefWidth="992.0">
+               <children>
+                  <TableView fx:id="tblSupervisoresInventario" layoutX="13.0" layoutY="33.0" prefHeight="293.0" prefWidth="713.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="28.0">
+                     <columns>
+                        <TableColumn fx:id="clmnNombre" prefWidth="128.0" text="Nombres" />
+                        <TableColumn fx:id="clmnApellido" prefWidth="114.0" text="Apellidos" />
+                        <TableColumn fx:id="clmnIdentidad" prefWidth="101.0" text="Identidad" />
+                        <TableColumn fx:id="clmnFechaNacimiento" minWidth="0.0" prefWidth="133.0" text="Fecha de Nacimiento" />
+                        <TableColumn fx:id="clmnFechaIngreso" minWidth="0.0" prefWidth="158.0" text="Fecha de Ingreso" />
+                        <TableColumn fx:id="clmnTelefono" minWidth="0.0" prefWidth="0.0" text="Telefono" />
+                        <TableColumn fx:id="clmnGenero" prefWidth="39.0" text="Sexo" />
+                        <TableColumn fx:id="clmndireccion" prefWidth="158.0" text="Direccion" />
+                        <TableColumn fx:id="clmnEstadoCivil" prefWidth="81.0" text="Estado Civil" />
+                        <TableColumn fx:id="clmnCorreoElectronico" prefWidth="204.0" text="Correo Electronico" />
+                     </columns>
+                  </TableView>
+                  <HBox layoutX="256.0" layoutY="-1.0" prefHeight="31.0" prefWidth="451.0" spacing="15.0">
+                     <children>
+                        <TextField fx:id="txtBuscar" />
+                        <Button fx:id="btnBuscar" mnemonicParsing="false" onAction="#BusquedaBodeguero" text="Buscar Supervisor" />
+                        <Button fx:id="btnRestaurar" mnemonicParsing="false" onAction="#restaurarTablero" prefHeight="25.0" prefWidth="152.0" text="Restaurar Tablero" />
+                     </children>
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

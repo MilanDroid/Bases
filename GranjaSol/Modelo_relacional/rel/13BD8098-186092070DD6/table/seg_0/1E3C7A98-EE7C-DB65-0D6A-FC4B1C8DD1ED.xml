@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E3C7A98-EE7C-DB65-0D6A-FC4B1C8DD1ED" name="TBL_DIETAS">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 03:41:26 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DIETA" id="0752CB83-66EC-91D3-04F5-01133D37AD35">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 04:03:14 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_DIETA" id="24978221-9C81-F76C-B6F1-464E7840C22D">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 06:50:39 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OD_DIETA" id="63F482FB-416C-CEE0-6835-FC2C05BD665E">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 06:50:39 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALIMENTOS" id="0330C15F-A19F-EC54-F52F-63CB04EEA499">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 11:24:15 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUTRIENTES" id="4F547A27-942E-E14E-FDC5-90011D7BE247">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 11:24:33 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2AE603C-7298-D45C-4D03-DDEA37FBD3EA" name="TBL_DIETAS_PK">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 04:03:14 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0752CB83-66EC-91D3-04F5-01133D37AD35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

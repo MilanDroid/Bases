@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_AMIGOS" directorySegmentName="seg_0" id="AD83A217-8E0A-2BDA-3D6B-3519F96E7B4D">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<schemaObject>F6430611-2A1C-FAA0-B7FC-71FACE68518D</schemaObject>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODIGO_AMIGO" id="53B7EAF0-E15C-C1A2-AFC8-2E554568739D">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_USUARIO" id="8200290D-46B4-B9DF-91A6-3100CEE13CDA">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_ESTATUS" id="8243A568-970A-9C7A-1C58-690BAD4BA9DF">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_TIPO_RELACION" id="E2A9FD02-D081-BA56-CCDC-B181B9118833">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TBL_AMG_SOLICITUDES_FK" id="0A490CC7-1A0C-8F41-1F4F-EC7F2CDD63C2">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TBL_AMIGO_TBL_USUARIO_FK" id="167A2FDB-77E7-010F-3E59-3761443D9074">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TBL_AMIGOS_TBL_USR_FK" id="6A7502B2-6DBB-F5AD-B97A-69A479D0CE20">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TBL_AMIGO_TBL_TIP_REL_FK" id="A42206C4-B2D1-3207-CD60-DFA19F6E4857">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_AMIGO_PK" id="43B51E34-C78F-AB5A-2384-2A428066F972">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

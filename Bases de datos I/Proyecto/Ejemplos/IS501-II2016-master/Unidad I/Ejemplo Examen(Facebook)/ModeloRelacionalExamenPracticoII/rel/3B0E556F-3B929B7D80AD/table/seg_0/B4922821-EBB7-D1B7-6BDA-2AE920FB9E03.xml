@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4922821-EBB7-D1B7-6BDA-2AE920FB9E03" name="TBL_MENSAJES">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:26:37 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<abbreviation>INBOX</abbreviation>
+<schemaObject>F6430611-2A1C-FAA0-B7FC-71FACE68518D</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="2CBF372F-A61E-47D2-F074-D88AC0DE53B7">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:38:01 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FCA9AAC-3C2C-97F7-7FB9-5562BFEA830D" referredColumn="18768C2E-30D7-F573-6EB2-A8D26CA44D8E"/>
+</associations>
+</Column>
+<Column name="CODIGO_REMITENTE" id="3F0220DF-D50B-6E8B-A526-B2596FCE73E7">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:38:53 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_HORA" id="C90999CE-8861-C6A4-D8F5-F4C215EE32F7">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:39:03 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENSAJE_LEIDO" id="AA630E97-37A4-BBF7-79FF-BE400AD49F9E">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:39:19 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENSAJE" id="F8FEA91B-F4F5-F1B1-C273-FCE296ACD10A">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:39:40 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75718172-8F58-9724-9BEF-84A7E035B4CB" name="TBL_INBOX_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:38:13 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CBF372F-A61E-47D2-F074-D88AC0DE53B7"/>
+<colUsage columnID="3F0220DF-D50B-6E8B-A526-B2596FCE73E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5FF31CB-C80C-7A2E-3E46-ADA383F64A8C" name="TBL_INBOX_TBL_USUARIO_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:38:01 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CBF372F-A61E-47D2-F074-D88AC0DE53B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

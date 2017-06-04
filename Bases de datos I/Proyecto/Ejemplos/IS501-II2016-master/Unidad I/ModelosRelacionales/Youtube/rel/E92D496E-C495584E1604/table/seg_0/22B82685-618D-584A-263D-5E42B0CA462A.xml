@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22B82685-618D-584A-263D-5E42B0CA462A" name="TBL_ESTADOS_VIDEOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:41:17 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO_VIDEO" id="09722CAE-EC6C-1E72-4D42-B2EEF1BE7064">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:42:11 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESTADO_VIDEO" id="FA4123DD-8A33-974F-ED46-B01B0EF8B415">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:42:11 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6DC1415-C5D2-3F40-D0A6-805907CAEB32" name="TBL_ESTADOS_VIDEOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:42:11 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09722CAE-EC6C-1E72-4D42-B2EEF1BE7064"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

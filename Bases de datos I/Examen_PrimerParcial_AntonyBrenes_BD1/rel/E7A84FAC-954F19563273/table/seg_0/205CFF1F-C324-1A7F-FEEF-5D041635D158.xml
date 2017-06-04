@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="205CFF1F-C324-1A7F-FEEF-5D041635D158" name="CURSOS_PERMITIDOS_X_TUTOR">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:36:52 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TUTORES" id="D35E6F8A-6B3B-0C98-FFF1-E01AF21F7181">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:37:50 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="766E78E2-0BC7-D8F9-0EBE-5DB3F455123E" referredColumn="1909564B-4DD1-A64B-ADDE-22266D886DBC"/>
+</associations>
+</Column>
+<Column name="ID_CURSOS" id="46829A86-66DE-5F96-9640-C7305C073050">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:38:58 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21A8F91B-DEE7-B79F-C795-1CC8ACE9686F" referredColumn="9C88DF46-798E-48F1-743D-33F187D71D6F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F04569B-97BF-997F-CD49-7559BD780A31" name="CURS_PERM_X_TUTOR_TUTORES_FK">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:37:50 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D35E6F8A-6B3B-0C98-FFF1-E01AF21F7181"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26ACA306-3A2C-806A-DD32-91B52D4012FD" name="CURS_PERM_X_TUTOR_CURSOS_FK">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:38:58 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46829A86-66DE-5F96-9640-C7305C073050"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D733EE8F-F3E7-16EA-E4E9-36686EB675BD" mainViewID="DA259E46-DE21-960C-A299-EC014AC0DEF2">
+<createdBy>Basner</createdBy>
+<createdTime>2016-09-03 20:47:42 UTC</createdTime>
+<ownerDesignName>FACEBOOK_RELACIONAL</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

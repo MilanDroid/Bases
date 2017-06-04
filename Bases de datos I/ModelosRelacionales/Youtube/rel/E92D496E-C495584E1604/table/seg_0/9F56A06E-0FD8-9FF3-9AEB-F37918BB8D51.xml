@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F56A06E-0FD8-9FF3-9AEB-F37918BB8D51" name="TBL_ESTADOS_DENUNCIAS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-11 17:23:55 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO_DENUNCIA" id="775DDA0A-CCBD-9693-47A9-92F90EABC8B8">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-11 17:24:36 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESTADO_DENUNCIA" id="B9547323-4881-55A8-72ED-5DF65C85B8F8">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-11 17:24:36 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D59962D-8063-C86E-F419-96C1FCB9ED56" name="TBL_ESTADOS_DENUNCIAS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-11 17:24:36 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="775DDA0A-CCBD-9693-47A9-92F90EABC8B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

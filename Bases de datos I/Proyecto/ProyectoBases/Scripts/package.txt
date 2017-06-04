@@ -1,0 +1,155 @@
+create or replace package pkg_autenticacion as
+
+---
+
+-- Definición de la función para encriptar la contraseña del usuario
+
+---
+
+    function f_encriptar_pwd (
+
+        p_password in varchar2,
+
+        p_username varchar2
+
+    )
+
+    return varchar2;
+
+ 
+
+---
+
+-- Definición de la función que autentica al usuario
+
+---
+
+    function f_autoriza_usuario (
+
+        p_username VARCHAR2,
+
+        p_password VARCHAR2
+
+    )
+
+    return BOOLEAN;
+
+ 
+
+ 
+
+---
+
+-- Definición del procedimiento para registrar un usuario en nuestra base de datos
+
+---
+
+    procedure p_registrar_usuario (
+
+        p_username VARCHAR2,
+
+        p_password VARCHAR2 );
+
+end;
+/
+
+create or replace package body pkg_autenticacion as
+
+---
+
+-- Procedimiento para registrar un usuario
+
+---
+
+    procedure p_registrar_usuario(p_username IN VARCHAR2, p_password IN VARCHAR2)
+
+      as
+
+    begin
+
+        insert into TBL_USUARIO (NOMBRE_USUARIO ,ALIAS_USUARIO, CONTRASENIA, CORREO_ELECTRONICO, DESCRIPCION_USUARIO, EDAD, CODIGO_IMAGEN) values (upper(p_username), upper(p_username), f_encriptar_pwd(p_password,p_username), 
+        upper(p_username), upper(p_username), '17/05/96', 1);
+
+    end p_registrar_usuario;
+
+ 
+
+ 
+
+---
+
+-- Función que autentica a un usuario (tratar siempre la cadena p_username con la funcion upper)
+
+---
+
+    function f_autoriza_usuario(p_username IN VARCHAR2, p_password IN VARCHAR2)
+
+      return BOOLEAN
+
+    is
+
+        registros number;
+
+        pwd_en_bd varchar2(4000);
+
+        pwd_encriptado varchar2(4000);
+
+    begin
+
+        SELECT count(*) into registros FROM TBL_USUARIO WHERE ALIAS_USUARIO = upper(p_username);
+
+        IF registros > 0 THEN
+
+            SELECT CONTRASENIA into pwd_en_bd FROM TBL_USUARIO WHERE ALIAS_USUARIO = upper(p_username);
+
+            pwd_encriptado := f_encriptar_pwd(p_password,p_username);
+
+                IF pwd_encriptado = pwd_en_bd THEN
+
+                    return true;
+
+                ELSE
+
+                    return false;
+
+                end IF;
+
+        ELSE
+
+            return false;
+
+        end IF;
+
+    end f_autoriza_usuario;
+
+ 
+
+---
+
+-- Función que encripta la contraseña del usuario
+
+---
+
+    function f_encriptar_pwd(p_password IN VARCHAR2, p_username IN VARCHAR2)
+
+      return VARCHAR2
+
+    is
+
+        salt varchar2(4000) := 'ISYmHMtSrjFmT2nEZUvEU5LA3jrV3i';
+
+    begin
+
+        return utl_raw.cast_to_raw(
+
+            dbms_obfuscation_toolkit.md5(
+
+                                     input_string => salt || p_password || upper(p_username)
+
+            )
+
+        );
+
+    end f_encriptar_pwd;
+
+end pkg_autenticacion;

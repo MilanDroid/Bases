@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7FA81AC-E514-594E-38E0-87315D3FC7D9" name="TBL_LIKES">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:08:32 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LIKE" id="31622E9D-19F6-87F1-DB15-1A2B409A006D">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:11:55 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="429441F2-F226-A6CE-C55A-202E8CA7611F">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:12:44 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE67D9C5-CC86-627C-0363-73200CFD3B53" referredColumn="51AF7CE9-E477-41C0-8ABB-3FB4C9C22AA6"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_LIKE" id="E066441F-E834-8167-30F0-2BBBE6FEF23A">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:12:11 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F99F8A7-8E5E-DE95-00F8-44E9F9C1B94F" referredColumn="A08C45BA-EB5A-B686-57C5-6D8BF7D4A989"/>
+</associations>
+</Column>
+<Column name="CODIGO_ARTICULO" id="5C1DF6E1-A2C5-22BE-56E9-8A56467FC850">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:12:16 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E74EF5F5-7514-B1C1-A57F-FF7A9B367459" referredColumn="F7B67AA7-C805-2F33-311A-C8D8C267E32B"/>
+</associations>
+</Column>
+<Column name="CODIGO_REVISTA" id="8842096A-4A11-84F5-87F7-FE5777F948BC">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:12:33 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3327E707-A131-0B57-F368-8E1C47FC16E2" referredColumn="5E0AF876-26DA-9F1F-6E13-329FCF140D79"/>
+</associations>
+</Column>
+<Column name="FECHA" id="0E4340AB-E62E-2730-8CBC-D795D05ADDB8">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:11:55 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C840D0E8-5816-B651-002D-32CA575CA6A3" name="TBL_LIKES_PK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:11:55 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31622E9D-19F6-87F1-DB15-1A2B409A006D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC4DC43E-7051-271C-9E99-87F4D1FD14E7" name="TBL_LIKES_TBL_TIPO_LIKES_FK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:12:11 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E066441F-E834-8167-30F0-2BBBE6FEF23A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20074D81-9F68-6B52-404B-7CF5FD0604FA" name="TBL_LIKES_TBL_ARTICULOS_FK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:12:16 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C1DF6E1-A2C5-22BE-56E9-8A56467FC850"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0116E04-BBBC-3DB2-0BEB-A6215FB71F09" name="TBL_LIKES_TBL_REVISTAS_FK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:12:33 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8842096A-4A11-84F5-87F7-FE5777F948BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10107D48-43D5-073B-2419-31AE60854E81" name="TBL_LIKES_TBL_USUARIO_FK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:12:44 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="429441F2-F226-A6CE-C55A-202E8CA7611F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

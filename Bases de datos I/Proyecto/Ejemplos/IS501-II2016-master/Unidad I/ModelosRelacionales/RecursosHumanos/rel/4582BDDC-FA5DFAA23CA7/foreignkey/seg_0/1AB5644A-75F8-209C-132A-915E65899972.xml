@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1AB5644A-75F8-209C-132A-915E65899972" containerWithKeyObject="61EF631F-7E46-54D1-F828-F25C235A350A" localFKIndex="C3C88624-0492-B5D5-314F-D4770DB8F388" name="TBL_DEDUCCIONES_PAGADAS_TBL_TIPOS_DEDUCCIONES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:50:22 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B6AED9E8-538D-BBD8-4D9B-F76FA6BFDC04</referredTableID>
+<keyObject>8F08BFC8-5100-2CAA-A5AE-5BF6F0D9F96E</keyObject>
+<referredKeyID>8F08BFC8-5100-2CAA-A5AE-5BF6F0D9F96E</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B058C053-F6BE-E96E-DFB1-1E5643A17A4A" name="TBL_CUENTAS_BANCARIAS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-11 17:12:36 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CUENTA" id="88C083F8-D48C-AE69-3FAA-7854A24772C9">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-11 17:16:27 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LUGAR" id="01272635-E15D-0289-552C-B6FBD85A6325">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-11 17:19:05 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4D24091-91D1-A7CC-8652-0AAAD3FC4295" referredColumn="66B8EB0D-5336-DCCF-60F8-8C4B2F2F8905"/>
+</associations>
+</Column>
+<Column name="CODIGO_BANCO" id="DFCC6761-8DAA-DF82-E14D-C9F2780FB8C6">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-11 17:19:47 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="698D5595-1ECC-6710-1526-873D429856E6" referredColumn="5700E4CB-4ED3-124A-162E-672AFB9DE112"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="F4D8EB65-6B1E-47C5-F945-69EFB01F301B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-11 17:19:52 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07DD9262-FA46-1D1D-D2BA-518D5ACD454F" referredColumn="84ED8063-FF90-AB1B-31FD-43041E07C864"/>
+</associations>
+</Column>
+<Column name="NUMERO_CUENTA" id="B6F39790-9897-D67C-CDA9-873311FEAA18">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-11 17:16:27 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REGISTRO" id="2A611ACB-15B4-B50C-AF60-2CB52BB5BBBD">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-11 17:16:27 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43860AD8-9843-F574-7C6B-2A49733F7D75" name="TBL_CUENTAS_BANCARIAS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-11 17:18:19 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88C083F8-D48C-AE69-3FAA-7854A24772C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73B98E33-FB79-0F6B-B847-252651FA6538" name="TBL_CUENTAS_BANCARIAS_TBL_LUGARES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-11 17:19:05 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01272635-E15D-0289-552C-B6FBD85A6325"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5ED399C-E66F-6EA8-2097-D178C087C0BA" name="TBL_CUENTAS_BANCARIAS_TBL_BANCOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-11 17:19:47 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFCC6761-8DAA-DF82-E14D-C9F2780FB8C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56511AB6-BCCE-0080-E5DB-AEBC3428E573" name="TBL_CUENTAS_BANCARIAS_TBL_USUARIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-11 17:19:52 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4D8EB65-6B1E-47C5-F945-69EFB01F301B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="AEFE1FC6-145A-1D10-B2F3-C72434BE05C7">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:02:03 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

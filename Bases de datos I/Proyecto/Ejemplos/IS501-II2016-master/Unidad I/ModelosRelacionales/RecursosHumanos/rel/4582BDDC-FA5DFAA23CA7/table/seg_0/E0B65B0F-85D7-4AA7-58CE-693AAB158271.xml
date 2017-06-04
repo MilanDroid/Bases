@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0B65B0F-85D7-4AA7-58CE-693AAB158271" name="TBL_ANTECEDENTES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-22 17:15:48 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ANTECEDENTE" id="3030F1A9-0D36-5982-96B4-1795CED3BE1D">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-22 17:17:27 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_ANTECEDENTE" id="99895C12-EF87-7260-D33D-0D573C47A072">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-22 17:17:35 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD663074-8D41-9F04-C661-1D1D8013BDC8" referredColumn="8F25D7DC-41B4-130A-FAC5-FD23B2895CFC"/>
+</associations>
+</Column>
+<Column name="CODIGO_EMPLEADO" id="2650E8C3-8828-20E7-C928-17EAB09E49E2">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-22 17:17:44 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED973502-D23E-0E33-8A43-699B5CD3547F" referredColumn="DFABB7FF-6215-F25A-B4B7-A01F349FF1F5"/>
+</associations>
+</Column>
+<Column name="REFERENCIA" id="E5BDDBFD-7989-FD27-96A4-F418F4E34365">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-22 17:17:27 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="2E297EC2-F2EF-909F-4FEA-FECFE0837B7E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-22 17:17:27 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_ANTECEDENTE" id="F9F7C3D5-AEA9-FD63-D361-FEF34653A98B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-22 17:17:27 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A6F4023-A997-63B2-07D4-805665B359AA" name="TBL_ANTECEDENTES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-22 17:17:27 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3030F1A9-0D36-5982-96B4-1795CED3BE1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA26E9F3-D56F-3895-8499-FD185AE6CEFE" name="TBL_ANTECEDENTES_TBL_TIPOS_ANTECEDENTES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-22 17:17:35 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99895C12-EF87-7260-D33D-0D573C47A072"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0BDE8C5E-836A-8CB1-752A-C980B0CF0672" name="TBL_ANTECEDENTES_TBL_EMPLEADOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-22 17:17:44 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2650E8C3-8828-20E7-C928-17EAB09E49E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CD318474-7092-153A-E2FC-633947C4C58D" containerWithKeyObject="AC1BD07D-4465-FD43-6407-C3671A702EC2" localFKIndex="30C08B95-CA6F-3EC5-89BF-68B0F1504E1E" name="TIPO_IMAGENES_FK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:25:39 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B7421070-1768-9390-7C5F-3050DC6B69ED</referredTableID>
+<keyObject>064BD670-C519-9E78-2D95-F4F060097EA3</keyObject>
+<referredKeyID>064BD670-C519-9E78-2D95-F4F060097EA3</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

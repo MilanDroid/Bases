@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73356EEE-8CDB-ADCE-2521-9FC6622C4FD9" name="TBL_PILOTOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:20:04 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PILOTO" id="63DCDDCE-5600-08DA-B588-C3FB96BFBA5F">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:24:00 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20565C5C-1B2C-0A7B-94D2-F640D6D5CC51" referredColumn="77B3D429-4495-EA0A-6ADC-73BE37DADA74"/>
+</associations>
+</Column>
+<Column name="HORAS_VUELO" id="D25B9D49-D63E-C2AE-F9D5-0EE488381BFC">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:23:29 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESPECIALIDAD" id="B1C4804A-BA52-2F4C-1745-A0ADCAB5368E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:23:29 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D9F6A945-5538-816E-C6C2-80EC0FF974C6" name="TBL_PILOTOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:25:02 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63DCDDCE-5600-08DA-B588-C3FB96BFBA5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91DCAA00-7F16-285A-4829-82862DC7671B" name="TBL_PILOTOS_TBL_TRIPULANTES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:24:00 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63DCDDCE-5600-08DA-B588-C3FB96BFBA5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

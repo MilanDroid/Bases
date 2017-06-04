@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6524F204-D670-4F0C-DFC3-B646CFF8FC75" name="Tbl_Convenio">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:58:49 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cod_Convenio" id="95B160BE-DE47-74F0-67A2-A1CDBA9A4803">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 17:00:11 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Convenio" id="DED3E52A-A8BA-4BD9-4DD4-16D35BAE3AB0">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 17:00:11 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion_Convenio" id="3ED6536B-C812-27C4-2409-B7E2A5C323A9">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 17:00:11 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cod_Proveedor" id="1498F655-9BA0-B68A-CD10-9A11B8AD7A6A">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 18:16:10 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08142F3E-F128-BC60-7BDF-40A9067A1E79" referredColumn="C081ACCB-9F87-D359-C479-48B4D2F2B0C3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E54A00E-A4A1-2CAB-70DB-B738957437FC" name="Tbl_Convenio_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 17:00:11 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95B160BE-DE47-74F0-67A2-A1CDBA9A4803"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45DCD940-64D6-381C-7A11-EE5F7C59FBB9" name="Tbl_Convenio_Tbl_Proveedor_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 18:16:10 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1498F655-9BA0-B68A-CD10-9A11B8AD7A6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

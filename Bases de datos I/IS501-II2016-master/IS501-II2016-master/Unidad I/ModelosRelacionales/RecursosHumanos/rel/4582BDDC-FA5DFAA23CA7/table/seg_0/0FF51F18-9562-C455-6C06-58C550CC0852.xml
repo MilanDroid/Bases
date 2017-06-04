@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FF51F18-9562-C455-6C06-58C550CC0852" name="TBL_SUCURSALES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-15 17:32:29 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_SUCURSAL" id="1EB83281-1499-3F33-5EE6-0494E812C977">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-15 17:33:33 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_EMPLEADO" id="68B2BE5E-5DD8-8A9C-8CDE-B1442B7861E0">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-15 17:38:06 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC61C349-5484-1E88-B9BB-F52AA85F6D14" referredColumn="A15E1DA5-7BD1-F1C4-CE77-9BA4CDB41F23"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="C9CA5058-72DB-D593-FC8A-97869C5C6C11">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-15 17:33:33 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="0E9D704B-6E1D-D440-DB15-8B8DD299DEF2">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-15 17:33:33 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="09129213-BFFA-A349-3722-6005966D4CE8">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-15 17:33:33 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A17C6DB-B884-9CA2-53AC-97128801F498" name="TBL_SUCURSALES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-15 17:33:33 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EB83281-1499-3F33-5EE6-0494E812C977"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5601194E-CB3F-2E9F-CCB4-060BE5027D11" name="TBL_SUCURSALES__UN">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-15 17:39:04 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68B2BE5E-5DD8-8A9C-8CDE-B1442B7861E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7302FC35-FC2C-41D3-BDB2-1FD35835A239" name="TBL_SUCURSALES_TBL_SUPERVISORES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-15 17:38:06 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68B2BE5E-5DD8-8A9C-8CDE-B1442B7861E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

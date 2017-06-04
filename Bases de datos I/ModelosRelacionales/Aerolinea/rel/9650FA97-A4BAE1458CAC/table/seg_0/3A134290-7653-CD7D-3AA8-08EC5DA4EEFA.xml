@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A134290-7653-CD7D-3AA8-08EC5DA4EEFA" name="TBL_AVIONES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:51:47 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_AVION" id="0470821D-AAD8-E103-A823-478B97CE92A9">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:54:48 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERIE" id="7FE91CC5-9B32-325D-2E51-02DE60BEFDA4">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:54:48 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANIO" id="06500490-0B05-8ED8-696F-DA0AFFAC40C1">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:54:48 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_ASIENTOS" id="B2E2D5ED-3CD6-43B1-E840-3048561F7644">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:54:48 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAPACIDAD_EQUIPAJE_LIBRAS" id="D21F88F2-7507-50EC-8BE5-DD7322079313">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:54:48 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAPACIDAD_CARGA_LIBRAS" id="EA97CD1E-11F4-7A96-2C80-EB49DD74D69F">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:54:48 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VELOCIDAD_MAXIMA" id="40EB985B-2BDC-B087-A4B1-0330C0A06B2A">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:54:48 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALTURA_MAXIMA" id="525CD7A6-8DDB-33CA-BAAB-5C7D6810F26D">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:54:48 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA38F325-0AED-59B3-AA34-18BC9B3C7B0E" name="TBL_AVIONES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:54:48 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0470821D-AAD8-E103-A823-478B97CE92A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

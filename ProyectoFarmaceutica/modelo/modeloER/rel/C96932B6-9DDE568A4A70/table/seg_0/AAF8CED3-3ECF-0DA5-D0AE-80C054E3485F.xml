@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AAF8CED3-3ECF-0DA5-D0AE-80C054E3485F" name="Tbl_Empleado">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:38:21 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cod_Empleado" id="A6CA7B0A-A286-9E3A-DBC3-B2D62FB4267F">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:42:52 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Empleado" id="5B388457-0290-9712-53F8-B1DE28C41EBD">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:42:52 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sexo_Empleado" id="DBD81722-AD4E-EFA7-4F79-2CAF1D213F96">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:42:52 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion_Empleado" id="37703010-7172-58AC-C335-D74F0A6DDFCE">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:42:52 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero_Telef_Empleado" id="7CDEF551-4B28-E2F2-A21A-27BC0FBC99EE">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:42:52 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Correo_Empleado" id="5017BD68-0FA5-EF14-D869-E9A1ADCA48EF">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:42:52 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cod_Usuario" id="AB18F38C-0DE5-8441-C59A-8A6F4AFDCB12">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 17:02:43 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2CDCD15-7816-0610-3353-87FA6405A4C0" referredColumn="16ED7A88-65DE-CE16-06A6-A3A920B20BEA"/>
+</associations>
+</Column>
+<Column name="Cod_Quimico_Farmaceutico" id="17929100-B79A-6609-A7BF-2DA5D594D2BD">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 17:09:32 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="813BAEB5-272C-8B2B-B687-9297312F89F7" referredColumn="2AFC6F4D-000C-1921-D9BE-97FC0A9AB355"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09B213D1-259A-2B4B-2FD3-33B327661FBE" name="Tbl_Usuario_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:42:52 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6CA7B0A-A286-9E3A-DBC3-B2D62FB4267F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5452DA09-25EF-56A6-0400-4FFE4AF6FED1" name="Tipo_Usuario">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 17:02:43 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB18F38C-0DE5-8441-C59A-8A6F4AFDCB12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE654E8C-3218-02A3-39A9-CE5A6BCC21DD" name="Quimico_Farmaceutico">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 17:09:32 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17929100-B79A-6609-A7BF-2DA5D594D2BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD857A77-7E5D-07B3-06DB-A57262928457" name="TBL_AEROMOZAS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:26:21 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_AEROMOZA" id="B48835F6-A9B4-8E78-1457-2FF0CEC4214B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:38:52 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1187DBA-6596-C97B-6F48-BF7848F06F6C" referredColumn="77B3D429-4495-EA0A-6ADC-73BE37DADA74"/>
+</associations>
+</Column>
+<Column name="IDIOMAS" id="87D758FA-7173-283B-B834-CDAADDB308DA">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:29:50 UTC</createdTime>
+<commentInRDBMS>LO MEJOR ES QUE SEA UNA ENTIDAD NUEVA Y AL FINAL RESULTARIA UNA RELACION DE MUCHOS A MUCHOS</commentInRDBMS>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAMPO_EXTRA1" id="D2C778DC-71BD-366B-414D-D9A9F1D551FC">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:29:50 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7DC9900F-9BF4-EED2-8B2A-F1425BA83FD9" name="TBL_AEROMOZAS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:39:19 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B48835F6-A9B4-8E78-1457-2FF0CEC4214B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F8F1C3B-CE45-7D5D-9BAF-F91B225A4E4A" name="TBL_AEROMOZAS_TBL_TRIPULANTES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:38:52 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B48835F6-A9B4-8E78-1457-2FF0CEC4214B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

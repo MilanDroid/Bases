@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="70E8707B-06AA-AC67-C451-9CC35F75113F" containerWithKeyObject="239B3376-00DC-A2E0-F0EB-8EAA694B38A8" localFKIndex="C3F642FF-6545-2ED9-F454-3E3621C04883" name="TBL_HIST_ACC_USR_FK">
+<createdBy>dalvik</createdBy>
+<createdTime>2015-08-06 01:50:44 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>71759607-C32D-A523-E48A-B31951E55456</referredTableID>
+<keyObject>078BEC5B-415D-CD39-6CC9-057AA6A21C28</keyObject>
+<referredKeyID>078BEC5B-415D-CD39-6CC9-057AA6A21C28</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

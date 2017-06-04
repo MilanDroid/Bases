@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4372FD3A-AC19-1A67-20D4-9988CE8DAD98" name="Tbl_Almacen">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:54:46 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cod_Almacen" id="AFB5D33E-7B55-E6D3-532F-0ACB09E0CF8A">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:55:44 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Almacen" id="8A949A75-2298-A918-F7ED-4B0606D1D02C">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:55:44 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Existencia" id="5F565349-11F6-6F6A-AA6D-0837E5608611">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:57:13 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ingreso" id="068F2399-FB18-137F-BEA4-9EA1560D0489">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:57:13 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salida" id="B627F889-2A50-893F-181B-680B9FCB33B9">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:57:13 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46BF66FD-F048-D352-D67B-08640256B813" name="Tbl_Almacen_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:55:44 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFB5D33E-7B55-E6D3-532F-0ACB09E0CF8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

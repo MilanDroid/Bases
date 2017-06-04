@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="FACEBOOK" directorySegmentName="seg_0" id="F6430611-2A1C-FAA0-B7FC-71FACE68518D">
+<createdBy>dalvik</createdBy>
+<createdTime>2015-08-06 01:48:15 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</SchemaObject>

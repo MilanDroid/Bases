@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACFCBE3B-8B75-10D4-A72C-21744EED88A6" name="Tbl_Producto_x_Proveedor">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 18:09:14 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cod_Producto" id="2CAC0CBF-7D0A-D96F-743E-C2D4EED32B27">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 18:09:33 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F17D3958-4541-55C6-6EB1-EA34FEBF85D8" referredColumn="ADD465B5-1EE4-CF4D-25FC-F9635FC77F66"/>
+</associations>
+</Column>
+<Column name="Cod_Proveedor" id="A8FB8876-633B-3665-571B-F7A7AF681D2E">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 18:09:38 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E89FD943-DDA2-8314-037A-4C41F23DBAA8" referredColumn="C081ACCB-9F87-D359-C479-48B4D2F2B0C3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4AEB90C-EEF5-AE99-881E-DEA6F0BEAB77" name="Producto_x_Proveedor">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 18:09:33 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CAC0CBF-7D0A-D96F-743E-C2D4EED32B27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D0E0F59-B2EF-B7FD-4825-1F9F1DC8A15B" name="Producto_x_Proveedorv2">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 18:09:38 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8FB8876-633B-3665-571B-F7A7AF681D2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

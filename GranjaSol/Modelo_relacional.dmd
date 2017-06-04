@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo_relacional" id="095E3E4B-EEB7-8EC5-BC56-FA8AFF8C865D" version="3.5">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 03:41:20 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>095E3E4B-EEB7-8EC5-BC56-FA8AFF8C865D</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="095E3E4B-EEB7-8EC5-BC56-FA8AFF8C865D">
+<designStoragePath>D:\Basner\Documents\Unah\2017\BII\GranjaSol\Modelo_relacional</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

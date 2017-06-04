@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="293FE05B-7E67-CB35-EE41-FF0E9EEEFD90" name="TBL_BANCOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:27:02 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_BANCO" id="E5AFF56C-F7C4-8D28-097B-25976560D061">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:27:36 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_BANCO" id="76A0EBA0-09EA-E307-D7D0-A58AAB04049D">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:27:36 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C95F5882-8B5B-C5EF-F5ED-6F546B106B6B" name="TBL_BANCOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:27:36 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5AFF56C-F7C4-8D28-097B-25976560D061"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

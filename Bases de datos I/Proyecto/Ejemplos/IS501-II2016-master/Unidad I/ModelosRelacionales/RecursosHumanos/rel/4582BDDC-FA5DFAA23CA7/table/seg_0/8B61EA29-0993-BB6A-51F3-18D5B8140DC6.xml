@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B61EA29-0993-BB6A-51F3-18D5B8140DC6" name="TBL_PROFESIONES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:50:11 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PROFESION" id="0B691FC9-B633-4381-229B-CA3AF764A716">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:50:54 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PROFESION" id="7DE363B0-B352-0A30-9D7A-85D8D0DF5471">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:50:54 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FB32638-DDF0-7822-491A-3B1ADEE5D85B" name="TBL_PROFESIONES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:50:54 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B691FC9-B633-4381-229B-CA3AF764A716"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

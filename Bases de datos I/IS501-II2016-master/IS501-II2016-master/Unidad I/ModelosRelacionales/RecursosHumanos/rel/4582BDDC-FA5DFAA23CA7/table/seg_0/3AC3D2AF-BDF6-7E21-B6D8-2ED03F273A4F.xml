@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3AC3D2AF-BDF6-7E21-B6D8-2ED03F273A4F" name="TBL_INSTITUCIONES_EDUCATIVAS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:53:24 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_INSTITUCION" id="57BDF8C0-B3E0-F643-0A01-407A16D63EDA">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:54:02 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_INSTITUCION" id="98EFD22D-301A-C0B6-F625-D6AD1CAEA33C">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:54:02 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17504184-047C-BB8B-21E6-340619C7DB0C" name="TBL_INSTITUCIONES_EDUCATIVAS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:54:02 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57BDF8C0-B3E0-F643-0A01-407A16D63EDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_MENSAJES" directorySegmentName="seg_0" id="B4922821-EBB7-D1B7-6BDA-2AE920FB9E03">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<schemaObject>F6430611-2A1C-FAA0-B7FC-71FACE68518D</schemaObject>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODIGO_USUARIO" id="2CBF372F-A61E-47D2-F074-D88AC0DE53B7">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_REMITENTE" id="3F0220DF-D50B-6E8B-A526-B2596FCE73E7">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MENSAJE_LEIDO" id="AA630E97-37A4-BBF7-79FF-BE400AD49F9E">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_HORA" id="C90999CE-8861-C6A4-D8F5-F4C215EE32F7">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MENSAJE" id="F8FEA91B-F4F5-F1B1-C273-FCE296ACD10A">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TBL_INBOX_TBL_USUARIO_FK" id="E5FF31CB-C80C-7A2E-3E46-ADA383F64A8C">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_INBOX_PK" id="75718172-8F58-9724-9BEF-84A7E035B4CB">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9731ABEC-00AB-A911-23EF-7CD1D0AE249C" name="TBL_HISTORIAL_DIETA">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 06:51:53 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ANIMAL" id="8FC5CFFA-9A57-48BC-AAED-C2F9CF7FBC1A">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 06:53:00 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1891B365-D37C-A174-7F98-965E501D3DA9" referredColumn="42FBAA7D-402E-86EE-2AF6-347F49F3066C"/>
+</associations>
+</Column>
+<Column name="ID_DIETA" id="48A4AB01-2863-8EC3-DD39-981C1ECF396B">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 16:40:11 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA801542-E08F-902D-03BB-DB97D8C188A5" referredColumn="0752CB83-66EC-91D3-04F5-01133D37AD35"/>
+</associations>
+</Column>
+<Column name="FECHA_INICIO" id="83937936-929F-ADD5-EFC4-1D9F5791445B">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 06:53:36 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FINAL" id="E1EF9832-877A-3A5A-5586-2AE6F75172ED">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 06:53:49 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OD_HISTORIAL_DIETA" id="4A7305BA-7292-AB96-697F-D4182B89D761">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 06:54:15 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69CF07B4-6C83-9E31-2483-BD5D5243B6EF" name="ID_ANIMAL">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 06:53:00 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FC5CFFA-9A57-48BC-AAED-C2F9CF7FBC1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A68715B-0E2B-E941-8170-138F002441B9" name="TBL_DIETAS_FK">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 16:40:11 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48A4AB01-2863-8EC3-DD39-981C1ECF396B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

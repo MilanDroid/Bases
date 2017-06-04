@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A3EE79B-47E9-94F2-C9E7-1A6A0E0E90BF" name="TBL_COMENTARIOS">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:25:30 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<abbreviation>COMENTARIO</abbreviation>
+<schemaObject>F6430611-2A1C-FAA0-B7FC-71FACE68518D</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_COMENTARIO" id="4B0AB491-1DBC-9F60-8ADA-15F82BD0D36E">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:51:04 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PUBLICACION" id="47A3CD76-A516-DB43-6197-C70C25EC00EC">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:48:53 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="157A8699-45F6-D087-6897-B90AE83705C5" referredColumn="2E03F363-7256-1539-8771-D32A79F45126"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="6EA9E145-720A-6937-A76A-FF64D3F5C086">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:48:57 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B51B9DE-D373-78C1-89BC-7F8BAC145681" referredColumn="18768C2E-30D7-F573-6EB2-A8D26CA44D8E"/>
+</associations>
+</Column>
+<Column name="CODIGO_COMENTARIO_SUPERIOR" id="BF40910E-01F7-83D2-4E34-A9FA969D9442">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:51:38 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D21B328-947E-1D1D-B67D-1FC311B1B587" referredColumn="4B0AB491-1DBC-9F60-8ADA-15F82BD0D36E"/>
+</associations>
+</Column>
+<Column name="CONTENIDO_COMENTARIO" id="D9E8BC6E-C940-5485-6A41-D94D7DFB807C">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:50:03 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A3007B1-006F-A8A9-0B24-06D700F4465A" name="TBL_COMENTARIO_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:50:03 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B0AB491-1DBC-9F60-8ADA-15F82BD0D36E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5C8389B-6241-2F92-C5E6-F59D18962056" name="TBL_COMT_TBL_PUBLICACION_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:48:53 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47A3CD76-A516-DB43-6197-C70C25EC00EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F814F58-BB05-2E86-4537-581F5E599AEB" name="TBL_COMT_TBL_USUARIO_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:48:57 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EA9E145-720A-6937-A76A-FF64D3F5C086"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B79E1E6-0568-EF81-7C90-842143D7774A" name="TBL_COMENTARIO_TBL_COMT_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:51:38 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF40910E-01F7-83D2-4E34-A9FA969D9442"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

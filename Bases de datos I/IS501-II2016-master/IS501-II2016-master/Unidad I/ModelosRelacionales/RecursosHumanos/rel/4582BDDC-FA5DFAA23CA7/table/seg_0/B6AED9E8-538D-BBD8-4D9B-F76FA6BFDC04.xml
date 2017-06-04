@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6AED9E8-538D-BBD8-4D9B-F76FA6BFDC04" name="TBL_TIPOS_DEDUCCIONES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:48:09 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_DEDUCCION" id="67E00E12-0E58-5408-5CB1-7B1BFA85C731">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:48:09 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_DEDUCCION" id="B88494A6-84D3-144A-BE7C-8BA8337C2282">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:48:09 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F08BFC8-5100-2CAA-A5AE-5BF6F0D9F96E" name="TBL_TIPOS_IMPUESTOSv1_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:48:09 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67E00E12-0E58-5408-5CB1-7B1BFA85C731"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

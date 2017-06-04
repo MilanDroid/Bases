@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5288611-45C1-D002-E8BB-62E45649B972" name="Tbl_Producto_x_Farmacia">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 17:04:24 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cod_Farmacia" id="8E27104C-A5A1-6428-A344-0FD1F6465335">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 17:04:55 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55E8AC54-68A7-19C3-572C-BA376004A3F9" referredColumn="64ED9E76-76CE-1D2C-78E0-40CC834D7044"/>
+</associations>
+</Column>
+<Column name="Cod_Producto" id="8AF4BDE0-D136-6240-EB67-70FB7D225BC8">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 17:05:02 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9A19095-D1A0-79ED-1779-7CDE8199289D" referredColumn="ADD465B5-1EE4-CF4D-25FC-F9635FC77F66"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="027AA9DC-4E91-E968-0374-D684922B748F" name="Tbl_Producto_x_Farmacia_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 17:05:12 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E27104C-A5A1-6428-A344-0FD1F6465335"/>
+<colUsage columnID="8AF4BDE0-D136-6240-EB67-70FB7D225BC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4B78746-78A9-65FC-24EA-926A74916FED" name="Producto_x_Farmacia">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 17:04:55 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E27104C-A5A1-6428-A344-0FD1F6465335"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6C2B9B6-1E0D-01E9-9848-271736EDB902" name="Producto_x_Farmaciav1">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 17:05:02 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AF4BDE0-D136-6240-EB67-70FB7D225BC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

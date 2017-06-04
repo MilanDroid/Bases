@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B967A73B-93EC-37D3-4246-1FA1DDF94426" name="TBL_ACCESOS_FISICOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-15 17:51:28 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ACCESO" id="21C2EE22-7982-F0C4-E7DE-8051D5F3B4BC">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-15 17:56:28 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TARJETA" id="A5A7144D-D167-48EA-5341-A0F34C32EA83">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-15 17:54:41 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13CA542F-2C56-C77C-C383-C859197AC45C" referredColumn="784E9CA4-AA7C-C334-B73F-1EC1C8F88F6A"/>
+</associations>
+</Column>
+<Column name="CODIGO_PUNTO_ACCESO" id="F09C8AFC-05CB-CFF6-0144-7BFFD36600A8">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-15 17:54:48 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56230A68-91AC-3F98-045A-56DC2F348923" referredColumn="159402F1-2C41-15E2-E1CB-14BA7DA23783"/>
+</associations>
+</Column>
+<Column name="FECHA_HORA_ENTRADA" id="C4B33F56-8091-EB23-A92C-4289DF50A418">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-15 17:53:58 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_HORA_SALIDA" id="38780E8E-EDF7-702D-B454-4678C961D073">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-15 17:53:58 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A143895-34B8-E6B9-9DEA-B897AA5AE5B7" name="TBL_ACCESOS_FISICOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-15 17:56:28 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21C2EE22-7982-F0C4-E7DE-8051D5F3B4BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0B1871D-1A26-CD97-FC8F-9CC52B8A9D93" name="TBL_ACCESOS_FISICOS_TBL_TARJETAS_ACCESO_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-15 17:54:41 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5A7144D-D167-48EA-5341-A0F34C32EA83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDF7C49C-546E-AB1B-457D-FF072348E4D4" name="TBL_ACCESOS_FISICOS_TBL_PUNTOS_ACCESO_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-15 17:54:48 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F09C8AFC-05CB-CFF6-0144-7BFFD36600A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

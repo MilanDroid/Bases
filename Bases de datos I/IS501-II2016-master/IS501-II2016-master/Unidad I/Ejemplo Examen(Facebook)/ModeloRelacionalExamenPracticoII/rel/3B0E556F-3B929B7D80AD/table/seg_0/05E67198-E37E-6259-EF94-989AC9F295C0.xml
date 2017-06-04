@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05E67198-E37E-6259-EF94-989AC9F295C0" name="TBL_TRABAJOS">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:22:31 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<abbreviation>TRABAJO</abbreviation>
+<schemaObject>F6430611-2A1C-FAA0-B7FC-71FACE68518D</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TRABAJO" id="C71600A8-4BA9-B6E2-A125-E384A16409D0">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:43:05 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TRABAJO" id="E4181415-3A43-FC11-2851-484DE07DBD5A">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:42:50 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_TRABAJO" id="FD08FB28-17F0-841C-3BAC-1C9D182632DF">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:43:23 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27B55C03-ADAB-E7E5-E939-938258B7F84A" name="TBL_TRABAJO_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:43:05 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C71600A8-4BA9-B6E2-A125-E384A16409D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

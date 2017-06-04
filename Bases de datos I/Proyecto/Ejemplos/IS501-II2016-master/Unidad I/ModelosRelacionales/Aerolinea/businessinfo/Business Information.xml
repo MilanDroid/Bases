@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="45EB56B2-DA43-9E54-51E7-1C2722CE8F55">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-05-31 17:15:42 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

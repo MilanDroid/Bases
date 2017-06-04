@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="256.0" prefWidth="608.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControladorloginSuperUsuarioAreaInventario">
+   <children>
+      <Label layoutX="73.0" layoutY="14.0" text="Bienvenido a la Sección de Inventario">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnvolver" layoutX="257.0" layoutY="201.0" mnemonicParsing="false" onAction="#atras" prefHeight="41.0" prefWidth="72.0" text="Atras" />
+      <GridPane layoutX="21.0" layoutY="74.0" prefHeight="90.0" prefWidth="579.0">
+        <columnConstraints>
+          <ColumnConstraints fillWidth="false" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints fillHeight="false" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints fillHeight="false" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Hyperlink fx:id="hplregistroSupervisor" onAction="#mostrarRegistroSupervisorInventarios" prefHeight="23.0" prefWidth="346.0" text="Agregar, Actualizar o Eliminar Datos de Supervisor de Inventario" textAlignment="CENTER">
+               <GridPane.margin>
+                  <Insets left="110.0" />
+               </GridPane.margin>
+            </Hyperlink>
+            <Hyperlink fx:id="hplregistroVendedor" onAction="#entrarRegistro" prefHeight="23.0" prefWidth="343.0" text="Agregar, Actualizar o Eliminar Datos de Encargado de Bodega" textAlignment="CENTER" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="110.0" />
+               </GridPane.margin>
+            </Hyperlink>
+            <Hyperlink fx:id="hpllista" onAction="#mostrarlistaBodegueros" text="Ver Lista de Encargados de Bodega" textAlignment="CENTER" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="180.0" />
+               </GridPane.margin>
+            </Hyperlink>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

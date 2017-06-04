@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="239B3376-00DC-A2E0-F0EB-8EAA694B38A8" name="TBL_HISTORIAL_ACCESOS">
+<createdBy>dalvik</createdBy>
+<createdTime>2015-08-06 01:49:35 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="9309F67A-2162-2A1B-1189-64F47150029F">
+<createdBy>dalvik</createdBy>
+<createdTime>2015-08-06 01:50:44 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70E8707B-06AA-AC67-C451-9CC35F75113F" referredColumn="18768C2E-30D7-F573-6EB2-A8D26CA44D8E"/>
+</associations>
+</Column>
+<Column name="FECHA_HORA_ACCESO" id="7708D95E-63A6-C22B-A2C3-6B6B4A5F5E89">
+<createdBy>dalvik</createdBy>
+<createdTime>2015-08-06 01:50:35 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3F642FF-6545-2ED9-F454-3E3621C04883" name="TBL_HIST_ACC_USR_FK">
+<createdBy>dalvik</createdBy>
+<createdTime>2015-08-06 01:50:44 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9309F67A-2162-2A1B-1189-64F47150029F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

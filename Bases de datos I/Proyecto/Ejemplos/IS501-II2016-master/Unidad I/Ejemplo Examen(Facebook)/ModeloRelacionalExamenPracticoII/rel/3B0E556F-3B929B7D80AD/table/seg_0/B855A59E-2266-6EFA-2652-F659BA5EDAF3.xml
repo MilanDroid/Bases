@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B855A59E-2266-6EFA-2652-F659BA5EDAF3" name="TBL_ETIQUETA_FOTOGRAFIAS">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:08:36 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<abbreviation>ETIQUETA</abbreviation>
+<schemaObject>F6430611-2A1C-FAA0-B7FC-71FACE68518D</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_FOTO" id="0A968658-E9E0-976E-955E-0A65F35E5E9F">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:09:03 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21B094AE-8C85-7927-F1AE-A1206908F833" referredColumn="EDD01B76-F367-DA32-CB85-6812B2D237E7"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="56E2580A-7C11-8579-9121-F23A68A0C112">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:09:07 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84DDBA33-1104-A306-C140-F4816DFBDA76" referredColumn="18768C2E-30D7-F573-6EB2-A8D26CA44D8E"/>
+</associations>
+</Column>
+<Column name="USUARIO_QUIEN_ETIQUETO" id="79F4AE62-340F-9DFA-5F65-375269EE4373">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:09:59 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COORDENADA_X_FOTO" id="3BEFB2FD-8578-0BD1-FDC8-AE8204B83020">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:10:26 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COORDENADA_Y_FOTO" id="987C04BE-2513-4489-1029-C2BE363F8E97">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:10:37 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIMENSION_CUADRADO" id="8F55F2DA-29F2-69F5-D685-172935C5194C">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:11:05 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4EBD1617-2F6B-DD85-25A2-3CC16B504D31" name="TBL_ETIQUETA_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:09:20 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A968658-E9E0-976E-955E-0A65F35E5E9F"/>
+<colUsage columnID="56E2580A-7C11-8579-9121-F23A68A0C112"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83B842E5-2956-D253-0D31-92D45E73CCCD" name="TBL_ETIQUETA_TBL_FOTOS_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:09:03 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A968658-E9E0-976E-955E-0A65F35E5E9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3558EC71-A9F4-B229-A407-3721CD20C347" name="TBL_ETIQUETA_TBL_USUARIO_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:09:07 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56E2580A-7C11-8579-9121-F23A68A0C112"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

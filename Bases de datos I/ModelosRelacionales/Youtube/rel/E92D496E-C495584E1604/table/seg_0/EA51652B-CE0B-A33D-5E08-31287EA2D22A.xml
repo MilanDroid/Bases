@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA51652B-CE0B-A33D-5E08-31287EA2D22A" name="TBL_ESTADOS_VIDEOS_X_LUGARES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:43:37 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_VIDEO" id="8C341B7F-3EBF-8891-A286-6C9BC90C9BD1">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:43:59 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6952C857-7669-254F-CD7F-6614297F63DB" referredColumn="AC03BEFF-B742-6B07-4018-F71ECF873A5A"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR" id="7D57ECF0-0603-806F-FEC6-9FFB44C36F73">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:44:41 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E685444B-E832-61E0-63AB-7AA9A2EAB82E" referredColumn="66B8EB0D-5336-DCCF-60F8-8C4B2F2F8905"/>
+</associations>
+</Column>
+<Column name="CODIGO_ESTADO_VIDEO" id="5D3A1455-F79D-F65F-F6C8-969C87EC7B00">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:44:04 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D32F7A1-BBB1-F78C-80BA-E8A7D3BB94B4" referredColumn="09722CAE-EC6C-1E72-4D42-B2EEF1BE7064"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62E80709-72F2-B8A1-0CC0-DC354F6F8AF0" name="TBL_ESTADOS_VIDEOS_X_LUGARES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:47:22 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C341B7F-3EBF-8891-A286-6C9BC90C9BD1"/>
+<colUsage columnID="7D57ECF0-0603-806F-FEC6-9FFB44C36F73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11D210DB-77A4-62CB-A577-253839E27B17" name="TABLE_10_TBL_VIDEOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:43:59 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C341B7F-3EBF-8891-A286-6C9BC90C9BD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50C0376E-B3AF-AEBE-CC16-61233C42DE3B" name="TABLE_10_TBL_ESTADOS_VIDEOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:44:04 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D3A1455-F79D-F65F-F6C8-969C87EC7B00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D824780A-5DAD-15AF-35A1-E681EB6FBD48" name="TABLE_10_TBL_LUGARES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:44:41 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D57ECF0-0603-806F-FEC6-9FFB44C36F73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

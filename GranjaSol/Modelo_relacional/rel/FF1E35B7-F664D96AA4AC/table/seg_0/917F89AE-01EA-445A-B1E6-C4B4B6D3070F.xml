@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="917F89AE-01EA-445A-B1E6-C4B4B6D3070F" name="TBL_HISTORIAL_DIETA">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 11:21:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<importedID>9731ABEC-00AB-A911-23EF-7CD1D0AE249C</importedID>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DIETA" id="ADC9EB0D-5FAA-E655-E7B1-91569C8F304B">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 11:21:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<importedID>92B5DE9E-3FE6-163B-7D9B-001500F9B23F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DBC9DD92-421E-44A3-4E42-CE3E07E01409" referredColumn="1EA4955F-B0FE-D05E-EE99-4B9160D80E4C"/>
+</associations>
+</Column>
+<Column name="ID_ANIMAL" id="2915D6A2-48F1-7E92-AABC-4B82AC187B8E">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 11:21:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<importedID>8FC5CFFA-9A57-48BC-AAED-C2F9CF7FBC1A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE576036-35D6-CB70-69A9-6E94D34B7E1C" referredColumn="3F7E777A-93D4-D9DD-47C6-77EF60F77109"/>
+</associations>
+</Column>
+<Column name="FECHA_INICIO" id="8A5BDE6E-08D7-B902-469A-AEC1C915AFB6">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 11:21:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<importedID>83937936-929F-ADD5-EFC4-1D9F5791445B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FINAL" id="DC0964A6-11F9-A4B5-6D19-1B24A66506E7">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 11:21:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<importedID>E1EF9832-877A-3A5A-5586-2AE6F75172ED</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OD_HISTORIAL_DIETA" id="5C0354D8-B68A-038D-E4A3-14D4EB6A8169">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 11:21:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<importedID>4A7305BA-7292-AB96-697F-D4182B89D761</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B739E86-D176-FA19-34B5-55DC5F48980D" name="ID_ANIMAL">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 11:21:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2915D6A2-48F1-7E92-AABC-4B82AC187B8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93CDFA32-29D9-8F20-8D75-9EB839AFD8AD" name="ID_DIETAv3">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 11:21:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADC9EB0D-5FAA-E655-E7B1-91569C8F304B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

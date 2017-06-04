@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8052749-5BC7-796D-8628-6C600772BBBC" name="TUTORES">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:21:46 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TUTORES" id="1909564B-4DD1-A64B-ADDE-22266D886DBC">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:22:19 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USER" id="CE1F1EDD-729B-E8AF-9600-68C11C221FBF">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:22:31 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1C2B7E9-A7F8-C524-9688-0F6472753260" referredColumn="24085352-14DD-E7F6-5B3E-ADAD84DF208C"/>
+</associations>
+</Column>
+<Column name="ID_PERSONAS" id="4A1449A1-FF79-B17B-688A-4143B886D068">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:27:17 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77C24BB0-9752-F50A-CFD7-C518D558E337" referredColumn="715A95A2-5E7E-89F4-6CA6-7FFBA6C060A2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="188F5FC5-B5AD-7184-FEAF-2C9EF22D78CB" name="TUTORES_PK">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:22:19 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1909564B-4DD1-A64B-ADDE-22266D886DBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D13661B4-EC9F-F1E3-417C-BA8A3A1CE7C1" name="TUTORES_USUARIOS_FK">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:22:31 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE1F1EDD-729B-E8AF-9600-68C11C221FBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B4856B9-1E8A-E13F-97D3-9BAEAD86D2BE" name="TUTORES_PERSONAS_FK">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:27:17 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A1449A1-FF79-B17B-688A-4143B886D068"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

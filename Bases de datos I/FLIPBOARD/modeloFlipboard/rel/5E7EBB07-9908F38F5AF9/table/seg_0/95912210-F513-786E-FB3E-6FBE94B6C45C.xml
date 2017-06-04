@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95912210-F513-786E-FB3E-6FBE94B6C45C" name="TBL_ARTICULOS_MAS_POPULARES">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:16:00 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_POPULARIDAD" id="6C2DB665-E487-E5B4-D756-29034ACB4A57">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:16:58 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RATING" id="AD7D51BA-B486-3899-FB40-49E9944CE0DC">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:16:58 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ARTICULO" id="0D9868EA-99B6-EE2E-114A-8966442C25BC">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:18:16 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58482881-10BC-0026-782B-99542CD28DE1" referredColumn="F7B67AA7-C805-2F33-311A-C8D8C267E32B"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR" id="0AA03E3C-1931-A140-7D0D-623ACC27B9CC">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:25:00 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93D63067-19CF-81E2-FD80-425F0CDA4517" referredColumn="D1BB2098-F95E-1794-03AF-51818FDA9889"/>
+</associations>
+</Column>
+<Column name="CODIGO_CATEGORIA" id="BF19268E-2E8B-1CE3-8ABB-1087C3870DE8">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:32:03 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41B9B26A-4E24-F700-8088-E198BD7D20AF" referredColumn="58E64E42-27DE-B1CA-426D-D5D3651BCCF2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="852C1F4D-2061-B0C3-D852-91C075422BCA" name="TBL_ARTICULOS_MAS_POPULARES_PK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:16:58 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C2DB665-E487-E5B4-D756-29034ACB4A57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD3C145C-0B5F-AD8B-B4C5-46B865ED2ED8" name="TBL_ARTICULOS_FK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:18:16 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D9868EA-99B6-EE2E-114A-8966442C25BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D479C273-0686-7120-E59E-A0CDE001653C" name="TBL_LUGARES_FK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:25:00 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AA03E3C-1931-A140-7D0D-623ACC27B9CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AC8FD66-7A1D-6E24-ADB5-78BCD7E159ED" name="TBL_CATEGORIAS_FK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 01:32:03 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF19268E-2E8B-1CE3-8ABB-1087C3870DE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

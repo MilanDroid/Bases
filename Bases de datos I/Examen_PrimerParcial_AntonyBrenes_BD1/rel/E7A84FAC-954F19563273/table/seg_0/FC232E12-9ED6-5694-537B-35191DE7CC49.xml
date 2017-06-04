@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC232E12-9ED6-5694-537B-35191DE7CC49" name="RS_X_USUARIO">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:15:44 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_USER" id="14A36451-3A74-3926-64CA-F9DB830FFB30">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:16:14 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E81A043-A77C-542A-3671-23C90B053871" referredColumn="24085352-14DD-E7F6-5B3E-ADAD84DF208C"/>
+</associations>
+</Column>
+<Column name="ID_RED_SOCIAL" id="D9794D65-B645-F19F-F006-87035CFBB769">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:16:43 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="139E0DAE-0419-077E-D0DD-278F4F52575B" referredColumn="D5ECCBEC-3AED-C1F2-148A-FF577895DB05"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5EA10A98-0873-D5E8-CDC5-96C8B59866E0" name="RS_X_USUARIO_USUARIOS_FK">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:16:14 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14A36451-3A74-3926-64CA-F9DB830FFB30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1632B6EF-1FEE-76AD-F025-8B000105944B" name="RS_X_USUARIO_REDES_SOCIALES_FK">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:16:43 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9794D65-B645-F19F-F006-87035CFBB769"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

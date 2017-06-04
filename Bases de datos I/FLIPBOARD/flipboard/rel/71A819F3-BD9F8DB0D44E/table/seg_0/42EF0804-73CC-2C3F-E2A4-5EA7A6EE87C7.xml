@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42EF0804-73CC-2C3F-E2A4-5EA7A6EE87C7" name="TBL_USUARIOS">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 03:10:01 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="0293D043-BDB4-7D44-6E1E-F9F6C8AFB0A7">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 03:20:28 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_USUARIO" id="389D3C72-91FB-9B65-CA84-1416DCF85DA1">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 03:20:28 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALIAS_USUARIO" id="F9333382-D65A-18E3-94E9-4FDA16479E91">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 03:20:28 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="C4911524-FF35-E887-EB28-FC79FB93AF30">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 03:20:28 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENA" id="8EC5EC6F-D8D3-73E2-2662-9D1258B90577">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 03:21:04 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="46457AA1-E9CC-268D-2C6B-C6E5DE6F1188">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 03:20:28 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_SEGUIDORES" id="4F798D45-5F2C-4FED-5273-C7DAF01F93C3">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 04:07:22 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_LECTORES" id="050BCA26-317B-331A-8FC6-CE85DF304D8B">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 10:55:46 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REGISTRO" id="A240FA4B-0CF9-3691-FD6D-7207759DEA93">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 03:20:28 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOTO_PORTADA" id="D30CF23A-E671-8083-C81D-05BEEDEC2204">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 03:20:28 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3582254A-F0D3-E267-AA08-BF8DA29D5D21" name="TBL_USUARIOS_PK">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 03:20:28 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0293D043-BDB4-7D44-6E1E-F9F6C8AFB0A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

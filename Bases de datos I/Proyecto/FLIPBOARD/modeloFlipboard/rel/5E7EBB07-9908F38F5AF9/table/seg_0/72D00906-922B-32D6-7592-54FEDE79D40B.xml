@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72D00906-922B-32D6-7592-54FEDE79D40B" name="TBL_SEGUIDORES_X_USUARIO">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 03:02:03 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO_SEGUIDO" id="5E384BA4-C5A2-0AF2-8C4C-95BEAD13CB2D">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 03:02:45 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F346BC5A-6FAF-BD9E-9F52-0FDD7665CD7E" referredColumn="51AF7CE9-E477-41C0-8ABB-3FB4C9C22AA6"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO_SEGUIDOR" id="5D135F07-866A-8B71-4168-F81AD1E14D3A">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 03:03:12 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7415877A-8EF3-4FB6-D88B-21DA1FC361C3" referredColumn="51AF7CE9-E477-41C0-8ABB-3FB4C9C22AA6"/>
+</associations>
+</Column>
+<Column name="FECHA_SIGUIENDO" id="F34B6400-9494-321A-5C78-16B089D350C8">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 03:02:35 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72005A0B-AAFD-6280-E9FD-6C8AAC43B896" name="TBL_SEGUIDORES_X_USUARIO_PK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 10:53:58 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E384BA4-C5A2-0AF2-8C4C-95BEAD13CB2D"/>
+<colUsage columnID="5D135F07-866A-8B71-4168-F81AD1E14D3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE58F90B-4CD4-532F-770B-7ED00CFCACD4" name="TBL_USUARIO_SEGUIDO_FK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 03:02:45 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E384BA4-C5A2-0AF2-8C4C-95BEAD13CB2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CCB9BED-F753-7185-B29B-9D34E6624D46" name="TBL_USUARIO_SEGUIDOR_FK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 03:03:12 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D135F07-866A-8B71-4168-F81AD1E14D3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

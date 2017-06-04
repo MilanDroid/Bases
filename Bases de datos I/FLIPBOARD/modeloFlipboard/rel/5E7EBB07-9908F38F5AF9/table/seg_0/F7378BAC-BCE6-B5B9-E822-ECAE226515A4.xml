@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7378BAC-BCE6-B5B9-E822-ECAE226515A4" name="TBL_ESTADO_CONTRASENIA">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:51:23 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO_CONTRASENIA" id="DDCAB96C-338A-D240-A5AC-A2B4980121AC">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:52:13 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_CONTRASENIA" id="07720CE2-D21D-E13F-0F1A-530DDD0B2D4B">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:52:13 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5CF81584-E654-32D9-D428-3A8BDCB83FFA" name="TBL_ESTADO_CONTRASENIA_PK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:52:13 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDCAB96C-338A-D240-A5AC-A2B4980121AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

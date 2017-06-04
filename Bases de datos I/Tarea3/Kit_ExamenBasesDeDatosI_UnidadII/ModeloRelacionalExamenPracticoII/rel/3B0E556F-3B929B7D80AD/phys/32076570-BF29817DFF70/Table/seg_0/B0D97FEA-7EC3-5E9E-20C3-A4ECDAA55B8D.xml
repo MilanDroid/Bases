@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_GRUPOS" directorySegmentName="seg_0" id="B0D97FEA-7EC3-5E9E-20C3-A4ECDAA55B8D">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<schemaObject>F6430611-2A1C-FAA0-B7FC-71FACE68518D</schemaObject>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOMBRE_GRUPO" id="50F99E9C-1076-E5B2-EF40-3AAD31EF587E">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPCION_GRUPO" id="8AD8E552-F8B6-D2CC-6A00-C2690327F4B4">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_CREACION" id="A604C9EA-B99B-77FA-EBCE-FB94A7014F35">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_GRUPO" id="C94BF529-D6D7-3872-31D1-8E8F25324FBF">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_GRUPO_PK" id="C5CF9127-48FE-3812-D082-BCB8BD33B253">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-15 23:50:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

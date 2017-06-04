@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="335E1A02-5B9B-7913-40CF-5FF2DF34E4A0" name="TBL_LOCALIDADES">
+<createdBy>Basner</createdBy>
+<createdTime>2017-02-20 05:42:10 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_LOCALIDAD" id="ECCC2BD0-9BFD-D73A-C88D-D634EEDCC856">
+<createdBy>Basner</createdBy>
+<createdTime>2017-02-20 05:42:53 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_LOCALIDAD" id="0A45F4DC-A47C-DDB8-2CBC-E53A4CFED1A8">
+<createdBy>Basner</createdBy>
+<createdTime>2017-02-20 05:42:53 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_LOCALIDAD_PADRE" id="B6229049-03EF-78EA-D675-C423291C62FD">
+<createdBy>Basner</createdBy>
+<createdTime>2017-02-20 05:44:19 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83F2E615-6D2F-F4EE-C580-5075572B6510" referredColumn="ECCC2BD0-9BFD-D73A-C88D-D634EEDCC856"/>
+</associations>
+</Column>
+<Column name="Cod_Tipo_Localidad" id="A586DEB6-0F52-ED13-FFC5-FFD6BF07719C">
+<createdBy>Basner</createdBy>
+<createdTime>2017-02-20 05:52:54 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5ED65B2E-C31E-496A-A585-41572826FD87" referredColumn="6B88CB4B-865B-FC76-71C5-76399930D92E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD40A612-0580-8377-6F6C-CF94A8365A74" name="TBL_LOCALIDADES_PK">
+<createdBy>Basner</createdBy>
+<createdTime>2017-02-20 05:43:49 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECCC2BD0-9BFD-D73A-C88D-D634EEDCC856"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE8BC786-4D9B-D364-7A35-5CC50C2B16E4" name="COD_LOCALIDAD_PADRE">
+<createdBy>Basner</createdBy>
+<createdTime>2017-02-20 05:44:19 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6229049-03EF-78EA-D675-C423291C62FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77CEBA41-C7D3-12BB-BE6A-585E405C4F62" name="COD_TIPO_LOCALIDAD">
+<createdBy>Basner</createdBy>
+<createdTime>2017-02-20 05:52:54 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A586DEB6-0F52-ED13-FFC5-FFD6BF07719C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

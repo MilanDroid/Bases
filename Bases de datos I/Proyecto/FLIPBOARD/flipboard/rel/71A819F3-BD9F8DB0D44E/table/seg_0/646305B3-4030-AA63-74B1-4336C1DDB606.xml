@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="646305B3-4030-AA63-74B1-4336C1DDB606" name="TBL_CATEGORIAS">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 03:25:55 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C099C81C-B6FA-2CB6-9C69-4D4D9F358E43">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 03:58:15 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CATEGORIA" id="6EE4A30D-E964-5270-6B04-87830F56A5A2">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 03:58:51 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="9C2B5688-8BAE-8AD0-73CB-4FAF65D05690">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 03:58:51 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82DC55FF-52FA-9500-F560-2E6BA91AF087" name="TBL_REVISTAS_PKv1">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 03:58:15 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C099C81C-B6FA-2CB6-9C69-4D4D9F358E43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="FACEBOOK_RELACIONAL" id="69BA0168-C69E-6748-1ABB-ECCA1846D422" version="3.5">
+<createdBy>Basner</createdBy>
+<createdTime>2016-09-03 20:47:42 UTC</createdTime>
+<ownerDesignName>FACEBOOK_RELACIONAL</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>69BA0168-C69E-6748-1ABB-ECCA1846D422</designId>
+</OSDM_Design>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FDD8B34F-A9FD-E3A8-1E3F-619551FA1DB3" name="TBL_GRUPOS_X_USUARIO">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:32:31 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<abbreviation>GRUPO_X_USUARIO</abbreviation>
+<schemaObject>F6430611-2A1C-FAA0-B7FC-71FACE68518D</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="015BDFE0-587D-D9D9-7253-3CCC1A057AF6">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:37:04 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5842514-AD57-F25E-74A1-C97832EDCB00" referredColumn="18768C2E-30D7-F573-6EB2-A8D26CA44D8E"/>
+</associations>
+</Column>
+<Column name="CODIGO_GRUPO" id="A0F8EFBD-F085-7D4B-9EA9-BDBF8A5DE8A8">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:37:08 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BECBF72-37DF-E87A-9CD9-357FA0CBB1A9" referredColumn="C94BF529-D6D7-3872-31D1-8E8F25324FBF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A5CE2CA-8937-66E8-AFC5-7E5B1407D553" name="TBL_GRUPO_X_USUARIO_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:37:21 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0F8EFBD-F085-7D4B-9EA9-BDBF8A5DE8A8"/>
+<colUsage columnID="015BDFE0-587D-D9D9-7253-3CCC1A057AF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A448C9C0-3970-79A1-B741-C0D1F0547A73" name="TBL_GRUPO_X_USUARIO_TBL_USR_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:37:04 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="015BDFE0-587D-D9D9-7253-3CCC1A057AF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="863221AC-A86A-4954-3CA9-58C72F9F9F4F" name="TBL_GRUPO_X_USR_TBL_GRUPO_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:37:08 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0F8EFBD-F085-7D4B-9EA9-BDBF8A5DE8A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

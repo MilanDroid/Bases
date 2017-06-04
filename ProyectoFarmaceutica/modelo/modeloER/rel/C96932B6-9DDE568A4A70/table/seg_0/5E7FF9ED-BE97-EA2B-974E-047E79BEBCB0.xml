@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E7FF9ED-BE97-EA2B-974E-047E79BEBCB0" name="Tbl_Proveedor">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:52:04 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cod_Proveedor" id="C081ACCB-9F87-D359-C479-48B4D2F2B0C3">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:54:14 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Proveedor" id="1DBA71E5-7FA0-0607-0EA8-9C0C2E72C6B3">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:54:14 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion_Proveedor" id="733B3313-A7CB-F56B-FD56-27717956017D">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:54:14 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero_TelefonicoProveedor" id="436BFFE3-32A3-79D7-72A8-F16E0564AA21">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:54:14 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20CF353C-34B7-F0AB-CF09-3B24498831CD" name="Tbl_Proveedor_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:54:14 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C081ACCB-9F87-D359-C479-48B4D2F2B0C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

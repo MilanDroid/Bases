@@ -1,0 +1,25 @@
+/*Scripts
+     -->DML
+     -->DDL
+
+Dentro de DML y DDL colocar los archivos con extensi?n .SQL
+
+Dentro de la carpeta principal Scripts 
+
+Colocar un archivo llamado RUN.sql 
+que tendr? el siguiente cuerpo*/
+
+SET DEFINE OFF;
+SET ECHO off;
+ spool results_spool_SCR.txt
+
+
+
+---Scripts en DDL
+Prompt /DDL/script01.sql
+	 @./DDL/script01.sql
+
+Prompt /DML/script02.sql
+	 @./DML/script02.sql
+
+spool off

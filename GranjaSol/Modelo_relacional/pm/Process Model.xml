@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="B76F9B51-4E3D-2143-7714-F6DB0DA96CCE">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 03:41:21 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

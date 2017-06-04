@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="204.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControladorEfectivo">
+   <children>
+      <GridPane prefHeight="145.0" prefWidth="287.0">
+         <children>
+            <Label alignment="CENTER_RIGHT" text="Total a pagar" GridPane.halignment="RIGHT">
+               <GridPane.margin>
+                  <Insets right="5.0" />
+               </GridPane.margin>
+            </Label>
+            <Label alignment="CENTER_RIGHT" text="Cantidad recibida" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets right="5.0" />
+               </GridPane.margin>
+            </Label>
+            <Label alignment="CENTER_RIGHT" text="Cambio" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets right="5.0" />
+               </GridPane.margin>
+            </Label>
+            <TextField fx:id="txtTotPager" disable="true" minWidth="-Infinity" prefHeight="25.0" prefWidth="109.0" GridPane.columnIndex="1" GridPane.vgrow="NEVER">
+               <GridPane.margin>
+                  <Insets right="50.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="txtCantReci" minWidth="-Infinity" onAction="#cambio" onInputMethodTextChanged="#cambio" prefHeight="25.0" prefWidth="107.0" GridPane.columnIndex="1" GridPane.hgrow="NEVER" GridPane.rowIndex="1" GridPane.vgrow="NEVER">
+               <GridPane.margin>
+                  <Insets right="5.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="txtCambio" disable="true" prefHeight="25.0" prefWidth="98.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets right="10.0" />
+               </GridPane.margin>
+            </TextField>
+         </children>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="236.0" minWidth="10.0" prefWidth="116.0" />
+            <ColumnConstraints fillWidth="false" hgrow="SOMETIMES" maxWidth="257.0" minWidth="0.0" prefWidth="124.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+      <HBox alignment="CENTER" layoutX="44.0" layoutY="145.0" prefHeight="37.0" prefWidth="200.0" spacing="15.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#cancelar" text="Cancelar" />
+            <Button mnemonicParsing="false" onAction="#aceptar" text="Aceptar" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

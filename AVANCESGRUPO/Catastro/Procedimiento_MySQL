@@ -1,0 +1,34 @@
+Drop procedure if exists sp_insertar;
+
+DELIMITER //
+CREATE  PROCEDURE sp_insertar
+
+(p_nombre_zona VARCHAR(20),
+p_calle VARCHAR(40),
+p_numero INT(4),
+p_tipo_vivienda CHAR(1),
+p_codigo_postal INT(5),
+p_metros INT(5),
+p_od_vivienda VARCHAR(45),
+p_dni INT  
+)
+BEGIN
+/*Se inserta en la tabla Vivienda*/
+	INSERT 
+		INTO Vivienda (calle,numero,tipo_vivienda,codigo_postal,metros,od_vivienda,nombre_zona)
+	VALUES (UPPER(p_calle),p_numero,p_tipo_vivienda,p_codigo_postal,p_metros,p_od_vivienda,UPPER(p_nombre_zona));
+/*Se comprueba el tipo de vivienda*/
+IF p_tipo_vivienda='B' THEN
+/*Se inserta en Bloque de viviendas*/
+	INSERT
+		INTO BloqueCasas(calle, numero, metros_b, od_bloque)
+		VALUES(UPPER(p_calle), p_numero, p_metros, p_od_vivienda);
+ELSE
+/*Se inserta en Casa Particular*/
+	INSERT
+		INTO CasaParticular (calle, numero, metros_c, od_casa, dni_cp)
+	VALUES (UPPER(p_calle),p_numero,p_metros, p_od_vivienda, p_dni);
+END IF;
+COMMIT;
+END
+// DELIMITER ;

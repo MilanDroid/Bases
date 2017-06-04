@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46BD3505-400B-CECC-A49A-A2F566A1A302" name="TBL_HISTORIAL_NECESIDADES">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 07:00:33 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FECHA_INICIO" id="8A4B937F-00BD-57CB-C6AF-A5BB45193B7B">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 07:01:12 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FINAL" id="0239C2A9-6721-03C4-8612-9FCAC01379CB">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 07:01:12 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUTRIENTES" id="6EE52704-DF5D-0638-395D-6447275557AB">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 07:01:42 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ANIMAL" id="6CBDA23C-1B39-CED7-F491-F4E8A272CEE1">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 07:02:07 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81B58EEC-D083-D51A-05B7-F9C3A6B19552" referredColumn="42FBAA7D-402E-86EE-2AF6-347F49F3066C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="869FBB8B-C9C8-7D6D-FE10-8BDCE27DA6E6" name="ID_ANIMALv2">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 07:02:07 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CBDA23C-1B39-CED7-F491-F4E8A272CEE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

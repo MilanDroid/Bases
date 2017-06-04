@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AA59E1C-2CE5-50DD-EBA4-AACBF5BF0130" name="TBL_LUGARES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:09:11 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LUGAR" id="66B8EB0D-5336-DCCF-60F8-8C4B2F2F8905">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:09:37 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LUGAR_PADRE" id="6CE5E8C9-C498-5E84-92E1-B2F22C77519D">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:11:36 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFD43E8C-D95C-0A80-22BE-55D8019AAE74" referredColumn="66B8EB0D-5336-DCCF-60F8-8C4B2F2F8905"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_LUGAR" id="6B0F500E-7D15-09CC-F1AC-C1B23E257A98">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:18:04 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D3A06BC-ED08-67FB-208A-2627C9043E55" referredColumn="4079B6C5-9079-BFD3-6E75-17FA61C80F5B"/>
+</associations>
+</Column>
+<Column name="NOMBRE_LUGAR" id="7CC208C5-7808-BFEB-441F-ADC1DF165CB1">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:09:37 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ABREVIATURA" id="CD6AE1DD-9145-77FF-D469-636DE88A69B5">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:11:02 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="75BC44D0-8866-9640-A927-90C3AD4E67FC">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:11:02 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="FED24958-67A3-37F1-1B26-60976317430C">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:11:02 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE128E1D-3889-4573-23CE-B69A79499E48" name="TBL_LUGARES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:09:37 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66B8EB0D-5336-DCCF-60F8-8C4B2F2F8905"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BC10A03-24E5-2CD8-2DC0-219F2E51FAE1" name="TBL_LUGARES_TBL_LUGARES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:11:36 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CE5E8C9-C498-5E84-92E1-B2F22C77519D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED29AE8A-160B-8A79-79B8-B9EF8B5CA4DD" name="TBL_LUGARES_TBL_TIPOS_LUGARES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-04 17:18:04 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B0F500E-7D15-09CC-F1AC-C1B23E257A98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

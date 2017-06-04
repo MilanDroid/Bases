@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B44E4D62-42E2-7E3C-8723-4CD603681B23" name="TBL_ORIGEN_VISUALIZACION">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-09 17:35:18 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ORIGEN" id="93860B61-CEAD-10EC-71E9-4DBF83F9830F">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-09 17:35:59 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ORIGEN" id="7A27D02D-9836-E8D9-9AA9-9AE82F9D69CC">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-09 17:35:59 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45DA2A12-D501-59D8-3298-D9E61F9EC6B0" name="TBL_ORIGEN_VISUALIZACION_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-09 17:35:59 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93860B61-CEAD-10EC-71E9-4DBF83F9830F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

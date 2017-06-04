@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8280590B-8DEE-AA06-F83B-92DF822ABBB0" name="TBL_LECTORES_X_USUARIOS">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:09:51 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LECTURA" id="65F5610B-E4F9-D24D-9E55-D84644862B64">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:10:55 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_LECTURA" id="E5799FED-77B2-1EC0-0F3D-D0C30C18F635">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:10:55 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_USUARIOS_ID" id="21A48ECC-41C4-7665-7EA1-09940A982CB7">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:11:57 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4723D56B-7FDF-DC8E-8C5A-3CEF6667FB60" referredColumn="0293D043-BDB4-7D44-6E1E-F9F6C8AFB0A7"/>
+</associations>
+</Column>
+<Column name="TBL_ARTICULOS_ID" id="F593F3FD-C58C-032E-7C79-728BEF7007B5">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:12:15 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3652603C-F6DF-39FD-EAA0-7F72CD6400EA" referredColumn="B1F023EB-C0A8-B608-6172-436181ADDD97"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86C16497-4C8F-DC0B-4DF4-C3070D0EC947" name="TBL_LECTORES_X_USUARIOS_PK">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:10:55 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65F5610B-E4F9-D24D-9E55-D84644862B64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE4E8683-A265-7812-0534-5FDA2CDA87CF" name="TBL_LECTORES_X_USUARIOS_TBL_USUARIOS_FK">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:11:57 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21A48ECC-41C4-7665-7EA1-09940A982CB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FFABA38-D0B2-2119-9B91-CACD71A34A96" name="TBL_LECTORES_X_USUARIOS_TBL_ARTICULOS_FK">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:12:15 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F593F3FD-C58C-032E-7C79-728BEF7007B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

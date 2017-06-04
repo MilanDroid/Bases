@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C741482-77E3-BB4B-3D49-6173B2280C80" name="TBL_LIKE_PUBLICACIONES">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:25:49 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<abbreviation>LIKE</abbreviation>
+<schemaObject>F6430611-2A1C-FAA0-B7FC-71FACE68518D</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="2F24A2D4-CDC8-50C5-680C-6AD5EEF1D689">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:54:05 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8E8EF01-900C-0C7B-2FA2-6AB60CD084F5" referredColumn="18768C2E-30D7-F573-6EB2-A8D26CA44D8E"/>
+</associations>
+</Column>
+<Column name="CODIGO_PUBLICACION" id="373B7B73-37C2-63B2-F96B-07FFC7D25D09">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:54:32 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="986E9FE6-5F89-0974-92DD-EF3D5DD07AF0" referredColumn="2E03F363-7256-1539-8771-D32A79F45126"/>
+</associations>
+</Column>
+<Column name="FECHA_LIKE_PUBLICACION" id="7724DC51-9ACD-E9B5-D35A-8C760DBB9116">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:12:30 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7345E20B-6363-A8A5-3EF6-0DCEB6E8202C" name="TBL_LIKE_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:54:15 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F24A2D4-CDC8-50C5-680C-6AD5EEF1D689"/>
+<colUsage columnID="373B7B73-37C2-63B2-F96B-07FFC7D25D09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF4AB3C6-A4FB-4A21-8100-64A702EA5265" name="TBL_LIKE_TBL_USUARIO_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:54:05 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F24A2D4-CDC8-50C5-680C-6AD5EEF1D689"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E0EC3F9-DB48-C474-E5DC-9CFB1479F717" name="TBL_LIKE_TBL_PUBLICACION_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:54:32 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="373B7B73-37C2-63B2-F96B-07FFC7D25D09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

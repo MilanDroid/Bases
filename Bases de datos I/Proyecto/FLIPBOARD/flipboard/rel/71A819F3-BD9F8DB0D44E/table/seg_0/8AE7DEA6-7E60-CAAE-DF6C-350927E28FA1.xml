@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8AE7DEA6-7E60-CAAE-DF6C-350927E28FA1" name="TBL_COLABORADORES_X_REVISTA">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:13:24 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TBL_USUARIOS_ID" id="14D38CDC-7CC4-D4BA-C22F-FA1D10B932B5">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:14:04 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75496364-7C6E-CD65-9621-266637321B1E" referredColumn="0293D043-BDB4-7D44-6E1E-F9F6C8AFB0A7"/>
+</associations>
+</Column>
+<Column name="TBL_REVISTAS_ID" id="073E194E-606D-A4F2-C16A-AAD21553F6B4">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:14:12 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6673298-8AFE-4749-3391-914173F3E945" referredColumn="34A4D4B9-91AF-CEB5-7B4B-D37C9BDAFB1B"/>
+</associations>
+</Column>
+<Column name="FECHA" id="7733D154-B017-1621-967C-7D6E3B0DC9F4">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:13:56 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5ED095F1-77CD-B57E-287D-4FEF820E11DA" name="TBL_COLABORADORES_X_REVISTA_PK">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:14:56 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14D38CDC-7CC4-D4BA-C22F-FA1D10B932B5"/>
+<colUsage columnID="073E194E-606D-A4F2-C16A-AAD21553F6B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61AEFF7E-9CD8-EEA3-370B-9AB26B725C7E" name="TBL_COLABORADORES_X_REVISTA_TBL_USUARIOS_FK">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:14:04 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14D38CDC-7CC4-D4BA-C22F-FA1D10B932B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C501A124-70DA-3E3C-DCA2-16171E38E76C" name="TBL_COLABORADORES_X_REVISTA_TBL_REVISTAS_FK">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:14:12 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="073E194E-606D-A4F2-C16A-AAD21553F6B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

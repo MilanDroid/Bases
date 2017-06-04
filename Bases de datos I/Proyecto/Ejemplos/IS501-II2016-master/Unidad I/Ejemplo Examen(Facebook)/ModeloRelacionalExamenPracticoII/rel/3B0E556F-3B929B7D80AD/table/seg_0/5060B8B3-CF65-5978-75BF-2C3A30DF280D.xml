@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5060B8B3-CF65-5978-75BF-2C3A30DF280D" name="TBL_ETIQUETA_ALBUMES">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:14:48 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<abbreviation>ETIQUETA_ALBUM</abbreviation>
+<schemaObject>F6430611-2A1C-FAA0-B7FC-71FACE68518D</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ALBUM" id="E5718069-6131-15D6-D010-38D8F23F2855">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:15:41 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF39A5A0-B863-D3CB-006B-B6CE0A60BE53" referredColumn="3CCD1BE4-37E4-A154-ED0E-532771984B9E"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="09E0CE5A-B730-1D9D-EC14-A1E1606B5154">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:15:44 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="950413DE-AE7D-AE08-EEE8-3C0A30304CC9" referredColumn="18768C2E-30D7-F573-6EB2-A8D26CA44D8E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFC4DC42-3240-E2E0-8320-DD09E746C69F" name="TBL_ETIQUETA_ALBUM_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:16:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5718069-6131-15D6-D010-38D8F23F2855"/>
+<colUsage columnID="09E0CE5A-B730-1D9D-EC14-A1E1606B5154"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FF17C62-0E0F-B44F-D02D-5140DC047CC8" name="TBL_ETQ_ALB_TBL_ALB_FOTOS_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:15:41 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5718069-6131-15D6-D010-38D8F23F2855"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97ED0B70-8BDE-B743-BD6D-DF0FA6C5D0D0" name="TBL_ETIQ_ALB_TBL_USUARIO_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:15:44 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09E0CE5A-B730-1D9D-EC14-A1E1606B5154"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

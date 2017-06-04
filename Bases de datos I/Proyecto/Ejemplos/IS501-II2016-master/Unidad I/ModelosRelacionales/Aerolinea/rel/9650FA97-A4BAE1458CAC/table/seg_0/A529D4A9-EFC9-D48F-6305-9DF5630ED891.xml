@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A529D4A9-EFC9-D48F-6305-9DF5630ED891" name="TBL_TIPO_TRIPULANTES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-05-31 17:25:56 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_TRIPULANTE" id="6BD0114C-FDDD-79FA-4A0E-63886EB5BBC4">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-05-31 17:35:14 UTC</createdTime>
+<commentInRDBMS>CAMPO PARA IDENTIFICAR DE FORMA UNICA UN TIPO DE TRIPULANTE</commentInRDBMS>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_TRIPULANTE" id="9875828C-DE82-B0DD-A623-94B13A7F8D99">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-05-31 17:35:14 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99EE000F-EFCD-4965-E79E-817E1D3CA7C1" name="TBL_TIPO_TRIPULANTES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-05-31 17:35:14 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BD0114C-FDDD-79FA-4A0E-63886EB5BBC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

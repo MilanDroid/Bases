@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="66C02130-542B-9ECA-F362-0EEDEB9B8AD4" mainViewID="48EADAB3-4D52-0FA7-A417-B3EA1AC6A699">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:09:34 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

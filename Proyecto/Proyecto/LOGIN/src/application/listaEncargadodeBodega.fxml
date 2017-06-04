@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControladorlistaEncargadodeBodega">
+   <children>
+      <TableView fx:id="tblBodeguero" layoutX="14.0" layoutY="112.0" prefHeight="336.0" prefWidth="546.0">
+         <columns>
+            <TableColumn fx:id="tblClmnNombre" prefWidth="75.0" text="Nombres" />
+            <TableColumn fx:id="tblClmnApellido" prefWidth="75.0" text="Apellidos" />
+            <TableColumn fx:id="tblClmnEdad" prefWidth="75.0" text="Edad" />
+            <TableColumn fx:id="tblClmnFechaIngreso" prefWidth="106.0" text="Fecha de Ingreso" />
+            <TableColumn fx:id="tblClmnIdEmpleado" prefWidth="106.0" text="ID-Empleado" />
+            <TableColumn fx:id="tblClmnFaltas" prefWidth="106.0" text="Faltas" />
+         </columns>
+      </TableView>
+      <Label layoutX="14.0" layoutY="32.0" text="Numero Identidad">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtIdentidad" layoutX="14.0" layoutY="64.0" />
+      <Button fx:id="btnSalir" layoutX="579.0" layoutY="448.0" mnemonicParsing="false" onAction="#atrassuper" text="SALIR" />
+      <Button layoutX="182.0" layoutY="64.0" mnemonicParsing="false" onAction="#buscarBodeguero" text="Buscar" />
+   </children>
+</AnchorPane>

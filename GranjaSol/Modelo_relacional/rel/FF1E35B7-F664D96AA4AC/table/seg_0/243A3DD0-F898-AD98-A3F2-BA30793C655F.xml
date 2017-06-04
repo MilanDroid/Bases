@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="243A3DD0-F898-AD98-A3F2-BA30793C655F" name="TBL_NUTRIENTES_X_ALIMENTO">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 11:21:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<importedID>17FE349A-9F81-012A-B980-EBCE9F402AE4</importedID>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ALIMENTO" id="F84450F3-A683-E0A2-218D-6D19B0B9E524">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 11:21:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<importedID>764A8763-4F6C-AA1A-0506-0C8B4D30EA3F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="140DCF2A-87BB-CF4A-4371-1BE5BE0DAD68" referredColumn="25502BD7-2AD8-AC2B-79ED-3039FA573906"/>
+</associations>
+</Column>
+<Column name="ID_NUTRIENTES" id="E986A24E-F1A9-F9E3-9E30-D5067BBED292">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 11:21:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<importedID>557DC78C-9188-91ED-DC3E-B26E218C99EE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A7A9ED9-7F8F-F303-C658-60EA125A5478" referredColumn="D1AF1EDA-2AA2-EFB7-D2EF-51DBDF3E9BEF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E93A905B-964D-CA1E-F048-C66EC4800F01" name="ID_NUTRIENTE">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 11:21:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E986A24E-F1A9-F9E3-9E30-D5067BBED292"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB9E09FF-FBEC-DF03-8D18-E1D623737E70" name="ID_ALIMENTOv2">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 11:21:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F84450F3-A683-E0A2-218D-6D19B0B9E524"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+--Crear nuevo usuario(esquema) con el password "PASSWORD" 
+CREATE USER PELICULAS
+  IDENTIFIED BY "oracle"
+  DEFAULT TABLESPACE USERS
+  TEMPORARY TABLESPACE TEMP;
+--asignar cuota ilimitada al tablespace por defecto  
+ALTER USER PELICULAS QUOTA UNLIMITED ON USERS;
+
+--Asignar privilegios basicos
+GRANT create session TO PELICULAS;
+GRANT create table TO PELICULAS;
+GRANT create view TO PELICULAS;
+GRANT create any trigger TO PELICULAS;
+GRANT create any procedure TO PELICULAS;
+GRANT create sequence TO PELICULAS;
+GRANT create synonym TO PELICULAS;

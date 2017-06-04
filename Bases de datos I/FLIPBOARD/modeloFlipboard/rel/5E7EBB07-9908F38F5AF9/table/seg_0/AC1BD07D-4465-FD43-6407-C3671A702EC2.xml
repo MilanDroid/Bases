@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC1BD07D-4465-FD43-6407-C3671A702EC2" name="TBL_IMAGENES">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:24:18 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_IMAGEN" id="23A86B41-EA8B-E405-4CD9-CC9571213B7A">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:25:32 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_IMAGEN" id="AA4358BC-AF44-0C19-E693-B0F747D5C084">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:25:32 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMAGEN" id="645215C6-97B0-0F37-DF32-FCB157441598">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:25:32 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAMANIO_IMAGEN" id="023CB319-77BF-2BF0-C8A8-C40666E54B72">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:25:32 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_IMAGEN" id="5CC6A835-0558-1728-7E5D-1F4D0C506124">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:25:39 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD318474-7092-153A-E2FC-633947C4C58D" referredColumn="EB44994B-5EF0-88D0-1793-003D77C433D0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="466CC1D5-13AB-E234-617E-E44293B25CB5" name="TBL_IMAGENES_PK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:25:32 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23A86B41-EA8B-E405-4CD9-CC9571213B7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30C08B95-CA6F-3EC5-89BF-68B0F1504E1E" name="TIPO_IMAGENES_FK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:25:39 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CC6A835-0558-1728-7E5D-1F4D0C506124"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

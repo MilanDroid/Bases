@@ -1,0 +1,122 @@
+-- 1. Obtener el nombre de las empresas que generan residuos con el
+-- constituyente de código 118. (Valor 1.5%)
+
+SELECT B.NIF_EMPRESA, B.NOMBRE_EMPRESA 
+FROM RESIDUO_CONSTITUYENTE A
+LEFT JOIN EMPRESAPRODUCTORA B
+ON (A.NIF_EMPRESA = B.NIF_EMPRESA)
+WHERE A.COD_CONSTITUYENTE = 118; 
+
+-- 2. Obtener el nombre de todas las empresas transportistas que han
+-- realizado un traslado desde empresas ubicadas en Madrid y ordénelas por
+-- nombre de empresa de transporte (Valor 1.5%)
+
+SELECT K.NIF_EMPTRANSPORTE, K.NOMBRE_EMPTRANSPORTE
+FROM 
+(
+  SELECT A.NIF_EMPTRANSPORTE
+  FROM TRASLADO_EMPRESATRANSPORTISTA A
+  LEFT JOIN EMPRESAPRODUCTORA B
+  ON (A.NIF_EMPRESA = B.NIF_EMPRESA)
+  LEFT JOIN EMPRESATRANSPORTISTA C
+  ON (A.NIF_EMPTRANSPORTE = C.NIF_EMPTRANSPORTE)
+  WHERE B.CIUDAD_EMPRESA = 'Madrid'
+  GROUP BY A.NIF_EMPTRANSPORTE
+) L
+LEFT JOIN EMPRESATRANSPORTISTA K
+ON (L.NIF_EMPTRANSPORTE = K.NIF_EMPTRANSPORTE)
+ORDER BY K.NOMBRE_EMPTRANSPORTE;
+
+-- 3. Obtener el costo (importe) de todos los traslados que ha hecho la
+-- empresa con NIF 'F-98987667-R' a la productora 'A-98989998-Q' con destino
+-- 'DESTINO-N15'(valor 1.5%)
+
+SELECT SUM (COSTE) AS IMPORTE_DE_LOS_TRASLADOS
+FROM TRASLADO_EMPRESATRANSPORTISTA
+WHERE NIF_EMPTRANSPORTE = 'F-98987667-R' AND NIF_EMPRESA = 'A-98989998-Q' 
+AND COD_DESTINO = 'DESTINO-N15';
+
+-- 4. Obtener los nombres de las ciudades destino de todos los traslados que
+-- ha realizado la empresa transportista 'A-97654567-S' de una
+-- Distancia superior a los 300 kms. (1.5%)
+
+SELECT B.NOMBRE_DESTINO AS DESTINO, B.CIUDAD_DESTINO
+FROM 
+(
+  SELECT COD_DESTINO
+  FROM TRASLADO_EMPRESATRANSPORTISTA
+  WHERE NIF_EMPTRANSPORTE = 'A-97654567-S'
+  AND KMS > 300
+) A
+LEFT JOIN DESTINO B
+ON (A.COD_DESTINO = B.COD_DESTINO);
+
+-- 5 Obtener el nombre de todas las ciudades a las que van a parar residuos
+-- que incluyen el constituyente 'Renio'. (Valor 2.5%)
+
+SELECT K.CIUDAD_DESTINO
+FROM
+(
+  SELECT COD_DESTINO
+  FROM TRASLADO A
+  LEFT JOIN RESIDUO_CONSTITUYENTE B
+  ON (A.COD_RESIDUO = B.COD_RESIDUO)
+  LEFT JOIN CONSTITUYENTE C
+  ON (B.COD_CONSTITUYENTE = C.COD_CONSTITUYENTE)
+  WHERE C.NOMBRE_CONSTITUYENTE = 'Renio'
+) L
+LEFT JOIN DESTINO K
+ON(L.COD_DESTINO = K.COD_DESTINO)
+ORDER BY K.CIUDAD_DESTINO;
+
+-- 6. Obtener todas las empresas generadoras de residuos y las
+-- transportistas ubicadas en la misma ciudad. (2.5%)
+-- TransMadrid, Peres e Hijos, AceSur, HuelResi
+
+SELECT A.NIF_EMPRESA, B.NIF_EMPTRANSPORTE, A.CIUDAD_EMPRESA
+FROM EMPRESAPRODUCTORA A
+LEFT JOIN EMPRESATRANSPORTISTA B
+ON (A.CIUDAD_EMPRESA = B.CIUDAD_EMPTRANSPORTE)
+WHERE A.CIUDAD_EMPRESA = B.CIUDAD_EMPTRANSPORTE;
+
+-- 7. Obtener la empresa transportista de Madrid que haya participado en un
+-- traslado a Valencia con el menor cost0. (2% oro)
+
+SELECT *
+FROM
+(
+  SELECT A.NIF_EMPTRANSPORTE, A.COSTE 
+  FROM TRASLADO_EMPRESATRANSPORTISTA A
+  LEFT JOIN DESTINO B
+  ON (A.COD_DESTINO = B.COD_DESTINO)
+  WHERE B.CIUDAD_DESTINO = 'Valencia'
+  ORDER BY A.COSTE
+)
+WHERE ROWNUM =1;
+
+-- 8. Obtener el nombre de todas las ciudades que son destino de
+-- residuos que incluyen la máxima cantidad del constituyente
+-- 'Bario'. (2% oro)
+
+SELECT K.CIUDAD_DESTINO AS DESTINO
+FROM
+(
+  SELECT A.COD_DESTINO, B.CANTIDAD
+  FROM TRASLADO A
+  LEFT JOIN RESIDUO_CONSTITUYENTE B
+  ON (A.COD_RESIDUO = B.COD_RESIDUO)
+  LEFT JOIN CONSTITUYENTE C
+  ON (B.COD_CONSTITUYENTE = C.COD_CONSTITUYENTE)
+  WHERE C.NOMBRE_CONSTITUYENTE = 'Bario'
+) L
+LEFT JOIN DESTINO K
+ON(L.COD_DESTINO = K.COD_DESTINO)
+WHERE L.CANTIDAD = 
+(
+  SELECT MAX(CANTIDAD)
+  FROM RESIDUO_CONSTITUYENTE A
+  LEFT JOIN CONSTITUYENTE B
+  ON ( A.COD_CONSTITUYENTE = B.COD_CONSTITUYENTE)
+  WHERE B.NOMBRE_CONSTITUYENTE = 'Bario'
+) 
+ORDER BY K.CIUDAD_DESTINO ASC;

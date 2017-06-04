@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA920CBE-22C2-8D54-C900-C00D718CB6B5" name="TBL_PROFESIONES_X_TRIPULANTE">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-05-31 17:49:47 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TRIPULANTE" id="84CCF8E6-1A33-9C05-0A4A-4B78BC4AB0B8">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-05-31 17:50:58 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E885C03-5EEA-364C-C786-4EA8818CA019" referredColumn="77B3D429-4495-EA0A-6ADC-73BE37DADA74"/>
+</associations>
+</Column>
+<Column name="CODIGO_PROFESION" id="416FD05D-8C9A-0D31-17C0-46B42E946DE7">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-05-31 17:51:26 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4804CF36-7503-F577-CE64-10F636BA0382" referredColumn="C39BAB69-2817-ECA3-ADE3-A60CDB7E84A6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8153C456-A728-AD58-278C-A73889661200" name="TBL_PROFESIONES_X_TRIPULANTE_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-05-31 17:52:55 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84CCF8E6-1A33-9C05-0A4A-4B78BC4AB0B8"/>
+<colUsage columnID="416FD05D-8C9A-0D31-17C0-46B42E946DE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B543A9BA-8CBC-A7C0-D42F-96E8DA09B830" name="TBL_PROFESIONES_X_TRIPULANTE_TBL_TRIPULANTES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-05-31 17:50:58 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84CCF8E6-1A33-9C05-0A4A-4B78BC4AB0B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DB01F51-847A-024B-AB28-32A2FF8EAD93" name="TBL_PROFESIONES_X_TRIPULANTE_TBL_PROFESIONES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-05-31 17:51:26 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="416FD05D-8C9A-0D31-17C0-46B42E946DE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A415BE8-B2D5-B064-0C59-8305650E98FE" name="TBL_TENDENCIAS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-09 17:44:22 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LUGAR" id="590E85BC-A5A9-487D-58A2-295720F478F4">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-09 17:47:35 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0A43DA6-A9C2-0525-111B-CF0EAA3CDE3D" referredColumn="66B8EB0D-5336-DCCF-60F8-8C4B2F2F8905"/>
+</associations>
+</Column>
+<Column name="RANKING" id="7952B05D-9A05-7B8C-2045-A65FDE0967FB">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-09 17:45:26 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_VIDEO" id="C255D1AE-F2BF-50AD-415D-6E121DA4376A">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-09 17:45:56 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="338E1E86-E05A-CEB7-CE08-ABE826A53A3D" referredColumn="AC03BEFF-B742-6B07-4018-F71ECF873A5A"/>
+</associations>
+</Column>
+<Column name="CANTIDAD_LIKES" id="07808D73-FB1D-7A32-FD5C-41A8975566E0">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-09 17:45:26 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_COMENTARIOS" id="EE2E675F-E8A6-12D4-0275-8EF9A75A6047">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-09 17:45:26 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="051DD0A0-D64F-E6C2-3E70-AAE59AEF18E5" name="TBL_TENDENCIAS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-09 17:51:17 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="590E85BC-A5A9-487D-58A2-295720F478F4"/>
+<colUsage columnID="7952B05D-9A05-7B8C-2045-A65FDE0967FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28C2FC56-9D3A-F4FF-1D56-19A56998172B" name="TBL_TENDENCIAS_TBL_VIDEOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-09 17:45:56 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C255D1AE-F2BF-50AD-415D-6E121DA4376A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57804426-3F1C-A8E0-9FC1-04EDD716F63B" name="TBL_TENDENCIAS_TBL_LUGARES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-09 17:47:35 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="590E85BC-A5A9-487D-58A2-295720F478F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

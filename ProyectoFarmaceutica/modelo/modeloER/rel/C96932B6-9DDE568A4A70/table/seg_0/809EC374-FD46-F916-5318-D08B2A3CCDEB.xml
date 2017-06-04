@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="809EC374-FD46-F916-5318-D08B2A3CCDEB" name="Tbl_Farmacia">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:33:08 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cod_Farmacia" id="64ED9E76-76CE-1D2C-78E0-40CC834D7044">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:35:24 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Farmacia" id="CF5D0C00-05EB-9410-4576-51D6BC377237">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:35:24 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dirrecion" id="E75C7EEF-9A12-F952-0AD7-EECFDF000926">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:35:24 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Correo_Farmacia" id="50CE5872-BCE8-3C86-50BA-FA6204C592D2">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:35:24 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_LOCALIDAD" id="7BE35E41-DEC8-0812-FE63-A4A30A2B4000">
+<createdBy>Basner</createdBy>
+<createdTime>2017-02-20 05:45:46 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB1644EA-B8EF-9B11-C5A7-104DE9B542CB" referredColumn="ECCC2BD0-9BFD-D73A-C88D-D634EEDCC856"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3FFC176-8FDE-0C14-9AE2-A873540049C8" name="Tbk_Farmacia_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:35:24 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64ED9E76-76CE-1D2C-78E0-40CC834D7044"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BFE949D-D04B-7529-5F6D-AEA168A29CC8" name="COD_LOCALIDAD">
+<createdBy>Basner</createdBy>
+<createdTime>2017-02-20 05:45:46 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BE35E41-DEC8-0812-FE63-A4A30A2B4000"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

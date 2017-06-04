@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E68232BB-893D-0AEE-601C-AFD4EECAD3D1" name="Tbl_Producto">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:45:43 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cod_Producto" id="ADD465B5-1EE4-CF4D-25FC-F9635FC77F66">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:47:46 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Producto" id="9463CC30-B164-72D4-050D-1A753642BD26">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:47:46 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion_Producto" id="59E74641-C947-9745-BC92-4EF15496E385">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:47:46 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Precio_Producto" id="FAA5570E-D42C-1C9D-7F57-0C0A97BF00C0">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:47:46 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Ingreso_Producto" id="0DBD16A1-A0B8-71FA-8FC9-C238DCF6A1ED">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:47:46 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Exp_Producto" id="550974B1-7FD0-6F61-CB82-213DD592CAED">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:47:46 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cod_Tipo_Producto" id="C6F930DA-5D50-9F9F-0614-320E47A1B905">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 18:07:28 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11FB76E3-359B-40AF-D856-CD17FDA8E8BB" referredColumn="186167D7-6E64-55B6-C8D1-3F2400193E3D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90A33F1D-C25A-93E7-C8BF-BDEBEEE5928E" name="Tbl_Producto_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:47:46 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADD465B5-1EE4-CF4D-25FC-F9635FC77F66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E05FABA9-4485-1032-CBE4-47239DCA9217" name="Tipo_Producto">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 18:07:28 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6F930DA-5D50-9F9F-0614-320E47A1B905"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E3AC95C-0502-018E-C682-EBE4329DFC35" name="TBL_MUNICIPIOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-03 17:37:24 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MUNICIPIO" id="AB0A814E-4E02-16A1-D51A-9AEA5511E7E0">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-03 17:38:34 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_MUNICIPIO" id="F49D83DE-2998-87A2-6D63-2B5BCF895B57">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-03 17:38:34 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="37FD5D82-ECB5-9360-D909-39F2A84FD263">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-03 17:38:34 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="75FA4CB2-5E70-58B4-1374-969113A34B5B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-03 17:38:34 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_DEPARTAMENTO" id="388C704D-19D4-359E-9C95-3CDCBD1640E0">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-03 17:39:34 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AD8CB65-37BF-41C4-64FC-FA8F8F9CA379" referredColumn="CFA44C41-7417-7829-BD05-20A618FC82DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5CF8701B-ABCE-7836-6CE3-056D34D36B54" name="TBL_MUNICIPIOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-03 17:38:34 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB0A814E-4E02-16A1-D51A-9AEA5511E7E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A18CCDA-65DE-E89B-8403-C8386D494FD4" name="TBL_MUNICIPIOS_TBL_DEPARTAMENTOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-03 17:39:34 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="388C704D-19D4-359E-9C95-3CDCBD1640E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

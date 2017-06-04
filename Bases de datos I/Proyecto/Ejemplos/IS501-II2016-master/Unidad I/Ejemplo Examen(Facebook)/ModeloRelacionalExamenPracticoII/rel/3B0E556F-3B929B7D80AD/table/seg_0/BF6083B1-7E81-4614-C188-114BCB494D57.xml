@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF6083B1-7E81-4614-C188-114BCB494D57" name="TBL_ALBUMES">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:24:07 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<abbreviation>ALBUM_FOTOS</abbreviation>
+<schemaObject>F6430611-2A1C-FAA0-B7FC-71FACE68518D</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ALBUM" id="3CCD1BE4-37E4-A154-ED0E-532771984B9E">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:56:10 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="10E15743-62BF-0309-D6BD-510AF4C1CFA0">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:55:27 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2547FB07-234D-9570-23A1-4DD05228F5D1" referredColumn="18768C2E-30D7-F573-6EB2-A8D26CA44D8E"/>
+</associations>
+</Column>
+<Column name="DESCRIPCION_ALBUM" id="93CDFC88-9867-2578-522D-5B5A5EFC071C">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:16:09 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UBICACION_ALBUM" id="643B885F-4A02-7A33-1FBC-05A637403082">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 16:16:19 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5612C061-923B-9956-140E-6393D935469D" name="TBL_ALBUM_FOTOS_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:55:36 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CCD1BE4-37E4-A154-ED0E-532771984B9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="220F88C3-9F03-041B-ADF2-0E233095536C" name="TBL_ALBUM_FOTOS_TBL_USUARIO_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:55:27 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10E15743-62BF-0309-D6BD-510AF4C1CFA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

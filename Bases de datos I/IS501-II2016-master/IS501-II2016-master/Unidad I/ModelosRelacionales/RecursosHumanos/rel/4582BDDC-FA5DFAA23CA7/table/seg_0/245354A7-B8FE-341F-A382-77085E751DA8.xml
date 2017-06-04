@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="245354A7-B8FE-341F-A382-77085E751DA8" name="TBL_REFERENCIAS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:44:51 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_REFERENCIA" id="92519D80-116B-A540-C616-1A0FA7D03BA7">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:47:53 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="A9789EE3-87C8-6ABF-942B-B322EF4F119F">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:47:53 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="29B5F1BA-9914-B6C6-B315-190A03B4AFF3">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:47:53 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="473CD81F-6F2D-8CAD-30EE-24FB7682715E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:47:53 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="733C895D-C6C6-B1C1-46AA-B654852190A6">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:47:53 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_ELECTRONICO" id="B6DBFE05-4C91-F9BB-87B4-D5C040114026">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:47:53 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C3E3AEC-F062-2425-95DF-978AD14834F9" name="TBL_REFERENCIAS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:47:53 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92519D80-116B-A540-C616-1A0FA7D03BA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

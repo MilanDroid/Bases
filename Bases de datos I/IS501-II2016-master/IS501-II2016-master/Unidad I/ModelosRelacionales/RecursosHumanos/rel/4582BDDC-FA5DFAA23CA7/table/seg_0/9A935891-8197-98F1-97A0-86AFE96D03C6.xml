@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A935891-8197-98F1-97A0-86AFE96D03C6" name="TBL_TIPOS_ANTECEDENTES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-22 17:15:04 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_ANTECEDENTE" id="8F25D7DC-41B4-130A-FAC5-FD23B2895CFC">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-22 17:15:44 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_ANTECEDENTE" id="7ADC897E-BC3A-203F-A671-F05C8C5838A0">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-22 17:15:44 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCEFBDBF-8E8D-A1D6-7D22-F8D2DA028056" name="TBL_TIPOS_ANTECEDENTES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-22 17:15:44 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F25D7DC-41B4-130A-FAC5-FD23B2895CFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

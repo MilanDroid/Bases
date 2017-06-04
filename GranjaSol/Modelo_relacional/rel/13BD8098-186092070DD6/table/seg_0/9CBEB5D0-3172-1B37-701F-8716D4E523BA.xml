@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CBEB5D0-3172-1B37-701F-8716D4E523BA" name="TBL_USUARIOS">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 06:31:10 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_USUARIO" id="89F24BA4-8E2A-4C08-8028-679B92D0F797">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 06:32:49 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO" id="C475F776-59F2-F10C-C9D6-55220275597D">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 06:32:49 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENA" id="D49231E6-785E-76CA-20E2-A2AB3FE1FBF5">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 06:32:49 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OD_USUARIO" id="23CFBF4D-E895-FB55-517D-3CF79346AD7A">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 06:43:49 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TIPO_USUARIO" id="4410A4E5-F472-0424-10CA-F6410AE065F6">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 06:42:08 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11FB1DFA-815D-7AF3-76D2-D0800C567971" referredColumn="326BA464-90C7-B912-7DED-96E174D8C75D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2E2BE4A-3F87-172B-025A-8E16995E4442" name="TBL_USUARIOS_PK">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 06:32:49 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89F24BA4-8E2A-4C08-8028-679B92D0F797"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="577824AF-60BA-2060-972C-D5AC73BE6849" name="ID_TIPO_USUARIO">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 06:42:08 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4410A4E5-F472-0424-10CA-F6410AE065F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

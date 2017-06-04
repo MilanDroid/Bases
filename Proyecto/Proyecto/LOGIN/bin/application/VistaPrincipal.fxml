@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="434.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControladorPrincipal">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+         <menus>
+            <Menu mnemonicParsing="false" text="Agregar">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#agregarNuevoMedicamento" text="Medicamento" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+              </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <SplitPane dividerPositions="0.31203931203931207" layoutX="183.0" layoutY="82.0" orientation="VERTICAL" prefHeight="352.0" prefWidth="526.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="165.0" prefWidth="608.0">
+                     <children>
+                        <Label layoutX="285.0" layoutY="21.0" text="Medicamento:" />
+                        <TextField fx:id="txtMedicamento" layoutX="370.0" layoutY="17.0" promptText="Nombre Medicamento" />
+                        <Button layoutX="304.0" layoutY="73.0" mnemonicParsing="false" onAction="#buscarMedicamento" prefHeight="25.0" prefWidth="72.0" text="Buscar" />
+                        <Button layoutX="32.0" layoutY="73.0" mnemonicParsing="false" onAction="#atras" prefHeight="25.0" prefWidth="73.0" text="Atras" />
+                        <Label layoutX="14.0" layoutY="21.0" text="Categoria:" />
+                        <ComboBox fx:id="cboCategoria" layoutX="78.0" layoutY="17.0" prefWidth="150.0" />
+                        <Button layoutX="419.0" layoutY="73.0" mnemonicParsing="false" onAction="#restaurarMedicamentos" prefHeight="25.0" prefWidth="72.0" text="Restaurar" />
+                     </children>
+                  </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                     <children>
+                        <TableView fx:id="tblMedicamento" layoutX="151.0" prefHeight="183.0" prefWidth="524.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <columns>
+                            <TableColumn fx:id="tblClmnNombreMedicamento" prefWidth="88.0" text="Medicamento" />
+                            <TableColumn fx:id="tblClmnPrecio" prefWidth="62.0" text="Precio" />
+                              <TableColumn fx:id="tblClmnCategoria" prefWidth="75.0" text="Categoria" />
+                              <TableColumn fx:id="tblClmnFabricante" prefWidth="75.0" text="Fabricante" />
+                              <TableColumn fx:id="tblClmnDistribuidora" prefWidth="85.0" text="Distribuidora" />
+                              <TableColumn fx:id="tblClmnFechaVencimiento" prefWidth="117.0" text="Fecha Vencimiento" />
+                          </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+              </items>
+            </SplitPane>
+         </children></AnchorPane>
+   </center>
+</BorderPane>

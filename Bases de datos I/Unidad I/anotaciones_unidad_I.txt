@@ -1,0 +1,48 @@
+Bases de datos I
+
+Pasos para modelar una base de datos
+1. Listar entidades
+2. Listar atributos de las entidades
+3. Identificar que atributos pueden ser nuevas entidades
+4. Identificar llaves primarias
+5. Crear relaciones, identificar llaves foraneas
+6. Asignar cardinalidades
+7. Repetir los pasos de ser necesario
+
+Tratar de que el modelo sea:
+*Flexible: Adapte a las necesidades
+*Escalable: Este estructurado de tal forma que los futuros cambios, adecuaciones o mejoras no sean complejas o que requieran una gran restructuracion de la BD.
+
+Base de datos de aerolinea
+Aerolinea
+Vuelo
+Avion
+Pasajero
+Destino
+Origen
+Empleado o Tripulacion
+	Piloto
+	Copiloto
+	Aeromosas
+Aeropuerto
+Ticket o boleto
+Angar
+Equipaje
+Tipo de vuelo: Local, Internacional, Privado
+Clase: Economica, Turista
+Asiento
+
+
+Llave primaria: Campo o conjunto de campos que sirven para identificar de forma unica un registro.
+Cuando la llave primaria la define multiples campos se le denomina llave primaria compuesta.
+
+Llave surrogada o sustituta: Es una llave generada artificialmente, en la mayoria de los casos entera e incremental para sustituir una llave primaria original.
+
+
+Cardinalidades
+Uno a Uno 1:1 -> Es el tipo de cardinalidad que menos se da.
+Uno a Muchos 1:N  -> Es el tipo de cardinalidad que mas se da.
+Muchos a Muchos N:M
+
+
+Una relacion de N:M fisicamente en la base de datos se representara mediante una tabla intermedia, dicha tabla tendra la llave primaria de ambas tablas relacionadas y seran llaves foraneas, Usualmente la combinacion de estas llaves foraneas formaran una llave primaria compuesta en la tabla intermedia.

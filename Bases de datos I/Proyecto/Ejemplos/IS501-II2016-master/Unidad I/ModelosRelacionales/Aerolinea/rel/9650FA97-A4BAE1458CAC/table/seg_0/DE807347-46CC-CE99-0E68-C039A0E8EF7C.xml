@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE807347-46CC-CE99-0E68-C039A0E8EF7C" name="TBL_TRIPULANTES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-05-31 17:40:13 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TRIPULANTE" id="77B3D429-4495-EA0A-6ADC-73BE37DADA74">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-05-31 17:41:44 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="2E97B882-8E2A-ED44-DA16-BABE50D17EFF">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-05-31 17:41:44 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="F42D9110-1284-2DC3-F527-234975543154">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-05-31 17:41:44 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO" id="BCDCA54A-5897-6CA9-C26A-CC969C293A65">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-05-31 17:41:44 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_TRIPULANTE" id="ECCAC755-E5FA-D2B5-7EEA-4BD1A740954B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-05-31 17:43:23 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF2A3323-6C6D-F67D-56C2-ED0C53667A79" referredColumn="6BD0114C-FDDD-79FA-4A0E-63886EB5BBC4"/>
+</associations>
+</Column>
+<Column name="CODIGO_TRIPULANTE_SUPERIOR" id="7671A0BC-B78F-1D77-EED0-901145FCB12A">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:12:41 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F630CF9C-3B31-97BA-A880-55E87603E625" referredColumn="77B3D429-4495-EA0A-6ADC-73BE37DADA74"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36C0B920-CB2F-B32F-B214-B8CA3410F774" name="TBL_TRIPULANTES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-05-31 17:41:44 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77B3D429-4495-EA0A-6ADC-73BE37DADA74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF637A5B-2D92-1581-138D-144F60A518CC" name="TRIP_TIPO_TRIP_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-05-31 17:43:23 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECCAC755-E5FA-D2B5-7EEA-4BD1A740954B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4250E8EB-CB47-71F6-1E9B-258929B6D4E6" name="TBL_TRIPULANTES_TBL_TRIPULANTES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-06-03 17:12:41 UTC</createdTime>
+<ownerDesignName>Aerolinea</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7671A0BC-B78F-1D77-EED0-901145FCB12A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

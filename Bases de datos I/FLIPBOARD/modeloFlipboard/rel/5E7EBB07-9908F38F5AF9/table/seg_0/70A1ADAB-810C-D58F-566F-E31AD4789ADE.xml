@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70A1ADAB-810C-D58F-566F-E31AD4789ADE" name="TBL_NOTIFICACIONES">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 03:25:37 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_NOTIFICACION" id="91BA5BC4-EA29-3183-0008-61E2F933A842">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 03:28:33 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_NOTIFICACION" id="2F3E7A92-D299-5C2C-0297-E98041EBBA53">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 03:28:38 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="757A6985-53D8-200F-868B-A17643423DD0" referredColumn="0BB04528-453D-934C-0398-B8D0C0A8FD79"/>
+</associations>
+</Column>
+<Column name="CODIGO_ESTADO_NOTIFICACION" id="FDE1EFC6-7F76-823A-30E7-C95601DA7E4B">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 03:28:51 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49520054-14A5-A76B-2FFE-8FFA43BFBA02" referredColumn="A7BC74E6-7DA9-46AA-E197-B43D67996BE1"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="8C8463CB-FAEB-0633-58DE-EE791F066D5D">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 03:29:08 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9264D2E9-8643-CD77-2340-D205509F1BF7" referredColumn="51AF7CE9-E477-41C0-8ABB-3FB4C9C22AA6"/>
+</associations>
+</Column>
+<Column name="NOTIFICACION" id="2DA2BAD9-3513-0ACE-C667-1A7C206746FB">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 03:28:33 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NOTIFICACION" id="1B9AEF87-7533-2396-F3E0-AC31DAAE847F">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 03:28:33 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2CAAB6F-54D3-D4B3-2447-462E71B0682D" name="TBL_NOTIFICACIONES_PK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 03:28:33 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91BA5BC4-EA29-3183-0008-61E2F933A842"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="336DAE7C-8340-A7A9-CF20-056FD270E28A" name="TBL_TIPO_NOTIFICACION_FK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 03:28:38 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F3E7A92-D299-5C2C-0297-E98041EBBA53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6241DCA9-3D8B-28DE-B1DF-27D533B9E8CE" name="TBL_ESTADO_NOTIFICACION_FK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 03:28:51 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDE1EFC6-7F76-823A-30E7-C95601DA7E4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAAB52E1-6E48-BEEF-3653-700B7377F088" name="TBL_USUARIO_FK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 03:29:08 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C8463CB-FAEB-0633-58DE-EE791F066D5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

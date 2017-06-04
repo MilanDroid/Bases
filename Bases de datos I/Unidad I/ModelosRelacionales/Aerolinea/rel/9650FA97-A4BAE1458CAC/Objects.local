@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="CD857A77-7E5D-07B3-06DB-A57262928457" name="TBL_AEROMOZAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="3A134290-7653-CD7D-3AA8-08EC5DA4EEFA" name="TBL_AVIONES" seqName="seg_0"/>
+   <object objectType="Table" objectID="73356EEE-8CDB-ADCE-2521-9FC6622C4FD9" name="TBL_PILOTOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="BC9F0A92-0C91-C2FA-F735-E1158772052B" name="TBL_PROFESIONES" seqName="seg_0"/>
+   <object objectType="Table" objectID="AA920CBE-22C2-8D54-C900-C00D718CB6B5" name="TBL_PROFESIONES_X_TRIPULANTE" seqName="seg_0"/>
+   <object objectType="Table" objectID="A529D4A9-EFC9-D48F-6305-9DF5630ED891" name="TBL_TIPO_TRIPULANTES" seqName="seg_0"/>
+   <object objectType="Table" objectID="DE807347-46CC-CE99-0E68-C039A0E8EF7C" name="TBL_TRIPULANTES" seqName="seg_0"/>
+   <object objectType="Table" objectID="870AB288-7EEE-A3FF-5548-ADA49D3197D2" name="TBL_TRIPULANTES_X_VUELO" seqName="seg_0"/>
+   <object objectType="Table" objectID="78A2A230-3BEE-DDF7-8069-1E4C962A5B03" name="TBL_VUELOS" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1770F340-1205-E34E-C4BD-DC7F9BCD9A8B" name="TBL_VUELOS_TBL_AVIONES_FK" seqName="seg_0" containerID="78A2A230-3BEE-DDF7-8069-1E4C962A5B03" refContainerID="3A134290-7653-CD7D-3AA8-08EC5DA4EEFA"/>
+   <object objectType="FKIndexAssociation" objectID="A1187DBA-6596-C97B-6F48-BF7848F06F6C" name="TBL_AEROMOZAS_TBL_TRIPULANTES_FK" seqName="seg_0" containerID="CD857A77-7E5D-07B3-06DB-A57262928457" refContainerID="DE807347-46CC-CE99-0E68-C039A0E8EF7C"/>
+   <object objectType="FKIndexAssociation" objectID="20565C5C-1B2C-0A7B-94D2-F640D6D5CC51" name="TBL_PILOTOS_TBL_TRIPULANTES_FK" seqName="seg_0" containerID="73356EEE-8CDB-ADCE-2521-9FC6622C4FD9" refContainerID="DE807347-46CC-CE99-0E68-C039A0E8EF7C"/>
+   <object objectType="FKIndexAssociation" objectID="4804CF36-7503-F577-CE64-10F636BA0382" name="TBL_PROFESIONES_X_TRIPULANTE_TBL_PROFESIONES_FK" seqName="seg_0" containerID="AA920CBE-22C2-8D54-C900-C00D718CB6B5" refContainerID="BC9F0A92-0C91-C2FA-F735-E1158772052B"/>
+   <object objectType="FKIndexAssociation" objectID="4E885C03-5EEA-364C-C786-4EA8818CA019" name="TBL_PROFESIONES_X_TRIPULANTE_TBL_TRIPULANTES_FK" seqName="seg_0" containerID="AA920CBE-22C2-8D54-C900-C00D718CB6B5" refContainerID="DE807347-46CC-CE99-0E68-C039A0E8EF7C"/>
+   <object objectType="FKIndexAssociation" objectID="F630CF9C-3B31-97BA-A880-55E87603E625" name="TBL_TRIPULANTES_TBL_TRIPULANTES_FK" seqName="seg_0" containerID="DE807347-46CC-CE99-0E68-C039A0E8EF7C" refContainerID="DE807347-46CC-CE99-0E68-C039A0E8EF7C"/>
+   <object objectType="FKIndexAssociation" objectID="EBA4B686-53A1-8BC0-4516-68CD2316A94A" name="TBL_TRIPULANTES_X_VUELO_TBL_TRIPULANTES_FK" seqName="seg_0" containerID="870AB288-7EEE-A3FF-5548-ADA49D3197D2" refContainerID="DE807347-46CC-CE99-0E68-C039A0E8EF7C"/>
+   <object objectType="FKIndexAssociation" objectID="79A299A6-6269-EB2A-B3B7-326933AA51F8" name="TBL_TRIPULANTES_X_VUELO_TBL_VUELOS_FK" seqName="seg_0" containerID="870AB288-7EEE-A3FF-5548-ADA49D3197D2" refContainerID="78A2A230-3BEE-DDF7-8069-1E4C962A5B03"/>
+   <object objectType="FKIndexAssociation" objectID="EF2A3323-6C6D-F67D-56C2-ED0C53667A79" name="TRIP_TIPO_TRIP_FK" seqName="seg_0" containerID="DE807347-46CC-CE99-0E68-C039A0E8EF7C" refContainerID="A529D4A9-EFC9-D48F-6305-9DF5630ED891"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

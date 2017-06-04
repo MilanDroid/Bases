@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="0340CABF-6A5E-383F-9E92-3469F6D118D4" name="TBL_IDIOMA" seqName="seg_0"/>
+   <object objectType="Table" objectID="0397ED18-8FDA-49FD-269A-F7A853BC22C7" name="TBL_PLATAFORMAS_EXTERNAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="048AD2F4-2508-00F7-D3DC-38BC455F74E5" name="TBL_ARTICULOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="065CC60E-19F8-0655-5792-256B6FAB5D51" name="TBL_HISTORIAL_CONTRASENIAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="085274D8-903F-92B0-8D55-A3343DAFF200" name="TBL_CATEGORIAS_FAVORITAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="2DD5BF3E-7C23-015B-2DA5-DD45E940C20F" name="TBL_ARTICULOS_COMPARTIDOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="2E6CB556-1840-92D2-3B3E-81F028CEB617" name="TBL_REVISTAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="33066B43-9482-5712-0159-A7B976FC611F" name="TBL_ESTADO_COMENTARIO" seqName="seg_0"/>
+   <object objectType="Table" objectID="35F66984-6584-A1CE-1918-2CBBE11A21A6" name="TBL_LUGARES" seqName="seg_0"/>
+   <object objectType="Table" objectID="447E6505-E413-4DC4-54FE-F58C291E4C63" name="TBL_TIPO_LISTA" seqName="seg_0"/>
+   <object objectType="Table" objectID="4732AB25-EEC2-BFE9-AD28-7F0C673E7AE7" name="TBL_ESTADO_NOTIFICACION" seqName="seg_0"/>
+   <object objectType="Table" objectID="4B1A14FA-3DBE-FBC3-B28A-DC09509C80E0" name="TBL_COMENTARIOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="4C01A828-BCA1-10F6-5531-EA209BF550E8" name="TBL_CONFIG_REVISTA" seqName="seg_0"/>
+   <object objectType="Table" objectID="50BC30F9-DB9B-F1FD-2A06-88B9A7CACE1D" name="TBL_ARTICULOS_X_REVISTAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="5AD8A384-8D47-3E0A-8C63-C85E007C3336" name="TBL_HISTORIAL_CONEXIONES" seqName="seg_0"/>
+   <object objectType="Table" objectID="695EB500-845D-EE78-F8AB-60543FDBAD9F" name="TBL_TIPO_NOTIFICACION" seqName="seg_0"/>
+   <object objectType="Table" objectID="69D6F885-CFF6-4530-C653-29444D3D0D8E" name="TBL_CATEGORIAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="70A1ADAB-810C-D58F-566F-E31AD4789ADE" name="TBL_NOTIFICACIONES" seqName="seg_0"/>
+   <object objectType="Table" objectID="72D00906-922B-32D6-7592-54FEDE79D40B" name="TBL_SEGUIDORES_X_USUARIO" seqName="seg_0"/>
+   <object objectType="Table" objectID="76CCB1D2-1821-E420-EAB2-4230E93A1B74" name="TBL_HISTORIAL_BUSQUEDAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="78E91EE7-1195-7220-E8F9-3C1BFB0F4193" name="TBL_LISTAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="95912210-F513-786E-FB3E-6FBE94B6C45C" name="TBL_ARTICULOS_MAS_POPULARES" seqName="seg_0"/>
+   <object objectType="Table" objectID="AC1BD07D-4465-FD43-6407-C3671A702EC2" name="TBL_IMAGENES" seqName="seg_0"/>
+   <object objectType="Table" objectID="AF7B7359-490D-5BD6-2529-F9DA4171E76C" name="TBL_LECTORES_X_USUARIO" seqName="seg_0"/>
+   <object objectType="Table" objectID="B00CDD95-6066-8656-D4C2-E91C34C68CA4" name="TBL_USUARIO" seqName="seg_0"/>
+   <object objectType="Table" objectID="B7421070-1768-9390-7C5F-3050DC6B69ED" name="TBL_TIPO_IMAGENES" seqName="seg_0"/>
+   <object objectType="Table" objectID="E7FA81AC-E514-594E-38E0-87315D3FC7D9" name="TBL_LIKES" seqName="seg_0"/>
+   <object objectType="Table" objectID="EDFE6B2A-533F-BFCC-FBC5-8F592139797D" name="TBL_TIPO_LIKES" seqName="seg_0"/>
+   <object objectType="Table" objectID="EFE1E2FD-9BFF-7A98-3E9A-33E56EE8F379" name="TBL_HISTORIAL_ARTICULOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="F6044F0A-33FB-2D00-C47F-FE71E98B5F09" name="TBL_ARTICULOS_FLIPEADOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="F7378BAC-BCE6-B5B9-E822-ECAE226515A4" name="TBL_ESTADO_CONTRASENIA" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="02C6F90F-6B71-E209-C164-EDE4916D69C4" name="TBL_ARTICULOS_TBL_USUARIO_FK" containerID="048AD2F4-2508-00F7-D3DC-38BC455F74E5" refContainerID="B00CDD95-6066-8656-D4C2-E91C34C68CA4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="0C2FE7EF-7927-87D2-B0F2-729886186B5B" name="TBL_ESTADO_COMENTARIO_FK" containerID="4B1A14FA-3DBE-FBC3-B28A-DC09509C80E0" refContainerID="33066B43-9482-5712-0159-A7B976FC611F" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="10AAED50-182A-0913-71D0-C36533095738" name="TBL_LISTAS_TBL_USUARIO_FK" containerID="78E91EE7-1195-7220-E8F9-3C1BFB0F4193" refContainerID="B00CDD95-6066-8656-D4C2-E91C34C68CA4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="12B85392-6A77-9C10-FD5A-3EB66E6901A4" name="TBL_USUARIO_FK" containerID="5AD8A384-8D47-3E0A-8C63-C85E007C3336" refContainerID="B00CDD95-6066-8656-D4C2-E91C34C68CA4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1F99F8A7-8E5E-DE95-00F8-44E9F9C1B94F" name="TBL_LIKES_TBL_TIPO_LIKES_FK" containerID="E7FA81AC-E514-594E-38E0-87315D3FC7D9" refContainerID="EDFE6B2A-533F-BFCC-FBC5-8F592139797D" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2019EB1B-8140-546E-596D-6D916014F378" name="TBL_USUARIO_TBL_IMAGENES_FK" containerID="B00CDD95-6066-8656-D4C2-E91C34C68CA4" refContainerID="AC1BD07D-4465-FD43-6407-C3671A702EC2" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="21BF5CEF-C34E-EED2-9DAE-054779D6C24B" name="TBL_CONFIG_REVISTA_FK" containerID="2E6CB556-1840-92D2-3B3E-81F028CEB617" refContainerID="4C01A828-BCA1-10F6-5531-EA209BF550E8" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3327E707-A131-0B57-F368-8E1C47FC16E2" name="TBL_LIKES_TBL_REVISTAS_FK" containerID="E7FA81AC-E514-594E-38E0-87315D3FC7D9" refContainerID="2E6CB556-1840-92D2-3B3E-81F028CEB617" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="39613021-9DC8-4CB4-25E9-29A63EEBA89E" name="TBL_LUGARES_TBL_LUGARES_FK" containerID="35F66984-6584-A1CE-1918-2CBBE11A21A6" refContainerID="35F66984-6584-A1CE-1918-2CBBE11A21A6" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="41B9B26A-4E24-F700-8088-E198BD7D20AF" name="TBL_CATEGORIAS_FK" containerID="95912210-F513-786E-FB3E-6FBE94B6C45C" refContainerID="69D6F885-CFF6-4530-C653-29444D3D0D8E" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="483988CD-BBFC-C2B6-1008-6D9CFB3331CB" name="TBL_REVISTAS_TBL_IMAGENES_FK" containerID="2E6CB556-1840-92D2-3B3E-81F028CEB617" refContainerID="AC1BD07D-4465-FD43-6407-C3671A702EC2" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="49520054-14A5-A76B-2FFE-8FFA43BFBA02" name="TBL_ESTADO_NOTIFICACION_FK" containerID="70A1ADAB-810C-D58F-566F-E31AD4789ADE" refContainerID="4732AB25-EEC2-BFE9-AD28-7F0C673E7AE7" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5815F0C3-E412-D7AF-EB0F-73D1F33DB274" name="TBL_LISTAS_TBL_TIPO_LISTA_FK" containerID="78E91EE7-1195-7220-E8F9-3C1BFB0F4193" refContainerID="447E6505-E413-4DC4-54FE-F58C291E4C63" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="58482881-10BC-0026-782B-99542CD28DE1" name="TBL_ARTICULOS_FK" containerID="95912210-F513-786E-FB3E-6FBE94B6C45C" refContainerID="048AD2F4-2508-00F7-D3DC-38BC455F74E5" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="62737496-F27D-75C9-D42B-158B317E762E" name="TBL_COMENTARIOS_FK" containerID="4B1A14FA-3DBE-FBC3-B28A-DC09509C80E0" refContainerID="4B1A14FA-3DBE-FBC3-B28A-DC09509C80E0" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="69D556AF-171F-4EC4-EB14-2E1C911419D8" name="TBL_USUARIO_FK" containerID="065CC60E-19F8-0655-5792-256B6FAB5D51" refContainerID="B00CDD95-6066-8656-D4C2-E91C34C68CA4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6A1CBDC5-B36D-DE5C-D6C8-D839C35563BF" name="TBL_CATEGORIAS_TBL_IMAGENES_FK" containerID="69D6F885-CFF6-4530-C653-29444D3D0D8E" refContainerID="AC1BD07D-4465-FD43-6407-C3671A702EC2" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7096D69F-363B-5E05-157F-C8663C332DBD" name="TBL_USUARIO_FK" containerID="F6044F0A-33FB-2D00-C47F-FE71E98B5F09" refContainerID="B00CDD95-6066-8656-D4C2-E91C34C68CA4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7415877A-8EF3-4FB6-D88B-21DA1FC361C3" name="TBL_USUARIO_SEGUIDOR_FK" containerID="72D00906-922B-32D6-7592-54FEDE79D40B" refContainerID="B00CDD95-6066-8656-D4C2-E91C34C68CA4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="757A6985-53D8-200F-868B-A17643423DD0" name="TBL_TIPO_NOTIFICACION_FK" containerID="70A1ADAB-810C-D58F-566F-E31AD4789ADE" refContainerID="695EB500-845D-EE78-F8AB-60543FDBAD9F" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="773CF343-64C8-276E-7A40-7B5775E22581" name="TBL_REVISTAS_TBL_USUARIO_FK" containerID="2E6CB556-1840-92D2-3B3E-81F028CEB617" refContainerID="B00CDD95-6066-8656-D4C2-E91C34C68CA4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7B5AD452-181B-37D1-B277-529D419173C6" name="TBL_USUARIO_FK" containerID="EFE1E2FD-9BFF-7A98-3E9A-33E56EE8F379" refContainerID="B00CDD95-6066-8656-D4C2-E91C34C68CA4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7F4CECAF-9361-7856-F0A2-49A3F095BB14" name="TBL_ARTICULOS_FK" containerID="EFE1E2FD-9BFF-7A98-3E9A-33E56EE8F379" refContainerID="048AD2F4-2508-00F7-D3DC-38BC455F74E5" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="89314305-DAA3-E4AF-C4EE-668CAAB71F98" name="TBL_COMENTARIOS_TBL_USUARIO_FK" containerID="4B1A14FA-3DBE-FBC3-B28A-DC09509C80E0" refContainerID="B00CDD95-6066-8656-D4C2-E91C34C68CA4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8B699BCD-4EAA-9129-9A2A-9DD0B12D6539" name="TBL_ARTICULOS_FK" containerID="4B1A14FA-3DBE-FBC3-B28A-DC09509C80E0" refContainerID="048AD2F4-2508-00F7-D3DC-38BC455F74E5" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8B7D97CB-48BB-D5DF-2472-C0190DF49A4A" name="TBL_USUARIO_FK" containerID="AF7B7359-490D-5BD6-2529-F9DA4171E76C" refContainerID="B00CDD95-6066-8656-D4C2-E91C34C68CA4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9264D2E9-8643-CD77-2340-D205509F1BF7" name="TBL_NOTIFICACIONES_TBL_USUARIO_FK" containerID="70A1ADAB-810C-D58F-566F-E31AD4789ADE" refContainerID="B00CDD95-6066-8656-D4C2-E91C34C68CA4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="93D63067-19CF-81E2-FD80-425F0CDA4517" name="TBL_LUGARES_FK" containerID="95912210-F513-786E-FB3E-6FBE94B6C45C" refContainerID="35F66984-6584-A1CE-1918-2CBBE11A21A6" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="98BBC55C-C3D2-428C-5D40-EE78F87192E7" name="TBL_LUGARES_FK" containerID="5AD8A384-8D47-3E0A-8C63-C85E007C3336" refContainerID="35F66984-6584-A1CE-1918-2CBBE11A21A6" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="99939B8A-9833-92C7-3911-1D36D05009D9" name="TBL_ARTICULOS_FK" containerID="50BC30F9-DB9B-F1FD-2A06-88B9A7CACE1D" refContainerID="048AD2F4-2508-00F7-D3DC-38BC455F74E5" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A80432FA-BF63-4DB0-778A-0F20D300F9AC" name="TBL_USUARIO_FK" containerID="085274D8-903F-92B0-8D55-A3343DAFF200" refContainerID="B00CDD95-6066-8656-D4C2-E91C34C68CA4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C4E1F2FB-5FDE-6D14-3552-AF04F80FD440" name="TBL_LUGARES_TBL_IDIOMA_FK" containerID="35F66984-6584-A1CE-1918-2CBBE11A21A6" refContainerID="0340CABF-6A5E-383F-9E92-3469F6D118D4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C51E3425-BB73-D291-E9F6-8F72EA36FEF8" name="TBL_CATEGORIAS_FK" containerID="085274D8-903F-92B0-8D55-A3343DAFF200" refContainerID="69D6F885-CFF6-4530-C653-29444D3D0D8E" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="CD318474-7092-153A-E2FC-633947C4C58D" name="TIPO_IMAGENES_FK" containerID="AC1BD07D-4465-FD43-6407-C3671A702EC2" refContainerID="B7421070-1768-9390-7C5F-3050DC6B69ED" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="CE67D9C5-CC86-627C-0363-73200CFD3B53" name="TBL_LIKES_TBL_USUARIO_FK" containerID="E7FA81AC-E514-594E-38E0-87315D3FC7D9" refContainerID="B00CDD95-6066-8656-D4C2-E91C34C68CA4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D0151E0F-4BEF-90E1-B824-4BBE5866F81C" name="TBL_USUARIO_FK" containerID="76CCB1D2-1821-E420-EAB2-4230E93A1B74" refContainerID="B00CDD95-6066-8656-D4C2-E91C34C68CA4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DCBE1EBA-218D-D087-D782-F4A9F3256274" name="TBL_ARTICULOS_FK" containerID="F6044F0A-33FB-2D00-C47F-FE71E98B5F09" refContainerID="048AD2F4-2508-00F7-D3DC-38BC455F74E5" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E2E93FA0-C9D5-196F-9BB4-D52D816EF86C" name="TBL_REVISTAS_FK" containerID="50BC30F9-DB9B-F1FD-2A06-88B9A7CACE1D" refContainerID="2E6CB556-1840-92D2-3B3E-81F028CEB617" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E649E9A1-3D54-73E8-78CF-4E09CC9DFA30" name="TBL_REVISTAS_TBL_CATEGORIAS_FK" containerID="2E6CB556-1840-92D2-3B3E-81F028CEB617" refContainerID="69D6F885-CFF6-4530-C653-29444D3D0D8E" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E74EF5F5-7514-B1C1-A57F-FF7A9B367459" name="TBL_LIKES_TBL_ARTICULOS_FK" containerID="E7FA81AC-E514-594E-38E0-87315D3FC7D9" refContainerID="048AD2F4-2508-00F7-D3DC-38BC455F74E5" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="EBF09A24-382D-680C-4BE3-D922F831E3B3" name="TBL_PLATAFORMAS_EXTERNAS_FK" containerID="2DD5BF3E-7C23-015B-2DA5-DD45E940C20F" refContainerID="0397ED18-8FDA-49FD-269A-F7A853BC22C7" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F0461FE4-C2EA-59C7-1E18-78079C2E88F2" name="TBL_USUARIO_FK" containerID="2DD5BF3E-7C23-015B-2DA5-DD45E940C20F" refContainerID="B00CDD95-6066-8656-D4C2-E91C34C68CA4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F346BC5A-6FAF-BD9E-9F52-0FDD7665CD7E" name="TBL_USUARIO_SEGUIDO_FK" containerID="72D00906-922B-32D6-7592-54FEDE79D40B" refContainerID="B00CDD95-6066-8656-D4C2-E91C34C68CA4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F7B4A79B-C835-112F-2A60-0B7ED0ADD5E5" name="TBL_ARTICULOS_FK" containerID="AF7B7359-490D-5BD6-2529-F9DA4171E76C" refContainerID="048AD2F4-2508-00F7-D3DC-38BC455F74E5" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FAFF1081-440A-DE5F-9A6F-0ECBA1197C3E" name="TBL_REVISTAS_TBL_IDIOMA_FK" containerID="2E6CB556-1840-92D2-3B3E-81F028CEB617" refContainerID="0340CABF-6A5E-383F-9E92-3469F6D118D4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FEF76AA6-3240-8EEA-B58E-252F1BBF80BC" name="TBL_ESTADO_CONTRASENIA_FK" containerID="065CC60E-19F8-0655-5792-256B6FAB5D51" refContainerID="F7378BAC-BCE6-B5B9-E822-ECAE226515A4" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

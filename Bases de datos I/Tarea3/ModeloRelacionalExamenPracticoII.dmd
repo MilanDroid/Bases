@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ModeloRelacionalExamenPracticoII" id="EE7588D5-39E1-FC44-6DF4-7FD4A6802E97" version="3.5">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:21:56 UTC</createdTime>
+<ownerDesignName>RED SOCIAL EXAMEN 1 KEVIN SANTAMARIA</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EE7588D5-39E1-FC44-6DF4-7FD4A6802E97</designId>
+</OSDM_Design>

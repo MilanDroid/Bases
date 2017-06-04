@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControladorlistaVendedores">
+   <children>
+      <TextField fx:id="txtIdentidad" layoutX="14.0" layoutY="58.0" />
+      <Label layoutX="14.0" layoutY="26.0" text="Numero Identidad">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tblVendedor" layoutX="14.0" layoutY="106.0" prefHeight="336.0" prefWidth="546.0">
+        <columns>
+          <TableColumn fx:id="tblClmnNombre" prefWidth="75.0" text="Nombres" />
+          <TableColumn fx:id="tblClmnApellido" prefWidth="75.0" text="Apellidos" />
+            <TableColumn fx:id="tblClmnEdad" prefWidth="75.0" text="Edad" />
+            <TableColumn fx:id="tblClmnFechaIngreso" prefWidth="106.0" text="Fecha de Ingreso" />
+            <TableColumn fx:id="tblClmnIdEmpleado" prefWidth="106.0" text="ID-Empleado" />
+            <TableColumn fx:id="tblClmnFaltas" prefWidth="106.0" text="Faltas" />
+        </columns>
+      </TableView>
+      <Button layoutX="176.0" layoutY="58.0" mnemonicParsing="false" onAction="#buscarVendedor" text="Buscar" />
+      <Button layoutX="574.0" layoutY="442.0" mnemonicParsing="false" onAction="#regresarMenu" text="SALIR" />
+   </children>
+</AnchorPane>

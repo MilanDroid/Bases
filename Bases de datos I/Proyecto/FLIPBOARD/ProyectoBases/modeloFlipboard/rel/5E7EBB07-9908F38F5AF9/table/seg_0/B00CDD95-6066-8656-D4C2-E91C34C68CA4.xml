@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B00CDD95-6066-8656-D4C2-E91C34C68CA4" name="TBL_USUARIO">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:18:18 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="51AF7CE9-E477-41C0-8ABB-3FB4C9C22AA6">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:21:06 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_IMAGEN" id="6487216C-9495-59E0-D916-8A4098CA54B2">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:26:15 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2019EB1B-8140-546E-596D-6D916014F378" referredColumn="23A86B41-EA8B-E405-4CD9-CC9571213B7A"/>
+</associations>
+</Column>
+<Column name="NOMBRE_USUARIO" id="4B438B2D-90E4-8382-2491-6AAFADC2F5A9">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:21:06 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALIAS_USUARIO" id="14164FF0-0AB0-5BDD-D56A-C3F48159B116">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:21:06 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_ELECTRONICO" id="064CD56B-4BBC-A99E-365F-B4CB6EDDD13F">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:21:06 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENIA" id="49B4A252-9CB3-BFFD-CAB3-F8D5284AFA1B">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:21:06 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EDAD" id="04206AD5-BC06-828A-D2D5-4EA608E6FB88">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-30 04:49:51 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_USUARIO" id="EC903B80-8614-4C96-6311-EFA02EFE00F2">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:21:06 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REGISTRO" id="1E2F39A9-4289-F2AF-BC8E-3489EF63FB07">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:21:06 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_SEGUIDORES" id="3399F0D8-9DC9-5EBD-32E1-87AF931792F3">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:21:06 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_LECTORES" id="5B586228-3F2E-8AF6-F5CF-36413E4E261F">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:21:06 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E1C2664-AE64-2360-0932-BC0275FE8255" name="TBL_USUARIO_PK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:21:06 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51AF7CE9-E477-41C0-8ABB-3FB4C9C22AA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE4723D6-F948-B4CB-0E04-F3B8CC31266A" name="TBL_USUARIO_TBL_IMAGENES_FK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:26:15 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6487216C-9495-59E0-D916-8A4098CA54B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

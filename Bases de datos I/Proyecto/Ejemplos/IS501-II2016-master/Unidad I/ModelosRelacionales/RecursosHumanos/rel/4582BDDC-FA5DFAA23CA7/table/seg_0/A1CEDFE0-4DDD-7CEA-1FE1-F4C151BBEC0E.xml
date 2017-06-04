@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1CEDFE0-4DDD-7CEA-1FE1-F4C151BBEC0E" name="TBL_LUGARES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:18:50 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LUGAR" id="6BD392E3-24BE-15AF-2D85-A0C111F6067F">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:20:30 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LUGAR_PADRE" id="DD38123C-9908-59CD-909C-0FFF0354C0EA">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:20:45 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D88105F6-087D-D742-8637-60B3B46F2145" referredColumn="6BD392E3-24BE-15AF-2D85-A0C111F6067F"/>
+</associations>
+</Column>
+<Column name="ABREVIATURA" id="00A60EFF-7238-00AF-428C-4A5E8511235F">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:20:30 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_LUGAR" id="820B440E-03F3-50DC-F76C-26C0B64AEE2E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:20:30 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="1E37741B-C9A1-A29D-8AD4-036E8149A9D3">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:20:30 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="BDBBF67F-F1FB-6963-53DE-0B70D8BBC569">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:20:30 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49527224-6AB0-2222-A507-9E129CAF6122" name="TBL_LUGARES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:20:30 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BD392E3-24BE-15AF-2D85-A0C111F6067F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D038DD7C-B807-5353-6F47-5E21FE38A1C6" name="TBL_LUGARES_TBL_LUGARES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-16 17:20:45 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD38123C-9908-59CD-909C-0FFF0354C0EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

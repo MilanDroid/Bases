@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="750ECE41-0954-42E5-53ED-40AE165BAD40" name="TBL_TIPO_LOCALIDADES">
+<createdBy>Basner</createdBy>
+<createdTime>2017-02-20 05:37:34 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cod_Tipo_Localidad" id="6B88CB4B-865B-FC76-71C5-76399930D92E">
+<createdBy>Basner</createdBy>
+<createdTime>2017-02-20 05:39:06 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Tipo_Localidad" id="1DBC532E-D03C-3635-5686-D7309D222801">
+<createdBy>Basner</createdBy>
+<createdTime>2017-02-20 05:39:06 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23EEC5DA-D9F8-A013-3331-3B53B7622A33" name="TIPO_LOCALIDADES_PK">
+<createdBy>Basner</createdBy>
+<createdTime>2017-02-20 05:43:57 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B88CB4B-865B-FC76-71C5-76399930D92E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9ED68863-97A5-A7D3-38E9-37C0366756DE" name="TBL_LIKES_X_USUARIO">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:19:42 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LIKE" id="D7707539-69A7-92A5-AA3C-E30C9F2E961A">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:35:33 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIOS_ID" id="1FB92A2F-14F4-B444-4290-8AEA24FA7691">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:25:11 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E01C1033-5177-17E0-1DEC-1E0AA32C82B5" referredColumn="0293D043-BDB4-7D44-6E1E-F9F6C8AFB0A7"/>
+</associations>
+</Column>
+<Column name="ARTICULOS_ID" id="B83B4BC8-C9A0-DBE6-C8C8-8C4132157FE4">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:24:46 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E202D343-898F-F9F7-2FFA-79DA8C1A078C" referredColumn="B1F023EB-C0A8-B608-6172-436181ADDD97"/>
+</associations>
+</Column>
+<Column name="REVISTAS_ID" id="B863E3E7-92FF-9A07-86C5-0B26F2A881E6">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:24:57 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="832556D7-B138-51FE-0734-FB9A8659CF46" referredColumn="34A4D4B9-91AF-CEB5-7B4B-D37C9BDAFB1B"/>
+</associations>
+</Column>
+<Column name="FECHA" id="DAB0801F-5312-5C51-8230-FCD8A051FD55">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:20:19 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4C00CD4-C81D-969F-D0E7-EB0634C04D77" name="TBL_LIKES_X_USUARIO_PK">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:32:04 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7707539-69A7-92A5-AA3C-E30C9F2E961A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6EBCE04-FD9A-DF32-E0EF-0D25F0947DAE" name="TBL_LIKES_X_USUARIO_TBL_ARTICULOS_FK">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:24:46 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B83B4BC8-C9A0-DBE6-C8C8-8C4132157FE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79D928D2-A0BA-F115-419D-B3E197C10C88" name="TBL_LIKES_X_USUARIO_TBL_REVISTAS_FK">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:24:57 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B863E3E7-92FF-9A07-86C5-0B26F2A881E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CED80BB3-699D-6AAB-A107-36B5515EC896" name="TBL_LIKES_X_USUARIO_TBL_USUARIOS_FK">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 11:25:11 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FB92A2F-14F4-B444-4290-8AEA24FA7691"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

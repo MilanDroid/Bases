@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControladorloginPrincipal">
+   <children>
+      <Button alignment="CENTER" layoutX="95.0" layoutY="30.0" mnemonicParsing="false" onAction="#abrirLoginSuperUsuario" text="SuperUsuario">
+         <font>
+            <Font name="Constantia" size="18.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="81.0" layoutY="168.0" mnemonicParsing="false" onAction="#abrirLoginAreaDeBodega" text="Área de Inventario">
+         <font>
+            <Font name="Constantia" size="18.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="89.0" layoutY="96.0" mnemonicParsing="false" onAction="#abrirLoginVendedores" text="Área de Ventas">
+         <font>
+            <Font name="Constantia" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

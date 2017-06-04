@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="13CA542F-2C56-C77C-C383-C859197AC45C" containerWithKeyObject="B967A73B-93EC-37D3-4246-1FA1DDF94426" localFKIndex="F0B1871D-1A26-CD97-FC8F-9CC52B8A9D93" name="TBL_ACCESOS_FISICOS_TBL_TARJETAS_ACCESO_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-15 17:54:41 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>643A5AF6-35E2-F005-0CCC-455D328C9C24</referredTableID>
+<keyObject>AAB4123C-A326-91DE-9C1D-91E6BE4DC116</keyObject>
+<referredKeyID>AAB4123C-A326-91DE-9C1D-91E6BE4DC116</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

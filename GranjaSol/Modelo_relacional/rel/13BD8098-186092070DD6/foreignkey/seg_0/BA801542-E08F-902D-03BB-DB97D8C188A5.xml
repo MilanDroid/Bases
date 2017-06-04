@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BA801542-E08F-902D-03BB-DB97D8C188A5" containerWithKeyObject="9731ABEC-00AB-A911-23EF-7CD1D0AE249C" localFKIndex="2A68715B-0E2B-E941-8170-138F002441B9" name="TBL_DIETAS_FK">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 16:40:11 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1E3C7A98-EE7C-DB65-0D6A-FC4B1C8DD1ED</referredTableID>
+<keyObject>C2AE603C-7298-D45C-4D03-DDEA37FBD3EA</keyObject>
+<referredKeyID>C2AE603C-7298-D45C-4D03-DDEA37FBD3EA</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

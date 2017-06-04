@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="F6430611-2A1C-FAA0-B7FC-71FACE68518D" name="FACEBOOK" seqName="seg_0"/>
+   <object objectType="Table" objectID="05E67198-E37E-6259-EF94-989AC9F295C0" name="TBL_TRABAJOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="07F40290-1CD2-6C96-1D54-C1E7D7A138AD" name="TBL_TRABAJOS_X_USUARIO" seqName="seg_0"/>
+   <object objectType="Table" objectID="0A3EE79B-47E9-94F2-C9E7-1A6A0E0E90BF" name="TBL_COMENTARIOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="239B3376-00DC-A2E0-F0EB-8EAA694B38A8" name="TBL_HISTORIAL_ACCESOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="2C741482-77E3-BB4B-3D49-6173B2280C80" name="TBL_LIKE_PUBLICACIONES" seqName="seg_0"/>
+   <object objectType="Table" objectID="30FC9886-0A74-F454-12DA-1DFD730CB8E5" name="TBL_PAISES" seqName="seg_0"/>
+   <object objectType="Table" objectID="5060B8B3-CF65-5978-75BF-2C3A30DF280D" name="TBL_ETIQUETA_ALBUMES" seqName="seg_0"/>
+   <object objectType="Table" objectID="5353BD24-5FF3-7F63-760B-8683EB068363" name="TBL_PUBLICACIONES" seqName="seg_0"/>
+   <object objectType="Table" objectID="6DB84C2B-C210-638E-6693-1EED4538903B" name="TBL_TIPOS_RELACIONES" seqName="seg_0"/>
+   <object objectType="Table" objectID="71759607-C32D-A523-E48A-B31951E55456" name="TBL_USUARIOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="75F13F9A-76DC-CD72-EB89-3195227EF217" name="TBL_LIKE_FOTOGRAFIAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="99FB505C-1E27-73D0-C6F5-7C1B0CEB0A09" name="TBL_FOTOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="AD83A217-8E0A-2BDA-3D6B-3519F96E7B4D" name="TBL_AMIGOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="B0D97FEA-7EC3-5E9E-20C3-A4ECDAA55B8D" name="TBL_GRUPOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="B4922821-EBB7-D1B7-6BDA-2AE920FB9E03" name="TBL_MENSAJES" seqName="seg_0"/>
+   <object objectType="Table" objectID="B855A59E-2266-6EFA-2652-F659BA5EDAF3" name="TBL_ETIQUETA_FOTOGRAFIAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="BF6083B1-7E81-4614-C188-114BCB494D57" name="TBL_ALBUMES" seqName="seg_0"/>
+   <object objectType="Table" objectID="F760D037-7F69-BEB0-3112-F3C7B0322BDF" name="TBL_ESTATUS_SOLICITUDES" seqName="seg_0"/>
+   <object objectType="Table" objectID="FDD8B34F-A9FD-E3A8-1E3F-619551FA1DB3" name="TBL_GRUPOS_X_USUARIO" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="0270499F-3BFD-DA36-2DD3-78A7E01CED01" name="TBL_FOTOS_TBL_ALBUM_FOTOS_FK" containerID="99FB505C-1E27-73D0-C6F5-7C1B0CEB0A09" refContainerID="BF6083B1-7E81-4614-C188-114BCB494D57" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="0D21B328-947E-1D1D-B67D-1FC311B1B587" name="TBL_COMENTARIO_TBL_COMT_FK" containerID="0A3EE79B-47E9-94F2-C9E7-1A6A0E0E90BF" refContainerID="0A3EE79B-47E9-94F2-C9E7-1A6A0E0E90BF" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="157A8699-45F6-D087-6897-B90AE83705C5" name="TBL_COMT_TBL_PUBLICACION_FK" containerID="0A3EE79B-47E9-94F2-C9E7-1A6A0E0E90BF" refContainerID="5353BD24-5FF3-7F63-760B-8683EB068363" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="21B094AE-8C85-7927-F1AE-A1206908F833" name="TBL_ETIQUETA_TBL_FOTOS_FK" containerID="B855A59E-2266-6EFA-2652-F659BA5EDAF3" refContainerID="99FB505C-1E27-73D0-C6F5-7C1B0CEB0A09" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2547FB07-234D-9570-23A1-4DD05228F5D1" name="TBL_ALBUM_FOTOS_TBL_USUARIO_FK" containerID="BF6083B1-7E81-4614-C188-114BCB494D57" refContainerID="71759607-C32D-A523-E48A-B31951E55456" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2CF7DF13-B7C4-A0B4-F919-CFEC83B6FDDD" name="TBL_AMIGO_TBL_TIP_REL_FK" containerID="AD83A217-8E0A-2BDA-3D6B-3519F96E7B4D" refContainerID="6DB84C2B-C210-638E-6693-1EED4538903B" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3B2BE9ED-8CC1-C2CD-D760-7119F329D63B" name="TBL_PUBLICACION_TBL_USUARIO_FK" containerID="5353BD24-5FF3-7F63-760B-8683EB068363" refContainerID="71759607-C32D-A523-E48A-B31951E55456" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3F4B78B4-D7E6-7BE0-FBF8-261F9983F992" name="TBL_LIKE_FOTO_TBL_USUARIO_FK" containerID="75F13F9A-76DC-CD72-EB89-3195227EF217" refContainerID="71759607-C32D-A523-E48A-B31951E55456" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="495B3385-298F-0F9E-4E16-62F6BB96924E" name="TBL_AMIGOS_TBL_USR_FK" containerID="AD83A217-8E0A-2BDA-3D6B-3519F96E7B4D" refContainerID="71759607-C32D-A523-E48A-B31951E55456" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="4B51B9DE-D373-78C1-89BC-7F8BAC145681" name="TBL_COMT_TBL_USUARIO_FK" containerID="0A3EE79B-47E9-94F2-C9E7-1A6A0E0E90BF" refContainerID="71759607-C32D-A523-E48A-B31951E55456" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5BECBF72-37DF-E87A-9CD9-357FA0CBB1A9" name="TBL_GRUPO_X_USR_TBL_GRUPO_FK" containerID="FDD8B34F-A9FD-E3A8-1E3F-619551FA1DB3" refContainerID="B0D97FEA-7EC3-5E9E-20C3-A4ECDAA55B8D" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6EA4BA56-858B-3780-9AD8-14893850C5C4" name="TBL_LIKE_FOTO_TBL_FOTOS_FK" containerID="75F13F9A-76DC-CD72-EB89-3195227EF217" refContainerID="99FB505C-1E27-73D0-C6F5-7C1B0CEB0A09" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="70E8707B-06AA-AC67-C451-9CC35F75113F" name="TBL_HIST_ACC_USR_FK" containerID="239B3376-00DC-A2E0-F0EB-8EAA694B38A8" refContainerID="71759607-C32D-A523-E48A-B31951E55456" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="84DDBA33-1104-A306-C140-F4816DFBDA76" name="TBL_ETIQUETA_TBL_USUARIO_FK" containerID="B855A59E-2266-6EFA-2652-F659BA5EDAF3" refContainerID="71759607-C32D-A523-E48A-B31951E55456" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8FCA9AAC-3C2C-97F7-7FB9-5562BFEA830D" name="TBL_INBOX_TBL_USUARIO_FK" containerID="B4922821-EBB7-D1B7-6BDA-2AE920FB9E03" refContainerID="71759607-C32D-A523-E48A-B31951E55456" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="950413DE-AE7D-AE08-EEE8-3C0A30304CC9" name="TBL_ETIQ_ALB_TBL_USUARIO_FK" containerID="5060B8B3-CF65-5978-75BF-2C3A30DF280D" refContainerID="71759607-C32D-A523-E48A-B31951E55456" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="954FFFC7-B06D-6EDF-2C20-E67D0FBF9328" name="TBL_TRABAJO_X_USR_TBL_USR_FK" containerID="07F40290-1CD2-6C96-1D54-C1E7D7A138AD" refContainerID="71759607-C32D-A523-E48A-B31951E55456" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9563416F-66FE-6DDE-D23C-9F01AB22F327" name="TBL_AMIGO_TBL_USUARIO_FK" containerID="AD83A217-8E0A-2BDA-3D6B-3519F96E7B4D" refContainerID="71759607-C32D-A523-E48A-B31951E55456" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="986E9FE6-5F89-0974-92DD-EF3D5DD07AF0" name="TBL_LIKE_TBL_PUBLICACION_FK" containerID="2C741482-77E3-BB4B-3D49-6173B2280C80" refContainerID="5353BD24-5FF3-7F63-760B-8683EB068363" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="BF39A5A0-B863-D3CB-006B-B6CE0A60BE53" name="TBL_ETQ_ALB_TBL_ALB_FOTOS_FK" containerID="5060B8B3-CF65-5978-75BF-2C3A30DF280D" refContainerID="BF6083B1-7E81-4614-C188-114BCB494D57" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C85CCC96-0C2C-EAC4-FF0A-05BD46B8D282" name="TBL_USUARIOS_TBL_PAISES_FK" containerID="71759607-C32D-A523-E48A-B31951E55456" refContainerID="30FC9886-0A74-F454-12DA-1DFD730CB8E5" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="CAEF5FB1-4A32-0A13-E934-D829A6833E86" name="TBL_AMG_SOLICITUDES_FK" containerID="AD83A217-8E0A-2BDA-3D6B-3519F96E7B4D" refContainerID="F760D037-7F69-BEB0-3112-F3C7B0322BDF" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="CFCD5A09-E929-28F3-4003-6C39ABB4AB03" name="TBL_USUARIO_TBL_TRABAJO_FK" containerID="71759607-C32D-A523-E48A-B31951E55456" refContainerID="05E67198-E37E-6259-EF94-989AC9F295C0" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E5842514-AD57-F25E-74A1-C97832EDCB00" name="TBL_GRUPO_X_USUARIO_TBL_USR_FK" containerID="FDD8B34F-A9FD-E3A8-1E3F-619551FA1DB3" refContainerID="71759607-C32D-A523-E48A-B31951E55456" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="EBC25EE8-07DC-29D1-5B24-570F93A019DB" name="TBL_PUBLICACION_TBL_GRUPO_FK" containerID="5353BD24-5FF3-7F63-760B-8683EB068363" refContainerID="B0D97FEA-7EC3-5E9E-20C3-A4ECDAA55B8D" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F6340E92-7231-C8A9-474A-3E1E0884735A" name="TBL_TRABAJO_X_USR_FK" containerID="07F40290-1CD2-6C96-1D54-C1E7D7A138AD" refContainerID="05E67198-E37E-6259-EF94-989AC9F295C0" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F8E8EF01-900C-0C7B-2FA2-6AB60CD084F5" name="TBL_LIKE_TBL_USUARIO_FK" containerID="2C741482-77E3-BB4B-3D49-6173B2280C80" refContainerID="71759607-C32D-A523-E48A-B31951E55456" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

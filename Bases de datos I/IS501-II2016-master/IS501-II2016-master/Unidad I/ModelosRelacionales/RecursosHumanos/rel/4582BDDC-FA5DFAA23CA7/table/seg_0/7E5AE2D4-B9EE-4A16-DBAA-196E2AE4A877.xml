@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E5AE2D4-B9EE-4A16-DBAA-196E2AE4A877" name="TBL_CUENTAS_BANCARIAS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:25:17 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CUENTA" id="C337F2DD-71C4-A4E1-80A1-A1233DB391FD">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:26:01 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_CUENTA" id="EDFCB579-C37E-8549-8952-21E7B3804460">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:26:01 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_EMPLEADO" id="86AD0F4C-D0B6-D4DF-EFB5-C009C7621BA3">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:26:33 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE29B78C-642F-C38A-37B5-034D7315047D" referredColumn="DFABB7FF-6215-F25A-B4B7-A01F349FF1F5"/>
+</associations>
+</Column>
+<Column name="CODIGO_BANCO" id="BBFAAA38-B799-9DCD-54B9-1B40174AD266">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:27:52 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1792226F-E06E-737F-F3AB-8C63027872DD" referredColumn="E5AFF56C-F7C4-8D28-097B-25976560D061"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_CUENTA" id="D3494F58-AE16-3281-D131-23F30BCE6C85">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:29:17 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A4BDBD5-435C-88E5-D1C1-182571C871F1" referredColumn="C2962FF1-733F-28B6-3422-813E02DE6734"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D5C464C-8DC2-EBA8-C5FE-9090839C1C89" name="TBL_CUENTAS_BANCARIAS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:26:01 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C337F2DD-71C4-A4E1-80A1-A1233DB391FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93677934-2550-BD78-24A0-51CC10D8EF2B" name="TBL_CUENTAS_BANCARIAS_TBL_EMPLEADOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:26:33 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86AD0F4C-D0B6-D4DF-EFB5-C009C7621BA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="753C0039-EE5E-84E9-ED91-9C718C216D80" name="TBL_CUENTAS_BANCARIAS_TBL_BANCOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:27:52 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBFAAA38-B799-9DCD-54B9-1B40174AD266"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19AC2418-623F-D0D1-FC70-785A8936A077" name="TBL_CUENTAS_BANCARIAS_TBL_TIPO_CUENTA_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:29:17 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3494F58-AE16-3281-D131-23F30BCE6C85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

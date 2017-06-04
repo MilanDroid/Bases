@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modeloFlipboard" id="77BEE879-5B96-A1C5-3329-336AC71ED9BA" version="3.5">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 02:02:02 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>77BEE879-5B96-A1C5-3329-336AC71ED9BA</designId>
+</OSDM_Design>

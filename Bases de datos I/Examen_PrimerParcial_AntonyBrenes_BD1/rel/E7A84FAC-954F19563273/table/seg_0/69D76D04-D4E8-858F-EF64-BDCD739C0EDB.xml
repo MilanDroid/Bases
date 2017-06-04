@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69D76D04-D4E8-858F-EF64-BDCD739C0EDB" name="ARCHIVOS">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:01:17 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ARCHIVO" id="32EA18AC-AC51-5509-AA19-7F39D46ADDDE">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:03:00 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARCHIVO" id="C668B4A2-7164-DED7-892E-3F653EEF6B9F">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:03:00 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT016</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92FFAE0C-2EB7-D46D-4803-BCA076468694" name="ARCHIVOS_PK">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:03:00 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32EA18AC-AC51-5509-AA19-7F39D46ADDDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

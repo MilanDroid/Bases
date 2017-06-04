@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7226DB17-409A-4E39-CDD9-521153F7155A" name="TBL_IMPUESTOS_PAGADOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:36:00 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_IMPUESTO" id="F3D491C3-3233-A1D2-F8DA-C250B2B6507E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:38:06 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14F50CEB-46E4-3377-593D-287316556677" referredColumn="4A55FC1C-E60F-2303-8EB5-B53E2FCE0169"/>
+</associations>
+</Column>
+<Column name="CODIGO_TRANSACCION" id="6F644A89-C08F-603A-E287-F10DE4177FB2">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:39:43 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9184CC81-740C-511B-AD81-CFE72C5C2D71" referredColumn="FEB322A2-B55A-B381-02A3-644ECCDBE659"/>
+</associations>
+</Column>
+<Column name="VALOR_IMPUESTO" id="6B0E226F-4D2E-ED08-DF04-1315A2911CC5">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:36:36 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2FB0414F-B5BA-F76A-FD7B-29DA98A22501" name="TBL_IMPUESTOS_PAGADOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:40:52 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F644A89-C08F-603A-E287-F10DE4177FB2"/>
+<colUsage columnID="F3D491C3-3233-A1D2-F8DA-C250B2B6507E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E18D85B7-6F78-F0E0-A6DC-E2431830944F" name="TBL_IMPUESTOS_PAGADOS_TBL_TIPOS_IMPUESTOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:38:06 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3D491C3-3233-A1D2-F8DA-C250B2B6507E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F51D8FFD-3D64-59CB-5266-4BD55B6F0E13" name="TBL_IMPUESTOS_PAGADOS_TBL_PAGOS_PLANILLA_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:39:43 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F644A89-C08F-603A-E287-F10DE4177FB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4B3F211-B725-4310-CFE4-AEC9A3624DDC" name="TBL_PAGOS_PLANILLA">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:12:18 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TRANSACCION" id="FEB322A2-B55A-B381-02A3-644ECCDBE659">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:14:41 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_EMPLEADO" id="B7007F83-1CE7-535C-BBCC-BCA1BC78BA23">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:19:00 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD60E146-1C2D-5EB7-D567-6D8C1A9451AA" referredColumn="DFABB7FF-6215-F25A-B4B7-A01F349FF1F5"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_PAGO" id="AACB807D-A0C5-81D0-DF49-52AEDF8B93C0">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:21:17 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B500386E-1DF0-29EC-FD73-D45ED07F4C89" referredColumn="B4E17E40-9C23-C52C-141A-BBBD69696BDE"/>
+</associations>
+</Column>
+<Column name="CODIGO_CUENTA" id="F6912D92-688F-2FBC-079E-9FC557594297">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:33:51 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12C1A33D-7EC0-1E37-DA97-19591F986AC7" referredColumn="C337F2DD-71C4-A4E1-80A1-A1233DB391FD"/>
+</associations>
+</Column>
+<Column name="FECHA_INICIO" id="F4D67C08-FDCB-1EAA-D1C7-DE9F8A33ECF1">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:14:41 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="52FE277C-457A-2B8D-606D-8EFEE72BAC98">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:14:41 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBSERVACIONES" id="9EA7F49B-9110-5330-5933-A50A3AECC74C">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:18:17 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUELDO_BRUTO" id="57F8ECAA-451A-3D59-EEEB-884EBD3A7EE7">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:18:17 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_DEDUCCIONES" id="17E5A92D-B5F2-F72D-9EB9-4A328EE6801E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:18:17 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_IMPUESTOS" id="2222EDE6-5843-4A90-E7C3-D132F565F216">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:18:17 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_BONIFICACIONES" id="CBED0E06-AA0B-E531-2103-B089C401716E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:18:17 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65DDFBD2-C66A-BA00-A3D9-A5D91915D1D5" name="TBL_PAGOS_PLANILLA_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:14:41 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEB322A2-B55A-B381-02A3-644ECCDBE659"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DD25E54-E6DD-6D3F-7C17-BF4C51D383FF" name="TBL_PAGOS_PLANILLA_TBL_EMPLEADOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:19:00 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7007F83-1CE7-535C-BBCC-BCA1BC78BA23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="193BB097-6125-0BC5-2F0E-CAABDAE6D342" name="TBL_PAGOS_PLANILLA_TBL_TIPOS_PAGO_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:21:17 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AACB807D-A0C5-81D0-DF49-52AEDF8B93C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7AF1224E-C2BC-59A2-535E-1D2B26DD5050" name="TBL_PAGOS_PLANILLA_TBL_CUENTAS_BANCARIAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:33:51 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6912D92-688F-2FBC-079E-9FC557594297"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

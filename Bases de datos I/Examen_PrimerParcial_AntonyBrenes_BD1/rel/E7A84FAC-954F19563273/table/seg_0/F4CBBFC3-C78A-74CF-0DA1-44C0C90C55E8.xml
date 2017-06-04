@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4CBBFC3-C78A-74CF-0DA1-44C0C90C55E8" name="EXAMENES_X_SECCION">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:25:10 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EXAMEN" id="B1F97D9D-BB28-BE0E-2917-95032F211DA8">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:25:27 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E45D491-6BBB-5109-FA2F-2FA965DE9743" referredColumn="EA09BC39-CB25-3445-AE68-FD9E8F227092"/>
+</associations>
+</Column>
+<Column name="ID_SECCION" id="02E7C8C6-14E5-01B2-234D-073782365FF5">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:25:33 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="810F22D4-A6C7-D05A-6D03-F54F65FB07CF" referredColumn="A88DF5B5-C243-8585-B634-5DF755B2B383"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8F5AA8F-15D1-C860-05CF-F29DAF2E2544" name="EXAM_X_SECC_EXAM_FK">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:25:27 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1F97D9D-BB28-BE0E-2917-95032F211DA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDB45C6C-D1B1-CDBD-C94E-0D30D2233D7B" name="EXAM_X_SECC_SECC_CONT_FK">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:25:33 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02E7C8C6-14E5-01B2-234D-073782365FF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50FE452A-493E-5643-86DB-4CE37EEB3FBC" name="EXAMENES">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:11:19 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EXAMEN" id="EA09BC39-CB25-3445-AE68-FD9E8F227092">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:11:51 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ARCHIVO" id="96BADC1E-231B-73F9-40C2-85A5EC1F0945">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:13:24 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE1B8EB1-F1A6-C236-FC49-E958ABFF5F32" referredColumn="32EA18AC-AC51-5509-AA19-7F39D46ADDDE"/>
+</associations>
+</Column>
+<Column name="ID_ALUMNO" id="5647AA3B-D67D-76A6-58FF-792DA46043BC">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:13:43 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87F318B2-728A-856F-FD67-71664D67163E" referredColumn="F9E00635-ACA3-DA77-E578-1754B9ABED73"/>
+</associations>
+</Column>
+<Column name="CALIFICACION" id="B7C71C92-B4DF-C756-0C1E-F181B508E078">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:14:20 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_ENTREGA" id="CF88B813-7166-2CBE-24C0-3F9BD85B9740">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:42:31 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_ENTREGA" id="3317D9AF-1F15-DBB7-51DE-7514D0660700">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:42:52 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>0,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC1F9678-45BF-9175-5FB0-A31B20F4303C" name="EXAMENES_PK">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:12:27 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA09BC39-CB25-3445-AE68-FD9E8F227092"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11B4C62D-B1B9-D26B-4DBB-66435693F857" name="EXAMENES_ARCHIVOS_FK">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:13:24 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96BADC1E-231B-73F9-40C2-85A5EC1F0945"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50E39A54-D0DF-EBC2-C3CB-B7502B3A2CF7" name="EXAMENES_ALUMNOS_FK">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:13:43 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5647AA3B-D67D-76A6-58FF-792DA46043BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

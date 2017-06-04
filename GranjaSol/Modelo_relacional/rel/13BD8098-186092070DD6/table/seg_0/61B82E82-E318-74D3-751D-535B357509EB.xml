@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61B82E82-E318-74D3-751D-535B357509EB" name="TBL_ANIMALES">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 06:18:29 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ANIMAL" id="42FBAA7D-402E-86EE-2AF6-347F49F3066C">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 06:18:48 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OD_ANIMAL" id="7A2E9394-2B3E-5D20-075D-F59AB672E4F5">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 06:38:15 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_ANIMAL" id="E9C9EFBA-50F6-1484-0C40-E54CE392F780">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 09:02:37 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="991A7BD0-DB1F-E3FA-8777-5F30C2F707D5" referredColumn="BE04ED15-368D-794D-54B5-8E274C17FEF9"/>
+</associations>
+</Column>
+<Column name="ID_DIETA" id="362713DC-E257-DE2F-847D-94E0F056F2F1">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 16:41:13 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79AA5D5F-8294-9559-41EF-4C7FD751AD0C" referredColumn="0752CB83-66EC-91D3-04F5-01133D37AD35"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F0EE6C9-59FB-7659-250E-FE4283A324A2" name="TBL_ANIMALES_PK">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 06:35:17 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42FBAA7D-402E-86EE-2AF6-347F49F3066C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B08A54E1-388D-14FB-5602-D6107DB6EE73" name="TIPO_ANIMAL">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 09:02:37 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9C9EFBA-50F6-1484-0C40-E54CE392F780"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9D97590-6B96-1F62-66E4-BCFFC79FE7C7" name="ID_DIETA">
+<createdBy>Basner</createdBy>
+<createdTime>2017-04-25 16:41:13 UTC</createdTime>
+<ownerDesignName>Modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="362713DC-E257-DE2F-847D-94E0F056F2F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6ECC33A7-EB21-BAE8-AF65-DFE544E5CDB4" name="TBL_BANCOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-11 17:16:31 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_BANCO" id="5700E4CB-4ED3-124A-162E-672AFB9DE112">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-11 17:17:35 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_BANCO" id="4BAE952C-D639-E432-E7E0-4D56A548D471">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-11 17:17:35 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOGOTIPO" id="7AD4FA69-15A2-C36C-197A-7BA05D1E8A67">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-11 17:17:35 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0187AEDD-6ADE-6386-DD07-A1E82B7A9CB5" name="TBL_BANCOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-11 17:17:35 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5700E4CB-4ED3-124A-162E-672AFB9DE112"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31AC8AA6-637A-9F14-6237-74F5A8F30342" name="PROFESIONES">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:25:04 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PROFESION" id="9A455CDE-FCBB-0DE1-1AC6-D636378AA674">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:25:47 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME_PROFESION" id="3512725C-F5B6-30A6-E5B3-9E914186251D">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:25:47 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EAE04016-1520-F253-544A-717B0E93CC51" name="PROFESIONES_TUTORES_PK">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:25:47 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A455CDE-FCBB-0DE1-1AC6-D636378AA674"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

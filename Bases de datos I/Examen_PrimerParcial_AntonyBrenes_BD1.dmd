@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Examen_PrimerParcial_AntonyBrenes_BD1" id="A6A33902-4C36-A748-1A33-C3A19AAF7AE4" version="3.5">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 15:09:34 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A6A33902-4C36-A748-1A33-C3A19AAF7AE4</designId>
+</OSDM_Design>

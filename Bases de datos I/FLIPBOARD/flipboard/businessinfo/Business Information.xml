@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="216B05F8-9AD2-52EA-3298-831470316DA9">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-09 03:08:02 UTC</createdTime>
+<ownerDesignName>modeloFlipBoard</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

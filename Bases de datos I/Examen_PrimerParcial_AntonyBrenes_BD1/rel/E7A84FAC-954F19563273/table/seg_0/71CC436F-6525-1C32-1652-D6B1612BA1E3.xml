@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71CC436F-6525-1C32-1652-D6B1612BA1E3" name="PUBLICACIONES">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:27:45 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PUBLICACION" id="F126C782-B634-BE9D-9EB0-101D2DB5A233">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:29:16 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USER" id="5152A700-767B-98B9-7F3D-180E236E595E">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:32:37 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7083A358-EB59-BCCA-8FC9-784D47F8A751" referredColumn="24085352-14DD-E7F6-5B3E-ADAD84DF208C"/>
+</associations>
+</Column>
+<Column name="ID_ARCHIVO" id="96BC7063-5662-48D5-40AB-1D908A62A78F">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:29:37 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6E75C6A-0DFA-8E12-DFE4-0551D9DF325B" referredColumn="32EA18AC-AC51-5509-AA19-7F39D46ADDDE"/>
+</associations>
+</Column>
+<Column name="TITULO_PUBLICACION" id="88F4FF88-3169-C2C6-DEF5-94434C04A68C">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:29:16 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENIDO_PUBLICACION" id="84BBBD2E-9C37-E18A-353D-2B8ED03233A7">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:29:16 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION_PUBL" id="E3DE32FF-15D3-191C-A262-A05FE9112170">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:41:16 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD3BE46A-9216-FF29-B4C6-32EB4F7A6BA8" name="PUBLICACIONES_PK">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:29:16 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F126C782-B634-BE9D-9EB0-101D2DB5A233"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF0D58BD-68FE-F829-2BF5-2D2D429574D7" name="PUBLICACIONES_ARCHIVOS_FK">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:29:37 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96BC7063-5662-48D5-40AB-1D908A62A78F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADE112D6-A4D4-28DB-16AE-7580AFBDD4A3" name="PUBLICACIONES_USUARIOS_FK">
+<createdBy>Basner</createdBy>
+<createdTime>2016-10-10 16:32:37 UTC</createdTime>
+<ownerDesignName>Examen_PrimerParcial_AntonyBrenes_BD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5152A700-767B-98B9-7F3D-180E236E595E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

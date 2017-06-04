@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28DC9092-6924-3680-D098-EA5C36C7BB54" name="Tbl_Deducciones">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:23:21 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cod_Deducciones" id="D9006E83-B9A0-DD76-298B-89A24F54569E">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:26:35 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Deduccion" id="2CA7568E-D335-0597-5B35-920C997FE2C6">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:26:35 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9797D27D-B389-8B2A-4130-4F424DFDCC24" name="Deducciones_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2017-02-15 16:26:35 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9006E83-B9A0-DD76-298B-89A24F54569E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

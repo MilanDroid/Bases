@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C11B02FA-43AA-3D16-BF98-298CB2EBC830" name="TBL_CONFIGURACION_REVISTA">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 10:52:13 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CONFIGURACION" id="A6B4FF19-E856-3C70-CEBC-A42314F75F47">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 10:53:32 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CONFIGURACION" id="B557DA57-FA29-AB62-39E2-AB1E9635B11E">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 10:53:32 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED1A7B4B-C017-146C-7AB7-29E5468CFCB3" name="TBL_CONFIGURACION_REVISTA_PK">
+<createdBy>Paola</createdBy>
+<createdTime>2016-08-10 10:53:32 UTC</createdTime>
+<ownerDesignName>flipboard</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6B4FF19-E856-3C70-CEBC-A42314F75F47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

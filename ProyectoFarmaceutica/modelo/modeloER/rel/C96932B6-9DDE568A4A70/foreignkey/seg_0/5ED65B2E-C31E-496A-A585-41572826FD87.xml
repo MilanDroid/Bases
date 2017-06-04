@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5ED65B2E-C31E-496A-A585-41572826FD87" containerWithKeyObject="335E1A02-5B9B-7913-40CF-5FF2DF34E4A0" localFKIndex="77CEBA41-C7D3-12BB-BE6A-585E405C4F62" name="COD_TIPO_LOCALIDAD">
+<createdBy>Basner</createdBy>
+<createdTime>2017-02-20 05:52:54 UTC</createdTime>
+<ownerDesignName>modeloER</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>750ECE41-0954-42E5-53ED-40AE165BAD40</referredTableID>
+<keyObject>23EEC5DA-D9F8-A013-3331-3B53B7622A33</keyObject>
+<referredKeyID>23EEC5DA-D9F8-A013-3331-3B53B7622A33</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

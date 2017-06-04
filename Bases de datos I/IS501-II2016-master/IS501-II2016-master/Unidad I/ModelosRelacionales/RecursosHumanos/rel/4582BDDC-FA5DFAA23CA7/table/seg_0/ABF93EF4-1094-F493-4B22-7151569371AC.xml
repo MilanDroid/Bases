@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABF93EF4-1094-F493-4B22-7151569371AC" name="TBL_PROFESIONES_X_EMPLEADO">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:50:58 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_EMPLEADO" id="B191B0BA-4305-8A2D-7D0E-9102E0D0ACB0">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:51:14 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46E5F6F7-1EFE-2867-2526-48C83244FD9B" referredColumn="DFABB7FF-6215-F25A-B4B7-A01F349FF1F5"/>
+</associations>
+</Column>
+<Column name="CODIGO_PROFESION" id="AAC8EACD-842B-F5ED-47C3-7286D9DBA15B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:51:19 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A4078D6-9387-1222-142B-EB1F60ADA263" referredColumn="0B691FC9-B633-4381-229B-CA3AF764A716"/>
+</associations>
+</Column>
+<Column name="CODIGO_INSTITUCION" id="F7BB8D76-C9E9-0A91-61CF-B12118B0CE47">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:55:14 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="767B485D-ADFD-C750-B2DB-E6A66A58C53A" referredColumn="57BDF8C0-B3E0-F643-0A01-407A16D63EDA"/>
+</associations>
+</Column>
+<Column name="FECHA_TITULO" id="1B47AB3B-045D-8A1E-63C9-999C0444FD2C">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:55:39 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F3828F2-B3E5-A2AD-DEB8-14D74034AA44" name="TBL_PROFESIONES_X_EMPLEADO_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:51:51 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B191B0BA-4305-8A2D-7D0E-9102E0D0ACB0"/>
+<colUsage columnID="AAC8EACD-842B-F5ED-47C3-7286D9DBA15B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E76C0E01-0AEF-62A6-4FA1-BBD58D11D63F" name="TBL_PROFESIONES_X_EMPLEADO_TBL_EMPLEADOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:51:14 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B191B0BA-4305-8A2D-7D0E-9102E0D0ACB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30C53705-2C33-CE26-4CBE-F13103A299F5" name="TBL_PROFESIONES_X_EMPLEADO_TBL_PROFESIONES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:51:19 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAC8EACD-842B-F5ED-47C3-7286D9DBA15B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8A4E193-7C9F-44ED-87A3-05BBBC32E37A" name="TBL_PROFESIONES_X_EMPLEADO_TBL_INSTITUCIONES_EDUCATIVAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-12 17:55:14 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7BB8D76-C9E9-0A91-61CF-B12118B0CE47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

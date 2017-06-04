@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="118.0" prefWidth="235.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControladorDescuentos">
+   <children>
+      <GridPane prefHeight="118.0" prefWidth="235.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columnConstraints>
+          <ColumnConstraints fillWidth="false" hgrow="SOMETIMES" maxWidth="230.0" minWidth="10.0" prefWidth="210.0" />
+            <ColumnConstraints fillWidth="false" hgrow="SOMETIMES" maxWidth="120.0" minWidth="10.0" prefWidth="25.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="79.0" minHeight="-Infinity" prefHeight="22.0" valignment="BOTTOM" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="161.0" minHeight="-Infinity" prefHeight="41.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="193.0" minHeight="10.0" prefHeight="170.0" valignment="CENTER" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Ingrese cantidad de descuento">
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+            </Label>
+            <TextField fx:id="txtDescuento" prefHeight="25.0" prefWidth="197.0" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <Label text="\%" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="btnAplicar" mnemonicParsing="false" onAction="#aplicar" text="Aplicar" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

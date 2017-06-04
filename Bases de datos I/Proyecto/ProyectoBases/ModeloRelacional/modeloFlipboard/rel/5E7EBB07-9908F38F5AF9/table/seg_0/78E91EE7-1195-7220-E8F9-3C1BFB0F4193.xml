@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78E91EE7-1195-7220-E8F9-3C1BFB0F4193" name="TBL_LISTAS">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-28 23:59:06 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LISTA" id="2618DE6D-A0C5-5455-F4C2-AB64338CE502">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 00:00:09 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_LISTA" id="3A9324A0-5630-8960-E3C2-A9A14A686E79">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 00:00:09 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="77A38BA4-C5F9-B41C-6FB2-3332566F411C">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 00:00:09 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="7C2BDE93-93EF-8F79-19A4-DFB065AB6600">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 00:00:21 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10AAED50-182A-0913-71D0-C36533095738" referredColumn="51AF7CE9-E477-41C0-8ABB-3FB4C9C22AA6"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_LISTA" id="171BD6B9-76DB-9F78-A8F4-556EE95CA612">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 00:00:38 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5815F0C3-E412-D7AF-EB0F-73D1F33DB274" referredColumn="FCC77CFE-20FF-2AE7-F047-C0E11CF9106D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CED18CCC-9EC3-9088-AE04-2536D5F515AB" name="TBL_LISTAS_PK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 00:00:09 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2618DE6D-A0C5-5455-F4C2-AB64338CE502"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDEF05EC-5D59-BAA2-E24C-C6EB559FF7C8" name="TBL_LISTAS_TBL_USUARIO_FK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 00:00:21 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C2BDE93-93EF-8F79-19A4-DFB065AB6600"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F417280C-996D-383E-92CE-219F741189B2" name="TBL_LISTAS_TBL_TIPO_LISTA_FK">
+<createdBy>Joshelyn Urquia</createdBy>
+<createdTime>2016-09-29 00:00:38 UTC</createdTime>
+<ownerDesignName>modeloFlipboard</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="171BD6B9-76DB-9F78-A8F4-556EE95CA612"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

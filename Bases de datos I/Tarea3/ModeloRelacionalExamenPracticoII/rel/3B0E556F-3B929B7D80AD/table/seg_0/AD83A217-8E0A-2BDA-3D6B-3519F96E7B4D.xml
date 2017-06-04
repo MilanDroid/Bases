@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD83A217-8E0A-2BDA-3D6B-3519F96E7B4D" name="TBL_AMIGOS">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:23:18 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<abbreviation>AMIGO</abbreviation>
+<schemaObject>F6430611-2A1C-FAA0-B7FC-71FACE68518D</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="8200290D-46B4-B9DF-91A6-3100CEE13CDA">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:29:44 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9563416F-66FE-6DDE-D23C-9F01AB22F327" referredColumn="18768C2E-30D7-F573-6EB2-A8D26CA44D8E"/>
+</associations>
+</Column>
+<Column name="CODIGO_AMIGO" id="53B7EAF0-E15C-C1A2-AFC8-2E554568739D">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-08-06 05:16:59 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="495B3385-298F-0F9E-4E16-62F6BB96924E" referredColumn="18768C2E-30D7-F573-6EB2-A8D26CA44D8E"/>
+</associations>
+</Column>
+<Column name="CODIGO_ESTATUS" id="8243A568-970A-9C7A-1C58-690BAD4BA9DF">
+<createdBy>dalvik</createdBy>
+<createdTime>2015-08-06 01:20:54 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAEF5FB1-4A32-0A13-E934-D829A6833E86" referredColumn="048C0C7E-C989-FC96-655E-BD31282FC4C4"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_RELACION" id="E2A9FD02-D081-BA56-CCDC-B181B9118833">
+<createdBy>dalvik</createdBy>
+<createdTime>2015-08-06 01:22:00 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CF7DF13-B7C4-A0B4-F919-CFEC83B6FDDD" referredColumn="C07E4AD9-C726-DA9A-BC7C-AB896EF33F0A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43B51E34-C78F-AB5A-2384-2A428066F972" name="TBL_AMIGO_PK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:30:57 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8200290D-46B4-B9DF-91A6-3100CEE13CDA"/>
+<colUsage columnID="53B7EAF0-E15C-C1A2-AFC8-2E554568739D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="167A2FDB-77E7-010F-3E59-3761443D9074" name="TBL_AMIGO_TBL_USUARIO_FK">
+<createdBy>usuario</createdBy>
+<createdTime>2015-06-13 15:36:41 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8200290D-46B4-B9DF-91A6-3100CEE13CDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A490CC7-1A0C-8F41-1F4F-EC7F2CDD63C2" name="TBL_AMG_SOLICITUDES_FK">
+<createdBy>dalvik</createdBy>
+<createdTime>2015-08-06 01:20:54 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8243A568-970A-9C7A-1C58-690BAD4BA9DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A42206C4-B2D1-3207-CD60-DFA19F6E4857" name="TBL_AMIGO_TBL_TIP_REL_FK">
+<createdBy>dalvik</createdBy>
+<createdTime>2015-08-06 01:22:00 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2A9FD02-D081-BA56-CCDC-B181B9118833"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A7502B2-6DBB-F5AD-B97A-69A479D0CE20" name="TBL_AMIGOS_TBL_USR_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-08-06 05:16:59 UTC</createdTime>
+<ownerDesignName>ModeloRelacionalExamenPracticoII</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53B7EAF0-E15C-C1A2-AFC8-2E554568739D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

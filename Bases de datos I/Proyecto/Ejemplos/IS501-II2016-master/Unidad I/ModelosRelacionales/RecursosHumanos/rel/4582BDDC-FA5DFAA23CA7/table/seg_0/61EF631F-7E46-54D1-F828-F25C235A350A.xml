@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61EF631F-7E46-54D1-F828-F25C235A350A" name="TBL_DEDUCCIONES_PAGADAS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:48:09 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_DEDUCCION" id="EEEFC0E5-9DAB-08F6-381D-F9AF90FBEE82">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:50:22 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AB5644A-75F8-209C-132A-915E65899972" referredColumn="67E00E12-0E58-5408-5CB1-7B1BFA85C731"/>
+</associations>
+</Column>
+<Column name="CODIGO_TRANSACCION" id="EC12B4A8-6085-1093-8C3A-276D8ED961B6">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:50:51 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E20AE667-76DC-80A5-70A4-E2A0AB8ED8E6" referredColumn="FEB322A2-B55A-B381-02A3-644ECCDBE659"/>
+</associations>
+</Column>
+<Column name="VALOR_DEDUCCION" id="5EE7C567-0C3D-A1B0-CCA7-CDE73B2FC8A1">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:48:09 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E35B469E-D0E3-778B-7314-E98B25292C23" name="TBL_DEDUCCIONES_PAGADAS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:51:05 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEEFC0E5-9DAB-08F6-381D-F9AF90FBEE82"/>
+<colUsage columnID="EC12B4A8-6085-1093-8C3A-276D8ED961B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3C88624-0492-B5D5-314F-D4770DB8F388" name="TBL_DEDUCCIONES_PAGADAS_TBL_TIPOS_DEDUCCIONES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:50:22 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEEFC0E5-9DAB-08F6-381D-F9AF90FBEE82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB5D7110-742F-BA21-ECEC-730C47934703" name="TBL_DEDUCCIONES_PAGADAS_TBL_PAGOS_PLANILLA_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-08-18 17:50:51 UTC</createdTime>
+<ownerDesignName>RecursosHumanos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC12B4A8-6085-1093-8C3A-276D8ED961B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
